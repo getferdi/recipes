@@ -988,5 +988,16 @@
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/asana/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/asana/icon.svg"
     }
+  },
+  {
+    "author": "Simon Szustkowski",
+    "featured": false,
+    "id": "unifycircuit",
+    "name": "Unify Circuit",
+    "version": "0.1",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/unifycircuit/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/unifycircuit/icon.svg"
+    }
   }
 ]

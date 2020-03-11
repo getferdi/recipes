@@ -1,0 +1,13 @@
+{
+    "id": "unifycircuit",
+    "name": "Unify Circuit",
+    "version": "0.1",
+    "description": "Unify Circuit",
+    "main": "index.js",
+    "author": "Simon Szustkowski",
+    "license": "MIT",
+    "config": {
+      "serviceURL": "https://eu.yourcircuit.com/",
+      "hasNotificationSound": true
+    }
+  }
