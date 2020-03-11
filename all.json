@@ -982,7 +982,7 @@
     "author": "troke jame_glove@yahoo.com",
     "featured": false,
     "id": "zoho",
-    "name": "Zoho Mail",
+    "name": "zoho-mail",
     "version": "1.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zoho/icon.png",
