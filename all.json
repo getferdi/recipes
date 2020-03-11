@@ -977,5 +977,16 @@
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/github_entreprise/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/github_entreprise/icon.svg"
     }
+  },
+  {
+    "author": "troke jame_glove@yahoo.com",
+    "featured": false,
+    "id": "zoho",
+    "name": "Zoho Mail",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zoho/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zoho/icon.svg"
+    }
   }
 ]
