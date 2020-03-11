@@ -988,5 +988,16 @@
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zoho/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zoho/icon.svg"
     }
+  },
+  {
+    "author": "Elnur Mammadov <baytbybayt@gmail.com>",
+    "featured": false,
+    "id": "asana",
+    "name": "Asana",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/asana/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/asana/icon.svg"
+    }
   }
 ]
