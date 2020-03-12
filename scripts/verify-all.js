@@ -26,6 +26,12 @@ const decompress = (src, dest) => new Promise((resolve, reject) => {
   });
 });
 
+// Let Promise errors crash the script
+process.on('unhandledRejection', (error) => {
+  console.log('Promise rejection:', error);
+  process.exit(1);
+});
+
 // Let us work in an async environment
 (async () => {
   // Read list of all recipes
@@ -35,51 +41,56 @@ const decompress = (src, dest) => new Promise((resolve, reject) => {
   const tempUncompressed = path.join(__dirname, `uncompressed/`);
 
   for (const recipeInfo of all) {
-    // Get recipe infos
-    const recipe = recipeInfo.id;
-    const recipeNum = all.findIndex(e => e === recipeInfo);
-    const compressedRecipe = path.join(__dirname, '../', `${recipe}.tar.gz`);
-    const uncompressedRecipe = path.join(__dirname, '../', 'uncompressed', recipe);
-  
-    // Check that recipe exists
-    if (!await fs.pathExists(compressedRecipe) || !await fs.pathExists(uncompressedRecipe)) {
-      console.log(`Error: Recipe "${recipe}" exists in all.json but not found.`);
-      process.exit(1);
-    }
-  
-    // Clear temporary extraction folder
-    if (await fs.pathExists(tempUncompressed)) {
-      await fs.remove(tempUncompressed);
-    }
-    await fs.mkdir(tempUncompressed);
-  
-    // Package to uncompressed recipe to .tar.gz
-    await decompress(compressedRecipe, tempUncompressed);
-  
-    // Compare directories
-    const compare = await dircompare.compare(uncompressedRecipe, tempUncompressed, {
-      compareContent: true,
-      // Don't fail because of DS_Store files
-      excludeFilter: '.DS_Store',
-    });
-  
-    if (compare.same) {
-      console.log(`✓ ${recipe} is valid (${recipeNum + 1} of ${all.length})`);
-    } else {
-      console.log(`❌ Compressed and uncompressed files for "${recipe}" are NOT equal:`);
+    try {
+      // Get recipe infos
+      const recipe = recipeInfo.id;
+      const recipeNum = all.findIndex(e => e === recipeInfo);
+      const compressedRecipe = path.join(__dirname, '../', `${recipe}.tar.gz`);
+      const uncompressedRecipe = path.join(__dirname, '../', 'uncompressed', recipe);
 
-      // Output information about differences
-      for (const file of compare.diffSet) {
-        if (file.state !== 'equal') {
-          console.log(`- "${file.name1 || file.name2}" is not equal (${file.type1} in uncompressed, ${file.type2} in archive)`);
-        }
+      // Check that recipe exists
+      if (!await fs.pathExists(compressedRecipe) || !await fs.pathExists(uncompressedRecipe)) {
+        console.log(`Error: Recipe "${recipe}" exists in all.json but not found.`);
+        process.exit(1);
       }
 
+      // Clear temporary extraction folder
+      if (await fs.pathExists(tempUncompressed)) {
+        await fs.remove(tempUncompressed);
+      }
+      await fs.mkdir(tempUncompressed);
+
+      // Package to uncompressed recipe to .tar.gz
+      await decompress(compressedRecipe, tempUncompressed);
+
+      // Compare directories
+      const compare = await dircompare.compare(uncompressedRecipe, tempUncompressed, {
+        compareContent: true,
+        // Don't fail because of DS_Store files
+        excludeFilter: '.DS_Store',
+      });
+
+      if (compare.same) {
+        console.log(`✓ ${recipe} is valid (${recipeNum + 1} of ${all.length})`);
+      } else {
+        console.log(`❌ Compressed and uncompressed files for "${recipe}" are NOT equal:`);
+
+        // Output information about differences
+        for (const file of compare.diffSet) {
+          if (file.state !== 'equal') {
+            console.log(`- "${file.name1 || file.name2}" is not equal (${file.type1} in uncompressed, ${file.type2} in archive)`);
+          }
+        }
+
+        process.exit(1);
+      }
+
+      // Remove temporary compressed file
+      await fs.remove(tempUncompressed);
+    } catch(e) {
+      console.log('Error while verifying recipe:', e);
       process.exit(1);
     }
-  
-    // Remove temporary compressed file
-    await fs.remove(tempUncompressed);
   }
 
   console.log('All recipes are valid.');
