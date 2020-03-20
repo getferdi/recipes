@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = (Franz) => {
   // if the user is on gmail's landing page, go to the login page.
-  if (location.hostname == 'www.google.com') {
+  if (location.hostname == 'www.google.com' && location.href.includes("gmail/about/")) {
     location.href = 'https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/';
   }
   
