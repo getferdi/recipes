@@ -1,3 +1,5 @@
-# Franz Instagram recipe
+# Instagram for Franz
+This is the official Franz recipe for Instagram
 
-A Franz recipe for Instagram service.
+### How to create your own Franz recipes:
+* [Read the documentation](https://github.com/meetfranz/plugins)

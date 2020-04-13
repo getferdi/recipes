@@ -1,15 +1,13 @@
 {
   "id": "instagram",
-  "name": "Instagram",
+  "name": "instagram",
   "version": "1.0.0",
   "description": "Instagram",
   "main": "index.js",
-  "author": "Amine Mouafik <amine@mouafik.fr>",
+  "author": "Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
-  "repository": "https://github.com/getferdi/recipes",
   "config": {
-    "hasNotificationSound": false,
-    "hasIndirectMessages": true,
-    "serviceURL": "https://www.instagram.com/direct/inbox/"
+    "serviceURL": "https://instagram.com/direct/inbox",
+    "hasNotificationSound": true
   }
 }
