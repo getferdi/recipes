@@ -1,5 +1,5 @@
-# Instagram for Franz
-This is the official Franz recipe for Instagram
+# Instagram for Ferdi
+This is the official Ferdi recipe for Instagram
 
-### How to create your own Franz recipes:
-* [Read the documentation](https://github.com/meetfranz/plugins)
+### How to create your own Ferdi recipes:
+* [Read the documentation](https://github.com/getferdi/recipes/blob/master/docs/integration.md)

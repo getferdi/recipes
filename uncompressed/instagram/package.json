@@ -1,10 +1,10 @@
 {
   "id": "instagram",
-  "name": "instagram",
-  "version": "1.0.0",
+  "name": "Instagram",
+  "version": "2.0.0",
   "description": "Instagram",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Amine Mouafik <amine@mouafik.fr>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://instagram.com/direct/inbox",

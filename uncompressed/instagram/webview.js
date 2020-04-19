@@ -1,4 +1,4 @@
-import path from 'path';
+const path = require("path");
 
 module.exports = (Franz) => {
   const getMessages = function getMessages() {
