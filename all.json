@@ -972,7 +972,7 @@
     "featured": false,
     "id": "whatsapp",
     "name": "WhatsApp",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/whatsapp/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/whatsapp/icon.svg"
