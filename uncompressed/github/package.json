@@ -1,7 +1,7 @@
 {
   "id": "github",
   "name": "GitHub",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "GitHub",
   "main": "index.js",
   "author": "Sudhir Ganesan",
