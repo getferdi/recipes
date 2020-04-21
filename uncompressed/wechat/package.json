@@ -1,7 +1,7 @@
 {
   "id": "wechat",
   "name": "WeChat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Instant messaging",
   "main": "index.js",
   "author": "Koma",
