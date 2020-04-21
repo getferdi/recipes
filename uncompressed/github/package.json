@@ -1,12 +1,15 @@
 {
   "id": "github",
   "name": "GitHub",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "GitHub",
   "main": "index.js",
   "author": "Sudhir Ganesan",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://github.com/"
+    "serviceURL": "https://github.com/",
+    "hasNotificationSound": false,
+    "hasDirectMessages": false,
+    "hasIndirectMessages": true
   }
 }

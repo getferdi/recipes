@@ -191,7 +191,7 @@
     "featured": false,
     "id": "github",
     "name": "GitHub",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/github/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/github/icon.svg"
