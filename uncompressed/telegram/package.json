@@ -1,13 +1,13 @@
 {
   "id": "telegram",
   "name": "Telegram",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Telegram",
   "main": "index.js",
-  "author": "Amine Mouafik <amine@mouafik.fr>",
+  "author": "Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://evgeny-nadymov.github.io/telegram-react/",
+    "serviceURL": "https://web.telegram.org",
     "hasDirectMessages": true,
     "hasNotificationSound": true
   }

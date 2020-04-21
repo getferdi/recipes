@@ -1,0 +1,14 @@
+{
+  "id": "telegram-react",
+  "name": "Telegram React",
+  "version": "1.0.0",
+  "description": "Telegram React",
+  "main": "index.js",
+  "author": "Amine Mouafik <amine@mouafik.fr>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://evgeny-nadymov.github.io/telegram-react/",
+    "hasDirectMessages": true,
+    "hasNotificationSound": true
+  }
+}

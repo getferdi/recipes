@@ -803,14 +803,25 @@
     }
   },
   {
-    "author": "Amine Mouafik <amine@mouafik.fr>",
+    "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "telegram",
     "name": "Telegram",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/telegram/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/telegram/icon.svg"
+    }
+  },
+  {
+    "author": "Amine Mouafik <amine@mouafik.fr>",
+    "featured": false,
+    "id": "telegram-react",
+    "name": "Telegram React",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/telegram-react/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/telegram-react/icon.svg"
     }
   },
   {
