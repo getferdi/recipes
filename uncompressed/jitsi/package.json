@@ -1,7 +1,7 @@
 {
   "id": "jitsi",
   "name": "Jitsi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Jitsi",
   "main": "index.js",
   "author": "Sampath Kumar Krishnan <sampath3493@gmail.com>",
