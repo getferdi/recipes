@@ -308,6 +308,17 @@
     }
   },
   {
+    "author": "Jake Lee <ferdi@jakelee.co.uk>",
+    "featured": false,
+    "id": "guilded",
+    "name": "Guilded",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/guilded/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/guilded/icon.svg"
+    }
+  },
+  {
     "author": "Yuriy Badalyantc <lmnet89@gmail.com>",
     "featured": false,
     "id": "habitica",

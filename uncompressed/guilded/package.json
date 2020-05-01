@@ -1,0 +1,14 @@
+{
+  "id": "guilded",
+  "name": "Guilded",
+  "version": "1.0.0",
+  "description": "Guilded",
+  "main": "index.js",
+  "author": "Jake Lee <ferdi@jakelee.co.uk>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.guilded.gg/",
+    "hasTeamId": false,
+    "hasNotificationSound": true
+  }
+}
