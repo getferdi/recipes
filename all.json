@@ -598,7 +598,7 @@
     "featured": false,
     "id": "office365-owa",
     "name": "Office 365 Outlook Web App",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/office365-owa/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/office365-owa/icon.svg"

@@ -1,7 +1,7 @@
 {
   "id": "office365-owa",
   "name": "Office 365 Outlook Web App",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Office 365 Outlook Web App",
   "main": "index.js",
   "author": "Adam Birds <adam.birds@adbtechltd.co.uk>",
