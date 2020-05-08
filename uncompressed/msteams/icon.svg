@@ -1,1 +1,125 @@
-<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.77 226.77"><defs><style>.cls-1{fill:#5a5c87;}.cls-2{fill:#fff;}</style></defs><title>icon</title><path class="cls-1" d="M.21,226.56V-.21H227V226.56Zm128.43-39.1V39.67a13.17,13.17,0,0,0-2.53,0C98.55,45.81,71,52,43.43,58c-3.34.73-4,2.34-4,5.41q.12,49.87,0,99.74c0,3.34.93,4.85,4.37,5.59,20,4.3,39.93,8.85,59.9,13.29C111.82,183.86,120,185.6,128.64,187.47Z"/><path class="cls-2" d="M128.64,187.47c-8.62-1.87-16.82-3.61-25-5.42-20-4.44-39.9-9-59.9-13.29-3.44-.74-4.38-2.24-4.37-5.59q.16-49.87,0-99.74c0-3.07.7-4.69,4-5.41C71,52,98.55,45.81,126.11,39.69a13.17,13.17,0,0,1,2.53,0Zm-25.3-103.3a23.75,23.75,0,0,0-2.38-.1c-11.15.7-22.31,1.35-33.45,2.17-9.16.68-7,0-7.33,8.29-.08,2,.75,2.69,2.67,2.62a72.33,72.33,0,0,1,9.42,0c1,.09,2.17,1.45,2.71,2.52.46.91.13,2.22.13,3.35q0,18.49,0,37c0,1.75-.25,3.78,2.38,3.85,3,.08,5.93,0,9.32,0,0-1.81,0-3.17,0-4.52,0-12.83.07-25.66,0-38.48,0-3.08.33-4.91,4.16-4.77,4.09.15,8.2-.46,12.41-.75Z"/><path class="cls-2" d="M155.43,103.09c2.32,0,3.08.83,3,3.08-.1,6.79,0,13.58,0,20.37,0,6.29,0,12.57,0,18.86,0,6.7-3.08,10.92-9.37,12.93a24.26,24.26,0,0,1-5.52,1.08,96.72,96.72,0,0,1-10.57,0s0-5.09,0-9.71c0-14.21-.06-42.62-.06-42.62v-4"/><path class="cls-2" d="M162.51,110.83h25.16c0,9.1.36,18-.15,26.87-.25,4.29-3.8,7.35-7.79,8.42-7,1.9-17.12,1.9-17.12,1.9s0-1.92,0-2.35C162.47,134.23,162.51,122.78,162.51,110.83Z"/><path class="cls-2" d="M187.88,91.17a12.78,12.78,0,0,1-12.66,12.73A12.64,12.64,0,0,1,162.5,91.28a12.85,12.85,0,0,1,12.6-12.82A13,13,0,0,1,187.88,91.17Z"/><path class="cls-2" d="M132.41,83.85s1.3-10,6.82-12A12.65,12.65,0,0,1,150.4,94.3c-5,3.5-12.58,3.13-16-1.63C132.75,90.43,132.41,83.85,132.41,83.85Z"/><path class="cls-1" d="M103.34,84.17V95.33c-4.21.29-16.58,1.3-16.58,1.3s0,45.42,0,47.23H75.12l0-46.74-14.21.8-.15-11.28"/><rect class="cls-2" x="132.41" y="71.22" width="10.95" height="25.41"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\nlasch\OneDrive - Cornetics Ltd\Pictures\ferdi-msteams\logo.png"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="svg208"
+   sodipodi:docname="logo.svg"
+   width="1024"
+   height="1024"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata214">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs212" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview210"
+     showgrid="false"
+     inkscape:zoom="0.4038086"
+     inkscape:cx="-0.38736755"
+     inkscape:cy="471.62492"
+     inkscape:window-x="4912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg208" />
+  <g
+     id="STYLE_COLOR"
+     data-name="STYLE = COLOR"
+     transform="scale(32)">
+    <circle
+       id="Head"
+       cx="17.00001"
+       cy="6.00001"
+       r="4.6666598"
+       fill="#7b83eb" />
+    <path
+       d="M 16.66663,7 H 12.4411 q 0.01017,0.04669 0.0213,0.09326 l 0.0019,0.00781 c 0.0068,0.02857 0.0141,0.05707 0.02143,0.08551 A 4.671,4.671 0 0 0 18,10.55884 V 8.33331 A 1.33727,1.33727 0 0 0 16.66663,7 Z"
+       opacity="0.1"
+       id="path183" />
+    <path
+       d="M 15.66663,8 H 12.78271 A 4.667,4.667 0 0 0 17,10.66663 V 9.33331 A 1.33727,1.33727 0 0 0 15.66663,8 Z"
+       opacity="0.2"
+       id="path185" />
+    <circle
+       id="Head-2"
+       data-name="Head"
+       cx="27.5"
+       cy="7.50001"
+       r="3.5"
+       fill="#5059c9" />
+    <path
+       d="m 30.49976,12 h -7.86094 a 0.63906,0.63906 0 0 0 -0.63906,0.63906 v 8.11026 A 5.12132,5.12132 0 0 0 25.966,25.8339 5.00551,5.00551 0 0 0 31.99972,20.93754 V 13.5 A 1.5,1.5 0 0 0 30.49976,12 Z"
+       fill="#5059c9"
+       id="path188" />
+    <path
+       d="M 25,13.5 V 23 A 7.99479,7.99479 0 0 1 10.08,27 7.17277,7.17277 0 0 1 9.58,26 8.36694,8.36694 0 0 1 9.25,25 8.24022,8.24022 0 0 1 9,23 V 13.5 A 1.498,1.498 0 0 1 10.5,12 h 13 a 1.498,1.498 0 0 1 1.5,1.5 z"
+       fill="#7b83eb"
+       id="path190" />
+    <path
+       d="M 15.66663,8 H 12.78271 A 4.667,4.667 0 0 0 17,10.66663 V 9.33331 A 1.33727,1.33727 0 0 0 15.66663,8 Z"
+       opacity="0.2"
+       id="path192" />
+    <path
+       d="M 18,12 V 24.67 A 1.32024,1.32024 0 0 1 16.96,25.96 0.966,0.966 0 0 1 16.67,26 H 9.58 A 8.36694,8.36694 0 0 1 9.25,25 8.24022,8.24022 0 0 1 9,23 V 13.5 A 1.498,1.498 0 0 1 10.5,12 Z"
+       opacity="0.1"
+       id="path194" />
+    <path
+       d="M 17,12 V 25.67 A 0.96746,0.96746 0 0 1 16.96,25.96 1.3203,1.3203 0 0 1 15.67,27 H 10.08 A 7.17277,7.17277 0 0 1 9.58,26 8.36694,8.36694 0 0 1 9.25,25 8.24022,8.24022 0 0 1 9,23 V 13.5 A 1.498,1.498 0 0 1 10.5,12 Z"
+       opacity="0.2"
+       id="path196" />
+    <path
+       d="M 17,12 V 23.67 A 1.33588,1.33588 0 0 1 15.67,25 H 9.25 A 8.24022,8.24022 0 0 1 9,23 V 13.5 A 1.498,1.498 0 0 1 10.5,12 Z"
+       opacity="0.2"
+       id="path198" />
+    <path
+       d="M 10.5,12 A 1.498,1.498 0 0 0 9,13.5 V 23 a 8.24022,8.24022 0 0 0 0.25,2 h 5.42 A 1.33588,1.33588 0 0 0 16,23.67 V 12 Z"
+       opacity="0.2"
+       id="path200" />
+    <path
+       id="Back_Plate"
+       data-name="Back Plate"
+       d="M 1.33334,8 H 14.6667 A 1.33333,1.33333 0 0 1 16,9.33333 V 22.66666 A 1.33333,1.33333 0 0 1 14.6667,24 H 1.33334 A 1.33334,1.33334 0 0 1 0,22.66666 V 9.33334 A 1.33334,1.33334 0 0 1 1.33334,8 Z"
+       fill="#4b53bc" />
+    <path
+       d="m 11.97961,12.975 h -2.9888 v 8.0203 H 7.02654 V 12.975 H 4.02042 v -1.97034 h 7.95919 z"
+       fill="#ffffff"
+       id="path203" />
+    <rect
+       width="32"
+       height="32"
+       fill="none"
+       id="rect205"
+       x="0"
+       y="0" />
+  </g>
+</svg>
