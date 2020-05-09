@@ -1,0 +1,15 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "version": "1.0.0",
+  "description": "Notion",
+  "main": "index.js",
+  "author": "Tania R. Zuniga <tania@tanx.dev>",
+  "license": "MIT",
+  "repository": "https://github.com/TanZng/ferdi-notion",
+  "config": {
+    "serviceURL": "https://www.notion.so/",
+    "hasIndirectMessages": true,
+    "hasNotificationSound": true
+  }
+}
