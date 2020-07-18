@@ -1,0 +1,15 @@
+/* Hide all app links and contacts menu link in the top menu except for
+Calendar */
+#appmenu li:not([data-id="calendar"]), #contactsmenu {display: none;}
+
+/* Disable Nextcloud, Calendar and settings link in the top menu */
+#nextcloud, #appmenu li[data-id="calendar"] a, #settings {
+    pointer-events: none;
+}
+
+/* Hide "More" link in the top menu */
+#more-apps {display: none !important;}
+
+/* Change cursor to the default pointer for Calendar and settings in the top
+menu */
+#appmenu li[data-id="calendar"], #settings {cursor: default;}
