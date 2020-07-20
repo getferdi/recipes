@@ -594,6 +594,17 @@
     }
   },
   {
+    "author": "Andy Barnes <andrew.barnes102@googlemail.com>",
+    "featured": false,
+    "id": "microsoft-to-do",
+    "name": "Microsoft To Do",
+    "version": "1.0.1",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/microsoft-to-do/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/microsoft-to-do/icon.svg"
+    }
+  },
+  {
     "author": "Johannes Becker <mail@jkbecker.net>",
     "featured": false,
     "id": "monicahq",

@@ -1,0 +1,12 @@
+{
+  "id": "microsoft-to-do",
+  "name": "Microsoft To Do",
+  "version": "1.0.1",
+  "description": "microsoft-to-do",
+  "main": "index.js",
+  "author": "Andy Barnes <andrew.barnes102@googlemail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://to-do.office.com/"
+  }
+}
