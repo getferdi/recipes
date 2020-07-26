@@ -649,6 +649,17 @@
     }
   },
   {
+    "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
+    "featured": false,
+    "id": "nextcloud-cospend",
+    "name": "Nextcloud Cospend",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/nextcloud-cospend/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/nextcloud-cospend/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "nextcloud-talk",
