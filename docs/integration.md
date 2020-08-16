@@ -33,7 +33,7 @@ You should also have basic knowledge of JavaScript - don't worry, you'll really 
 1. Clone this repository. You can do this by running `git clone https://github.com/getferdi/recipes.git` in your terminal or by downloading the repository from <https://github.com/getferdi/recipes/archive/master.zip>.
 2. Install its dependencies via the terminal:
 ```Bash
-cd scripts/
+cd recipes/
 npm install
 ```
 3. You can now run our automatic recipe wizard that creates and opens the new recipe for you:
