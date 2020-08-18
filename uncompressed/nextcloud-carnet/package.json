@@ -1,0 +1,16 @@
+{
+  "id": "nextcloud-carnet",
+  "name": "Carnet (Nextcloud)",
+  "version": "1.0.0",
+  "description": "Ferdi recipe for Carnet (hosted on Nextcloud). Carnet is a complete and rich note taking app.",
+  "main": "index.js",
+  "author": "Edgars Andersons <Edgars+GitHub@gaitenis.id.lv>",
+  "license": "MIT",
+  "repository": "https://github.com/eandersons/ferdi-recipe-nextcloud-carnet",
+  "config": {
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasCustomUrl": true,
+    "serviceURL": "https://{nextcloud}/apps/carnet/"
+  }
+}

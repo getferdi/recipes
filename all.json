@@ -649,6 +649,17 @@
     }
   },
   {
+    "author": "Edgars Andersons <Edgars+GitHub@gaitenis.id.lv>",
+    "featured": false,
+    "id": "nextcloud-carnet",
+    "name": "Carnet (Nextcloud)",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/nextcloud-carnet/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/nextcloud-carnet/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "nextcloud-talk",
