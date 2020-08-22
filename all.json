@@ -1263,5 +1263,16 @@
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zulip/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/zulip/icon.svg"
     }
+  },
+  {
+    "author": "Ninja99",
+    "featured": false,
+    "id": "campuswire",
+    "name": "Campuswire",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/campuswire/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/campuswire/icon.svg"
+    }
   }
 ]

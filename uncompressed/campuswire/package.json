@@ -1,0 +1,13 @@
+{
+  "id": "campuswire",
+  "name": "Campuswire",
+  "version": "1.0.0",
+  "description": "Campuswire",
+  "main": "index.js",
+  "author": "Matthew Toohey",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://campuswire.com/c",
+    "hasNotificationSound": true
+  }
+}
