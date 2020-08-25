@@ -1,3 +1,21 @@
+/* Hide all app links in the top menu except for Talk */
 #appmenu li:not([data-id="spreed"]) {
+  display: none;
+}
+
+/* Change cursor to the default pointer for top menu Nextcloud home, Talk and
+settings links and disable them */
+#nextcloud, #appmenu li[data-id="spreed"] a, #settings {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Hide "More" link in the top menu */
+#more-apps {
+  display: none !important;
+}
+
+/* Hide contacts in the top menu */
+#contactsmenu {
   display: none;
 }

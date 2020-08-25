@@ -653,7 +653,7 @@
     "featured": false,
     "id": "nextcloud-talk",
     "name": "Nextcloud Talk",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/nextcloud-talk/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/nextcloud-talk/icon.svg"
