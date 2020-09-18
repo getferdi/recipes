@@ -594,6 +594,17 @@
     }
   },
   {
+    "author": "Wilhelm Hjelm <wilhelm@hjelms.se>",
+    "featured": false,
+    "id": "monday",
+    "name": "Monday",
+    "version": "1.0.1",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/monday/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/monday/icon.svg"
+    }
+  },
+  {
     "author": "Johannes Becker <mail@jkbecker.net>",
     "featured": false,
     "id": "monicahq",
