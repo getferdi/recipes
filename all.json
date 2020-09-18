@@ -583,6 +583,17 @@
     }
   },
   {
+    "author": "Janis Hau <janis@my-new.me>, Jonathan Winter <jonathanhwinter@gmail.com>",
+    "featured": false,
+    "id": "meetfranz-lastpass",
+    "name": "LastPass",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/meetfranz-lastpass/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/uncompressed/meetfranz-lastpass/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": true,
     "id": "messenger",
