@@ -1,5 +1,4 @@
 .DS_Store
-scripts/node_modules
-scripts/recipe_src/*
-scripts/uncompressed/*
-!scripts/recipe_src/readme.txt
+node_modules
+all.json
+archives/

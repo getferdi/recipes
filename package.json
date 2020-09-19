@@ -1,0 +1,31 @@
+{
+  "name": "ferdi-recipes",
+  "version": "1.0.0",
+  "description": "Recipes for the Ferdi Desktop App",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "package": "node scripts/package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getferdi/recipes.git"
+  },
+  "keywords": [
+    "ferdi",
+    "recipes"
+  ],
+  "author": "The Ferdi Team <hello@getferdi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getferdi/recipes/issues"
+  },
+  "homepage": "https://github.com/getferdi/recipes#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "open": "^7.2.1",
+    "targz": "^1.0.1"
+  }
+}

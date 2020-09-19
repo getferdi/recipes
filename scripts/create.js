@@ -66,5 +66,5 @@ const filesThatNeedTextReplace = ['package.json', 'index.js', 'README.md'];
 What's next?
 - Make sure you restart Ferdi in order for the recipe to show up
 - Customise "webview.js", "package.json", "icon.svg" and "icon.png (see https://github.com/getferdi/recipes/blob/master/docs/integration.md#recipe-structure)
-- Publish and package your recipe (see https://github.com/getferdi/recipes/blob/master/docs/integration.md#publishing)`);
+- Publish your recipe (see https://github.com/getferdi/recipes/blob/master/docs/integration.md#publishing)`);
 })();

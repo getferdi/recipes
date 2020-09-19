@@ -6,7 +6,7 @@ A Ferdi recipe is basically nothing else than a node module and is currently ini
 
 > ℹ️ New to Ferdi recipes and Electron? Then we recommend you read Jake Lee's ["Super simple guide to adding a new Ferdi service recipe"](https://blog.jakelee.co.uk/super-simple-guide-to-adding-a-new-ferdi-service-recipe/) which gives you an easy step-by-step guide on how to create and publish your recipe!
 
-> ℹ️ If you have any problems packaging your recipes, if you are inexperienced with the tools used or have any other problems, we are here to help! Just open a new issue at https://github.com/getferdi/recipes/issues/new and we can help you develop, test and publish your recipe and can package the recipe for you if you don't feel like you are able to.
+> ℹ️ If you have any problems packaging your recipes, if you are inexperienced with the tools used or have any other problems, we are here to help! Just open a new issue at https://github.com/getferdi/recipes/issues/new and we can help you develop, test and publish your recipe
 
 > If you want to update an existing recipe, please refer to [updating.md](https://github.com/getferdi/recipes/blob/master/docs/updating.md) instead
 
@@ -25,25 +25,26 @@ A Ferdi recipe is basically nothing else than a node module and is currently ini
   - [Publishing](#publishing)
 
 ## Preparing
-Before you can begin, you should have [NodeJS](http://nodejs.org/) installed and should be familiar with using npm, specifically "npm install" and "npm run".
+You should have basic knowledge of JavaScript - don't worry, you'll really only need some basic commands as we've already prepared the complicated stuff for you.
 
-You should also have basic knowledge of JavaScript - don't worry, you'll really only need some basic commands as we've already prepared the complicated stuff for you.
+We have also created a nice script that already does 50% of the work for you - yay 🎉. If you want to use this script, please make sure you have NodeJS installed on your system.
 
 ## Create a recipe
-1. Clone this repository. You can do this by running `git clone https://github.com/getferdi/recipes.git` in your terminal or by downloading the repository from <https://github.com/getferdi/recipes/archive/master.zip>.
-2. Install its dependencies via the terminal:
+1. Fork this repository on GitHub. You can do this by clicking the "Fork" button in the top right corner
+2. Clone your forked repository. Normally, you can do this by running `git clone https://github.com/<Your GitHub Username>/recipes.git` in your terminal. You may also use a Git GUI or the GitHub Website for this.
+2. (Optional, if you want to use our creation script) Install its dependencies via the terminal:
 ```Bash
-cd scripts/
 npm install
 ```
 3. You can now run our automatic recipe wizard that creates and opens the new recipe for you:
 ```Bash
-# Make sure you are still in the scripts/ folder
+# Make sure you are still in the repository's folder
 npm run create "Service Name"
 ```
 Replace `Service Name` with the name of your service, e.g. `npm run create "Google Hangouts"`.
 This command will automatically create the development recipe in the correct folder, prepares it for your service and opens the new recipe in your file explorer or Finder.
 4. Reload Ferdi (`CMD/CTRL + SHIFT + R`) in order for it to register the new recipe
+5. You can now develop your recipe as described below. Please continue down below with "[Publishing](#Publishing)" after you are done creating your recipe.
 
 ## Recipe structure
 Every recipe needs a specific file structure in order to work as a Ferdi recipe
@@ -179,21 +180,6 @@ In order to debug your service integration, open Ferdi and use the shortcut `Cmd
 ## Publishing
 Ferdi uses its recipe repository at <https://github.com/getferdi/recipes> to publish recipes to all clients.
 
-> Our scripts are designed to work best on Linux and macOS systems. If you want to use these scripts on Windows, you may need to use [WSL](https://docs.microsoft.com/en-US/windows/wsl/install-win10) in order for the scripts to function correctly. If you have problems with packaging, please open a new issue at https://github.com/getferdi/recipes/issues/new and we can package your recipe for you.
+Publishing your recipes to Ferdi is super easy! When you used our recipe creation script, we have created a folder for your recipe inside Ferdi's internal folders (the one that got automatically opened after you ran our script).
 
-To add your own recipe to the repository:
-- If you already uploaded the recipe to GitHub:
-  1. Fork https://github.com/getferdi/recipes and clone it to your computer
-  2. Open a terminal in the `scripts/` folder of that repository
-  3. Run `npm install` to install all dependencies
-  4. Run `npm run github [GitHub URL]`, e.g. `npm run github https://github.com/vantezzen/franz-recipe-standardnotes`, to add your new recipe
-  5. Create a PR to <https://github.com/getferdi/recipes> with your new changes
-
-- If you don't have it uploaded it GitHub:
-  ℹ️ We recommend uploading your recipes to GitHub before adding them to provide a platform for users to report issues.
-  1. Fork https://github.com/getferdi/recipes and clone it to your computer
-  2. Copy your recipe files into `scripts/recipe_src`
-  3. Open a terminal at `scripts/`
-  4. Run `npm install` to install all dependencies
-  5. Run `npm run package` to package your new recipe
-  6. Create a PR to <https://github.com/getferdi/recipes> with your new changes
+Simply copy that whole folder into the repositories "recipes" folder. You'll now need to push your changes to Git and create a Pull Request from your fork repository to our repository using the GitHub website.

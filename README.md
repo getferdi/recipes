@@ -8,7 +8,7 @@
 
 Official Recipe repository for Ferdi with over 100 recipes.
 
-Copyright on these recipes is on their original creators - please look at `uncompressed/<id>/package.json` for information about the original creator and license. This is simply a curation of those recipes so we can include them into Ferdi.
+Copyright on these recipes is on their original creators - please look at `recipes/<id>/package.json` for information about the original creator and license. This is simply a curation of those recipes so we can include them into Ferdi.
 
 ## What are "Recipes"?
 Recipes are small scripts that are responsible for providing the connection between your services (e.g. WhatsApp, GMail or Slack) and Ferdi. It provides Ferdi information like the number of current notifications, handles enabling dark mode and may otherwise improve your experience with the service.
