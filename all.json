@@ -572,6 +572,17 @@
     }
   },
   {
+    "author": "Janis Hau <janis@my-new.me>, Jonathan Winter <jonathanhwinter@gmail.com>",
+    "featured": false,
+    "id": "lastpass",
+    "name": "LastPass",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/lastpass/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/lastpass/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "linkedin",
@@ -613,17 +624,6 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mattermost/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mattermost/icon.svg"
-    }
-  },
-  {
-    "author": "Janis Hau <janis@my-new.me>, Jonathan Winter <jonathanhwinter@gmail.com>",
-    "featured": false,
-    "id": "meetfranz-lastpass",
-    "name": "LastPass",
-    "version": "1.0.0",
-    "icons": {
-      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/meetfranz-lastpass/icon.png",
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/meetfranz-lastpass/icon.svg"
     }
   },
   {
