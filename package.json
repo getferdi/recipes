@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "package": "node scripts/package.js"
+    "package": "node scripts/package.js",
+    "create": "node scripts/create.js"
   },
   "repository": {
     "type": "git",
