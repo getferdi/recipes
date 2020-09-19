@@ -946,6 +946,17 @@
     }
   },
   {
+    "author": "Patrick Daniel",
+    "featured": false,
+    "id": "sendtask",
+    "name": "Sendtask",
+    "version": "1.0.2",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/sendtask/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/sendtask/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "skype",
@@ -1273,6 +1284,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/xing/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/xing/icon.svg"
+    }
+  },
+  {
+    "author": "Dave Reid <dave@davereid.net>",
+    "featured": false,
+    "id": "yammer",
+    "name": "Yammer",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/yammer/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/yammer/icon.svg"
     }
   },
   {
