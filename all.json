@@ -77,6 +77,17 @@
     }
   },
   {
+    "author": "Matthew Toohey",
+    "featured": false,
+    "id": "campuswire",
+    "name": "Campuswire",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/campuswire/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/campuswire/icon.svg"
+    }
+  },
+  {
     "author": "Koma, hideosasaki",
     "featured": false,
     "id": "chatwork",
@@ -231,6 +242,17 @@
     }
   },
   {
+    "author": "Patrick Kastner <patrick.kastner@gmail.com>",
+    "featured": false,
+    "id": "feedly",
+    "name": "Feedly",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/feedly/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/feedly/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "flowdock",
@@ -371,6 +393,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlemeet/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlemeet/icon.svg"
+    }
+  },
+  {
+    "author": "Tristan D",
+    "featured": false,
+    "id": "gotomeeting",
+    "name": "Go To Meeting",
+    "version": "0.2.1",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/gotomeeting/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/gotomeeting/icon.svg"
     }
   },
   {
@@ -520,8 +553,8 @@
     "author": "Sampath Kumar Krishnan <sampath3493@gmail.com>",
     "featured": false,
     "id": "jitsi",
-    "name": "Jitsi",
-    "version": "1.0.2",
+    "name": "Jitsi Meet",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jitsi/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jitsi/icon.svg"
@@ -583,6 +616,17 @@
     }
   },
   {
+    "author": "Janis Hau <janis@my-new.me>, Jonathan Winter <jonathanhwinter@gmail.com>",
+    "featured": false,
+    "id": "meetfranz-lastpass",
+    "name": "LastPass",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/meetfranz-lastpass/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/meetfranz-lastpass/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": true,
     "id": "messenger",
@@ -591,6 +635,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/messenger/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/messenger/icon.svg"
+    }
+  },
+  {
+    "author": "Wilhelm Hjelm <wilhelm@hjelms.se>",
+    "featured": false,
+    "id": "monday",
+    "name": "Monday",
+    "version": "1.0.1",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/monday/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/monday/icon.svg"
     }
   },
   {
@@ -609,7 +664,7 @@
     "featured": false,
     "id": "msteams",
     "name": "Microsoft Teams",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/msteams/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/msteams/icon.svg"
@@ -651,6 +706,28 @@
   {
     "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
     "featured": false,
+    "id": "nextcloud-calendar",
+    "name": "Nextcloud Calendar",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-calendar/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-calendar/icon.svg"
+    }
+  },
+  {
+    "author": "Edgars Andersons <Edgars+GitHub@gaitenis.id.lv>",
+    "featured": false,
+    "id": "nextcloud-carnet",
+    "name": "Carnet (Nextcloud)",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-carnet/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-carnet/icon.svg"
+    }
+  },
+  {
+    "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
+    "featured": false,
     "id": "nextcloud-cospend",
     "name": "Nextcloud Cospend",
     "version": "1.0.0",
@@ -664,7 +741,7 @@
     "featured": false,
     "id": "nextcloud-talk",
     "name": "Nextcloud Talk",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-talk/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-talk/icon.svg"
@@ -730,7 +807,7 @@
     "featured": false,
     "id": "outlook",
     "name": "Outlook",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/outlook/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/outlook/icon.svg"
@@ -756,6 +833,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pocket/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pocket/icon.svg"
+    }
+  },
+  {
+    "author": "Roman Dąbal <dabalroman@gmail.com>",
+    "featured": false,
+    "id": "pomodoro-tracker",
+    "name": "Pomodoro Tracker",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pomodoro-tracker/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pomodoro-tracker/icon.svg"
     }
   },
   {
@@ -873,7 +961,7 @@
     "featured": true,
     "id": "slack",
     "name": "Slack",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/slack/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/slack/icon.svg"
@@ -961,7 +1049,7 @@
     "featured": false,
     "id": "telegram-react",
     "name": "Telegram React",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram-react/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram-react/icon.svg"
@@ -1137,7 +1225,7 @@
     "featured": true,
     "id": "whatsapp",
     "name": "WhatsApp",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/whatsapp/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/whatsapp/icon.svg"

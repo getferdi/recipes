@@ -1,0 +1,13 @@
+{
+  "id": "pomodoro-tracker",
+  "name": "Pomodoro Tracker",
+  "version": "1.0.0",
+  "description": "Pomodoro Tracker is a productivity app.",
+  "main": "index.js",
+  "author": "Roman Dąbal <dabalroman@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://pomodoro-tracker.com",
+    "hasNotificationSound": true
+  }
+}

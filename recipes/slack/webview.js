@@ -41,7 +41,7 @@ const SELECTOR_CHANNELS_UNREAD = '.p-channel_sidebar__channel--unread:not(.p-cha
 
 module.exports = Franz => {
   const getMessages = () => {
-    const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge, .p-channel_sidebar__link--unread:not([data-sidebar-link-id="Punreads"]):not([data-sidebar-link-id="Pdrafts"])`).length;
+    const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge, .p-channel_sidebar__link--unread:not([data-sidebar-link-id="Punreads"]):not([data-sidebar-link-id="Pdrafts"]):not([data-sidebar-link-id="Pdms"])`).length;
     const allMessages = document.querySelectorAll(SELECTOR_CHANNELS_UNREAD).length - directMessages;
     Franz.setBadge(directMessages, allMessages);
   };

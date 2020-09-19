@@ -1,0 +1,14 @@
+{
+  "id": "gotomeeting",
+  "name": "Go To Meeting",
+  "version": "0.2.1",
+  "description": "GoToMeeting App",
+  "main": "index.js",
+  "repository":"https://github.com/tristanplouz/ferdi-recipe-gotomeeting.git",
+  "author": "Tristan D",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.gotomeeting.com/home.html",
+    "hasNotificationSound": true
+  }
+}

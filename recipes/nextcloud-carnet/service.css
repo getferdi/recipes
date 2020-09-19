@@ -1,0 +1,11 @@
+/* Hide all app links and contacts link in the top menu except for Carnet */
+#appmenu li:not([data-id="carnet"]), #contactsmenu {display: none;}
+
+/* Change cursor to the default pointer for Nextcloud home, Carnet and settings
+link and disable them in the top menu */
+#nextcloud, #appmenu li[data-id="carnet"] a, #settings {
+    cursor:default; pointer-events: none;
+}
+
+/* Hide "More" link in the top menu */
+#more-apps {display: none !important;}

@@ -1,10 +1,13 @@
 {
   "id": "whatsapp",
   "name": "WhatsApp",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "WhatsApp",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",
+  "contributors": [
+    "beppe9000 <6625123+beppe9000@users.noreply.github.com>"
+  ],
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.whatsapp.com",

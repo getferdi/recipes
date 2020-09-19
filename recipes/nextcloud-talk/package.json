@@ -1,7 +1,7 @@
 {
   "id": "nextcloud-talk",
   "name": "Nextcloud Talk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nextcloud Talk",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",
@@ -9,6 +9,7 @@
   "config": {
     "hasNotificationSound": true,
     "hasIndirectMessages": true,
-    "hasCustomUrl": true
+    "hasCustomUrl": true,
+    "serviceURL": "https://{nextcloud}/apps/spreed/"
   }
 }

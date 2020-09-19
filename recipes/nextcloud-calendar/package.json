@@ -1,0 +1,16 @@
+{
+  "id": "nextcloud-calendar",
+  "name": "Nextcloud Calendar",
+  "version": "1.0.0",
+  "description": "Ferdi recipe for Nextcloud Calendar.",
+  "main": "index.js",
+  "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
+  "license": "MIT",
+  "repository": "https://github.com/eandersons/ferdi-recipe-nextcloud-calendar",
+  "config": {
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasCustomUrl": true,
+    "serviceURL": "https://{nextcloud}/apps/calendar/"
+  }
+}
