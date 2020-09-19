@@ -1,7 +1,7 @@
 {
   "id": "googlemeet",
   "name": "Google Meet",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Google Meet",
   "main": "index.js",
   "author": "Patrick Thoelken <patrick.thoelken@outlook.com>",

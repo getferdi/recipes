@@ -1,0 +1,12 @@
+/* Hide all app links and contacts menu link in the top menu except for
+Cospend */
+#appmenu li:not([data-id="cospend"]), #contactsmenu {display: none;}
+
+/* Change the cursor to the default for Nextcloud home, Cospend and settings
+links in the top menu and disable them */
+#nextcloud, #appmenu li[data-id="cospend"] a, #settings {
+    cursor:default; pointer-events: none;
+}
+
+/* Hide "More" link in the top menu */
+#more-apps {display: none !important;}

@@ -1,0 +1,12 @@
+/* Hide all app links and contacts menu link in the top menu except for
+Tasks */
+#appmenu li:not([data-id="tasks"]), #contactsmenu {display: none;}
+
+/* Change the cursor to the default for Nextcloud home, Tasks and settings
+links in the top menu and disable them */
+#nextcloud, #appmenu li[data-id="tasks"] a, #settings {
+    cursor: default; pointer-events: none;
+}
+
+/* Hide "More" link in the top menu */
+#more-apps {display: none !important;}

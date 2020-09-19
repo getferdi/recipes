@@ -1,0 +1,16 @@
+{
+  "id": "nextcloud-cospend",
+  "name": "Nextcloud Cospend",
+  "version": "1.0.0",
+  "description": "Ferdi recipe for Nextcloud Cospend. Nextcloud Cospend is a group/shared budget manager.",
+  "main": "index.js",
+  "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
+  "license": "MIT",
+  "repository": "https://github.com/eandersons/ferdi-recipe-nextcloud-cospend",
+  "config": {
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasCustomUrl": true,
+    "serviceURL": "https://{nextcloud}/apps/cospend/"
+  }
+}
