@@ -89,7 +89,7 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     let configErrors = [];
     if (!config.id) {
       configErrors.push("The recipe's package.json contains no 'id' field. This field should contain a unique ID made of lowercase letters (a-z), numbers (0-9), hyphens (-), periods (.), and underscores (_)");
-    } else if (!/^[a-z0-9._\-]+$/.test(config.id)) {
+    } else if (!/^[a-zA-Z0-9._\-]+$/.test(config.id)) {
       configErrors.push("The recipe's package.json defines an invalid recipe ID. Please make sure the 'id' field only contains lowercase letters (a-z), numbers (0-9), hyphens (-), periods (.), and underscores (_)");
     }
     if (!config.name) {
@@ -100,8 +100,6 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     }
     if (!config.config || typeof config.config !== "object") {
       configErrors.push("The recipe's package.json contains no 'config' object. This field should contain a configuration for your service.");
-    } else if (!config.config.serviceURL) {
-      configErrors.push("The recipe's package.json contains a 'config' object with no 'serviceURL' field. This field should contain the URL of your service.");
     }
   
     if (configErrors.length > 0) {
