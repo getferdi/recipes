@@ -152,4 +152,8 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
   });
 
   console.log(`✅ Successfully packaged and added ${recipeList.length} recipes (${unsuccessful} unsuccessful recipes)`);
+
+  if (unsuccessful > 0) {
+    process.exit(1);
+  }
 })();
