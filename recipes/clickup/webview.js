@@ -1,17 +1,11 @@
-const path = require("path");
+'use strict';
 
-module.exports = (Franz) => {
+module.exports = Franz => {
   const getMessages = function getMessages() {
-    // get unread messages
-    const count = document.querySelectorAll('.guilds-wrapper .badge').length;
-
-    // set Franz badge
-    Franz.setBadge(count);
+    const elements = document.querySelectorAll('.unreadCount');
+    const unread = document.querySelector('.cu-notification-alert__dot');
+    Franz.setBadge(unread ? 1 : 0);
   };
 
-  // check for new messages every second and update Franz badge
   Franz.loop(getMessages);
-
-  // Hide download message
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
 };

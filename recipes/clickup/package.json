@@ -1,15 +1,13 @@
 {
   "id": "clickup",
-  "name": "Clickup",
-  "version": "1.0.0",
-  "description": "Clickup",
+  "name": "ClickUp",
+  "version": "2.0.0",
+  "description": "ClickUp Productivity Software",
   "main": "index.js",
-  "author": "Armaldio <armaldio@gmail.com>",
+  "author": "Genesis Guerrero",
   "license": "MIT",
-  "repository": "",
   "config": {
-    "serviceURL": "https://app.clickup.com/{teamId}",
-    "hasNotificationSound": true,
-    "hasTeamId": true
+    "serviceURL": "https://app.clickup.com",
+    "hasNotificationSound": true
   }
 }
