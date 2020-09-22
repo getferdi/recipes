@@ -1,1 +1,24 @@
-<svg width="130" height="155" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="68.01%" y2="68.01%" id="a"><stop stop-color="#8930FD" offset="0%"/><stop stop-color="#49CCF9" offset="100%"/></linearGradient><linearGradient x1="0%" y1="68.01%" y2="68.01%" id="b"><stop stop-color="#FF02F0" offset="0%"/><stop stop-color="#FFC800" offset="100%"/></linearGradient></defs><g fill-rule="nonzero" fill="none"><path d="M.4 119.12l23.81-18.24C36.86 117.39 50.3 125 65.26 125c14.88 0 27.94-7.52 40.02-23.9l24.15 17.8C112 142.52 90.34 155 65.26 155c-25 0-46.87-12.4-64.86-35.88z" fill="url(#a)"/><path fill="url(#b)" d="M65.18 39.84L22.8 76.36 3.21 53.64 65.27.16l61.57 53.52-19.68 22.64z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 155 155" style="enable-background:new 0 0 155 155;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-600.2136" y1="455.8474" x2="-599.2136" y2="455.8474" gradientTransform="matrix(129.03 0 0 -54.12 77458.5469 24798.3184)">
+		<stop  offset="0" style="stop-color:#8930FD"/>
+		<stop  offset="1" style="stop-color:#49CCF9"/>
+	</linearGradient>
+	<path class="st0" d="M13,119l23.8-18.2c12.7,16.5,26.1,24.1,41.1,24.1c14.9,0,27.9-7.5,40-23.9l24.1,17.8
+		c-17.4,23.6-39.1,36.1-64.2,36.1C52.8,154.9,31,142.5,13,119z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-600.0046" y1="457.4853" x2="-599.0046" y2="457.4853" gradientTransform="matrix(123.63 0 0 -76.2 74194.3594 34898.5586)">
+		<stop  offset="0" style="stop-color:#FF02F0"/>
+		<stop  offset="1" style="stop-color:#FFC800"/>
+	</linearGradient>
+	<path class="st1" d="M77.8,39.8L35.4,76.3L15.8,53.6L77.9,0.1l61.6,53.5l-19.7,22.6L77.8,39.8z"/>
+</g>
+</svg>
