@@ -26,6 +26,7 @@
   "homepage": "https://github.com/getferdi/recipes#readme",
   "dependencies": {
     "fs-extra": "^9.0.1",
+    "image-size": "^0.9.1",
     "open": "^7.2.1",
     "targz": "^1.0.1"
   }

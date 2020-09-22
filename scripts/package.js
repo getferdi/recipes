@@ -4,6 +4,7 @@
 const targz = require('targz');
 const fs = require('fs-extra');
 const path = require('path');
+const sizeOf = require('image-size');
 
 // Publicly availible link to this repository's recipe folder
 // Used for generating public icon URLs
@@ -73,6 +74,23 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       continue;
     } else if (!hasPng) {
       console.log(`⚠️ Couldn't package "${recipe}": Recipe doesn't contain an icon PNG`);
+      unsuccessful++;
+      continue;
+    }
+
+    // Check icons sizes
+    const svgSize = sizeOf(svgIcon);
+    const svgHasRightSize = svgSize.width === svgSize.height;
+    if (!svgHasRightSize) {
+      console.log(`⚠️ Couldn't package "${recipe}": Recipe SVG icon isn't a square`);
+      unsuccessful++;
+      continue;
+    }
+
+    const pngSize = sizeOf(pngIcon);
+    const pngHasRightSize = pngSize.width === 1024 && pngSize.height === 1024;
+    if (!pngHasRightSize) {
+      console.log(`⚠️ Couldn't package "${recipe}": Recipe PNG icon dimensions should be 1024x1024`);
       unsuccessful++;
       continue;
     }
