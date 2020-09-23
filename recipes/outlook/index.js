@@ -1,4 +1,8 @@
-"use strict";
+var os = require('os')
 
-module.exports = Franz => Franz;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm9mZmljZTM2NS1vd2EvaW5kZXguanMiXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsIkZyYW56Il0sIm1hcHBpbmdzIjoiOztBQUFBLE9BQU8sQUFBUCxVQUFpQixTQUFTLEFBQTFCIiwiZmlsZSI6Im9mZmljZTM2NS1vd2EvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IEZyYW56ID0+IEZyYW56OyJdfQ==
+module.exports = Franz =>
+  class Outlook extends Franz {
+    overrideUserAgent() {
+      return window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+ \([^)]+\)/g,"").trim();
+    }
+  };
