@@ -1,9 +1,1 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" width="528" height="528">
-<g id="surface1">
-<path style=" fill:#FFC107;" d="M 9 42 L 32 42 L 42 32 L 42 9 C 42 7.34375 40.65625 6 39 6 L 9 6 C 7.34375 6 6 7.34375 6 9 L 6 39 C 6 40.65625 7.34375 42 9 42 Z "/>
-<path style=" fill:#FFECB3;" d="M 32 42 L 32 32 L 42 32 Z "/>
-<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:#FFFFFF;stroke-opacity:1;stroke-miterlimit:10;" d="M 32 20 C 32 15.582031 28.417969 12 24 12 C 19.582031 12 16 15.582031 16 20 C 16 23.355469 18.070313 26.226563 21 27.414063 L 21 35 L 27 35 L 27 27.414063 C 29.929688 26.226563 32 23.355469 32 20 Z "/>
-<path style=" fill:#FFFFFF;" d="M 22 35 L 26 35 L 26 38 L 22 38 Z "/>
-<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:#FFFFFF;stroke-opacity:1;stroke-miterlimit:10;" d="M 21 31 L 27 31 "/>
-</g>
-</svg>
+<svg height="528" viewBox="0 0 48 48" width="528" xmlns="http://www.w3.org/2000/svg"><path d="m9 42h23l10-10v-23c0-1.65625-1.34375-3-3-3h-30c-1.65625 0-3 1.34375-3 3v30c0 1.65625 1.34375 3 3 3z" fill="#ffc107"/><path d="m32 42v-10h10z" fill="#ffecb3"/><path d="m32 20c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8c0 3.355469 2.070313 6.226563 5 7.414063v7.585937h6v-7.585937c2.929688-1.1875 5-4.058594 5-7.414063z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/><path d="m22 35h4v3h-4z" fill="#fff"/><path d="m21 31h6" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/></svg>

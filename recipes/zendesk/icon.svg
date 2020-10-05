@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>zendesk</title>
-    <desc>Created with Sketch.</desc>
-    <g id="zendesk" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(0.000000, 10.000000)" fill="#03363D" fill-rule="nonzero">
-            <polygon id="Shape" points="36.8394089 15.964532 36.8394089 60.4413793 0 60.4413793"></polygon>
-            <path d="M36.8394089,0 C36.8394089,10.1729219 28.5926263,18.4197044 18.4197044,18.4197044 C8.24678258,18.4197044 0,10.1729219 0,0 L36.8394089,0 L36.8394089,0 Z" id="Shape"></path>
-            <path d="M42.9083744,60.4413793 C42.9083744,50.2684575 51.155157,42.0216749 61.3280788,42.0216749 C71.5010007,42.0216749 79.7477833,50.2684575 79.7477833,60.4413793 L42.9083744,60.4413793 Z" id="Shape"></path>
-            <polygon id="Shape" points="42.9083744 44.4768473 42.9083744 0 79.7517241 0"></polygon>
-        </g>
-    </g>
-</svg>
+<svg height="80" viewBox="0 0 80 80" width="80" xmlns="http://www.w3.org/2000/svg"><g fill="#03363d" transform="translate(0 10)"><path d="m36.8394089 15.964532v44.4768473h-36.8394089z"/><path d="m36.8394089 0c0 10.1729219-8.2467826 18.4197044-18.4197045 18.4197044-10.17292182 0-18.4197044-8.2467825-18.4197044-18.4197044z"/><path d="m42.9083744 60.4413793c0-10.1729218 8.2467826-18.4197044 18.4197044-18.4197044 10.1729219 0 18.4197045 8.2467826 18.4197045 18.4197044z"/><path d="m42.9083744 44.4768473v-44.4768473h36.8433497z"/></g></svg>
