@@ -17,3 +17,6 @@ Each time you create a new service inside Ferdi, Ferdi will automatically instal
 
 ## Creating and adding your own recipes
 Please refer to our documentation at https://github.com/getferdi/recipes/blob/master/docs/integration.md.
+
+## Minifying images
+Please run `npm run minify-images` to optimize images
