@@ -1,0 +1,12 @@
+{
+  "id": "youtubemusic",
+  "name": "YouTube Music",
+  "version": "1.0.0",
+  "description": "YouTube Music",
+  "main": "index.js",
+  "author": "Stephen Papierski <stephenpapierski@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://music.youtube.com/"
+  }
+}
