@@ -12,7 +12,7 @@ module.exports = (Franz, options) => {
     clearInterval(interval);
   }, 200);
   const getMessages = () => {
-    const inbox = document.querySelector(".v-FolderSource--inbox>.v-FolderSource-badge");
+    const inbox = document.querySelector(".v-MailboxSource--inbox .v-MailboxSource-badge");
     if (!inbox) {
       return;
     }
