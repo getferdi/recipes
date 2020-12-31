@@ -10,7 +10,7 @@
   ],
   "license": "MIT",
   "config": {
-    "serviceURL": "https://outlook.office365.com/owa",
+    "serviceURL": "https://outlook.office365.com/mail/",
     "hasNotificationSound": true,
     "hasTeamId": false
   }

@@ -1,13 +1,14 @@
 {
-    "id": "outlook",
-    "name": "Outlook",
-    "version": "1.0.1",
-    "description": "Outlook Web App",
-    "main": "index.js",
-    "author": "Wouter Van Speybroeck <wouter.van.speybroeck@gmail.com>",
-    "repository": "",
-    "license": "MIT",
-    "config": {
-        "serviceURL": "https://outlook.live.com/owa/"
-    }
+  "id": "outlook",
+  "name": "Outlook Web App",
+  "version": "1.1.0",
+  "description": "Outlook Web App",
+  "main": "index.js",
+  "author": "Wouter Van Speybroeck <wouter.van.speybroeck@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://outlook.live.com/mail/",
+    "hasNotificationSound": true,
+    "hasTeamId": false
+  }
 }
