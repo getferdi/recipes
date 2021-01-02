@@ -14,10 +14,11 @@ module.exports = Ferdi => {
       );
     } else {
       // new app
-      const folders = Array.from(document.querySelector('div[title="Favorites"]').nextSibling.childNodes);
-      if (!folders) {
+      const favorites = document.querySelector('div[title="Favorites"]');
+      if (!favorites) {
         return;
       }
+      const folders = Array.from(favorites.nextSibling.childNodes);
 
       unreadMail = folders.reduce((count, child) => {
         const unread = child.querySelector('.screenReaderOnly');
