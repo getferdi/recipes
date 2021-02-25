@@ -28,7 +28,7 @@ window.addEventListener('beforeunload', async () => {
 
 module.exports = Franz => {
   const getMessages = function getMessages() {
-    const elements = document.querySelectorAll('._31gEB, .CxUIE, .unread, ._0LqQ, .m61XR, .ZKn2B, .VOr2j');
+    const elements = document.querySelectorAll('._31gEB, .CxUIE, .unread, ._0LqQ, .m61XR, .ZKn2B, .VOr2j, ._38M1B');
     var count = 0;
 	var indirectCount = 0;
 
