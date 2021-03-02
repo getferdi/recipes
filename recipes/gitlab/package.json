@@ -7,6 +7,8 @@
   "author": "Kittywhiskers Van Gogh <63189531+kittywhiskers@users.noreply.github.com>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://gitlab.com/users/sign_in"
+    "serviceURL": "https://gitlab.com/users/sign_in",
+    "hasHostedOption": true,
+    "hasCustomUrl": true
   }
 }
