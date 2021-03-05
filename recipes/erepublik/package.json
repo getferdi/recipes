@@ -1,0 +1,12 @@
+{
+  "id": "erepublik",
+  "name": "eRepublik",
+  "version": "1.0.0",
+  "description": "erepublik",
+  "main": "index.js",
+  "author": "Ari Oki <ariokidev@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://erepublik.com"
+  }
+}
