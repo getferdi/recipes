@@ -28,21 +28,24 @@ window.addEventListener('beforeunload', async () => {
 
 module.exports = Franz => {
   const getMessages = function getMessages() {
-    const elements = document.querySelectorAll('._31gEB, .CxUIE, .unread, ._0LqQ, .m61XR, .ZKn2B, .VOr2j');
     var count = 0;
-	var indirectCount = 0;
+  	var indirectCount = 0;
 
-    for (var i = 0; i < elements.length; i += 1) {
-	  var countValue = parseInt(elements[i].textContent || '0', 10);
-	  
-      if (elements[i].parentNode.previousElementSibling === null || elements[i].parentNode.previousElementSibling.querySelectorAll("[data-icon=muted]").length === 0) {
+    var parentChatElem = document.querySelector("#pane-side").children[0].children[0].children[0];
+    var chatElems = parentChatElem.children;
+    for (var i = 0; i < chatElems.length; i++) {
+      var chatElem = chatElems[i];
+      var unreadElem = chatElem.children[0].children[0].children[1].children[1].children[1];
+      
+      var countValue = parseInt(unreadElem.textContent) || 0; // Returns 0 in case of isNaN
+      
+      if (unreadElem.querySelectorAll("[data-icon=muted]").length === 0) {
         count += countValue;
-      } 
-	  else {
-		indirectCount += countValue;
-	  }
+      } else {
+        indirectCount += countValue;
+    	}
     }
-
+    
     Franz.setBadge(count, indirectCount);
   };
 
