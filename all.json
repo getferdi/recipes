@@ -55,6 +55,17 @@
     }
   },
   {
+    "author": "BilelJegham",
+    "featured": false,
+    "id": "azure-devops",
+    "name": "Azure DevOps",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/azure-devops/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/azure-devops/icon.svg"
+    }
+  },
+  {
     "author": "Thomas Fehrenbach",
     "featured": false,
     "id": "bigbluebutton",
@@ -63,6 +74,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/bigbluebutton/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/bigbluebutton/icon.svg"
+    }
+  },
+  {
+    "author": "Yoga Setiawan <yogasetiawan@arioki.com>",
+    "featured": false,
+    "id": "bip",
+    "name": "BiP",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/bip/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/bip/icon.svg"
     }
   },
   {
@@ -85,6 +107,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/campuswire/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/campuswire/icon.svg"
+    }
+  },
+  {
+    "author": "Sagir Mohammed <sagirr63@gmail.com>",
+    "featured": false,
+    "id": "canvas",
+    "name": "Canvas",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/canvas/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/canvas/icon.svg"
     }
   },
   {
@@ -129,6 +162,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/cliq/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/cliq/icon.svg"
+    }
+  },
+  {
+    "author": "Sunny Singh <sunnysinghnitb@gmail.com>",
+    "featured": false,
+    "id": "clockify",
+    "name": "Clockify",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/clockify/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/clockify/icon.svg"
     }
   },
   {
@@ -206,6 +250,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/epicgames/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/epicgames/icon.svg"
+    }
+  },
+  {
+    "author": "Ari Oki <ariokidev@gmail.com>",
+    "featured": false,
+    "id": "erepublik",
+    "name": "eRepublik",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/erepublik/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/erepublik/icon.svg"
     }
   },
   {
@@ -594,6 +649,17 @@
     }
   },
   {
+    "author": "Lionel <lionel@bergeret.email>",
+    "featured": false,
+    "id": "infomaniak-mail",
+    "name": "Infomaniak Mail",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/infomaniak-mail/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/infomaniak-mail/icon.svg"
+    }
+  },
+  {
     "author": "Amine Mouafik <amine@mouafik.fr>",
     "featured": false,
     "id": "instagram",
@@ -602,6 +668,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/instagram/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/instagram/icon.svg"
+    }
+  },
+  {
+    "author": "DJ Walker <donwalker1987@gmail.com>",
+    "featured": false,
+    "id": "intercom",
+    "name": "Intercom",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/intercom/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/intercom/icon.svg"
     }
   },
   {
@@ -927,8 +1004,8 @@
     "author": "Wouter Van Speybroeck <wouter.van.speybroeck@gmail.com>",
     "featured": false,
     "id": "outlook",
-    "name": "Outlook",
-    "version": "1.0.1",
+    "name": "Outlook Web App",
+    "version": "1.1.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/outlook/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/outlook/icon.svg"
@@ -1394,6 +1471,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/voxer/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/voxer/icon.svg"
+    }
+  },
+  {
+    "author": "Rok Bertoncelj <rok.bertoncelj@gmail.com>",
+    "featured": false,
+    "id": "webex-teams",
+    "name": "Webex Teams",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/webex-teams/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/webex-teams/icon.svg"
     }
   },
   {
