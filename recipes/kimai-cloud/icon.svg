@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 440 440" width="440px" height="440px" style="zoom: 1;">
+    <title>Kimai Time-Tracker</title>
+    <radialGradient id="background" cy="41.266644" r="160.5"
+                    gradientTransform="matrix(1.1673343 0 0 1.196623 -102.24121 -19.722475)" cx="611"
+                    gradientUnits="userSpaceOnUse">
+        <stop stop-color="#00AAE9" offset="0"></stop>
+        <stop stop-color="#1E87B6" offset="1"></stop>
+    </radialGradient>
+    <radialGradient id="startButton" cy="-16.37981" r="55.747124"
+                    gradientTransform="matrix(1.9295131 -1.1140049 1.1550268 2.0005649 -1087.6858 1104.8947)"
+                    cx="873.78265" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#f9f9f9" offset="0"></stop>
+        <stop stop-color="#fff" offset="1"></stop>
+    </radialGradient>
+    <linearGradient id="outerBorder" y1="234.57143" x1="611.14288" y2="-110.91601" x2="610.57141" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#f2f2f2" offset="0"></stop>
+        <stop stop-color="#f2f2f2" offset="1"></stop>
+    </linearGradient>
+    <g transform="translate(-390.56693 181.56689)">
+        <g>
+            <circle cx="611px" r="187.776825px" fill="url(#outerBorder)" cy="38px"></circle>
+            <circle stroke="#fff" stroke-linejoin="round" stroke-width="3" cy="38px" fill="url(#background)" r="166.285645px" cx="611px"></circle>
+            <path d="M571.156433,108.308197 l110,-63.999998 l-110,-64" fill-rule="evenodd" fill="url(#startButton)"></path>
+        </g>
+        <g fill-rule="evenodd">
+            <g fill="#76B5D5">
+                <rect id="hourOne" x="-542.46875px" height="32" y="419.410309px" width="14" opacity="1"
+                      transform="matrix(-.83616052 -.5484848 .5484848 -.83616052 0 0)" ry="7"></rect>
+                <rect id="hourTwo" x="-320.158203px" height="32" y="642.978027px" width="14" opacity="1"
+                      transform="matrix(-.45720822 -.88935968 .88935968 -.45720822 0 0)" ry="7"></rect>
+                <rect id="hourThree" x="-48.536366px" height="41" y="718.754395px" width="18" opacity="1"
+                      transform="rotate(-90)" ry="9"></rect>
+                <rect id="hourFour" x="244.405457px" height="32" y="673.798523px" width="14" opacity="1"
+                      transform="matrix(.47159375 -.88181593 .88181593 .47159375 0 0)" ry="7"></rect>
+                <rect id="hourFive" x="-505.884949px" height="32" y="-503.867859px" width="14" opacity="1"
+                      transform="matrix(-.8503618 .52619845 -.52619845 -.8503618 0 0)" ry="7"></rect>
+                <rect id="hourSix" x="-620.297424px" height="41" y="-187.942719px" width="18" opacity="1"
+                      transform="scale(-1)" ry="9"></rect>
+                <rect id="hourSeven" x="-539.16571px" height="32" y="148.581909px" width="14" opacity="1"
+                      transform="matrix(-.84033379 -.54206929 .54206929 -.84033379 0 0)" ry="7"></rect>
+                <rect id="hourEight" x="-319.728088px" height="32" y="374.804901px" width="14" opacity="1"
+                      transform="matrix(-.45720822 -.88935968 .88935968 -.45720822 0 0)" ry="7"></rect>
+                <rect id="hourNine" x="-48.536366px" height="41" y="460.964569px" width="18" opacity="1"
+                      transform="rotate(-90)" ry="9"></rect>
+                <rect id="hourTen" x="250.841736px" height="32" y="406.195648px" width="14" opacity="1"
+                      transform="matrix(.47159375 -.88181593 .88181593 .47159375 0 0)" ry="7"></rect>
+                <rect id="hourEleven" x="-505.957611px" height="32" y="-236.959518px" width="14" opacity="1"
+                      transform="matrix(-.849305 .52790248 -.52790248 -.849305 0 0)" ry="7"></rect>
+                <g transform="scale(-1)">
+                    <rect id="hourTwelve" x="-633.02533px" height="41" y="69.120789px" width="18" opacity="1" ry="9"></rect>
+                    <rect id="hourZero" x="-606.761353px" height="41" y="69.120789px" width="18" opacity="1" ry="9"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
