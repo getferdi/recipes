@@ -32,6 +32,6 @@
     "targz": "^1.0.1"
   },
   "devDependencies": {
-    "imagemin-cli": "^6.0.0"
+    "imagemin-cli": "6.0.0"
   }
 }
