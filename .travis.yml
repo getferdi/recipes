@@ -1,6 +1,10 @@
 language: node_js
-node_js:
-  - 14
+node_js: "14.16.1"
+
+env:
+  - ELECTRON_CACHE=$HOME/.cache/electron
+  - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
+
 install:
   - npm install
 script:
