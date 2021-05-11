@@ -11,7 +11,10 @@ function _interopRequireDefault(obj) {
 module.exports = Franz => {
   const getMessages = function getMessages() {
     // get unread messages
-    const count = document.querySelectorAll('.guilds-wrapper .badge, .room-menu-options__item__unread-indicator-wrapper.has-unreads').length;
+    let count = 0;
+    document.querySelectorAll("div.unread-indicator").forEach((node) => {
+      count += Number(node.innerText);
+    });
 
     // set Franz badge
     Franz.setBadge(count);
