@@ -1,42 +1,16 @@
 module.exports = (Franz) => {
-  // class corresponding to the mute icon
-  const muteSelector = ".DQy0Rb";
-
   // class corresponding to the red badge that is visible for direct messages
-  const directMessageSelector = ".SaMfhe.m9MHid";
+  const directMessageSelector = "div.V6.CL.su.ahD.X9.Y2 span.akt span.XU";
 
-  // class corresponding to the bold text that is visible for all messages
-  const allMessageSelector = ".IL9EXe.PL5Wwe.dHI9xe.H7du2";
-
-  const isMuted = (node) => {
-    closestItem = node.closest('[role="listitem"]')
-    if (closestItem) {
-      return !!closestItem.querySelector(muteSelector);
-    } else {
-      return true;
-    }
-  }
+  // class corresponding to the bold text that is visible for room messages
+  const indirectMessageSelector = "div.V6.CL.V2.X9.Y2 span.akt span.XU";
 
   const getMessages = function getMessages() {
-    let allMessageCount = 0;
-    let directCount = 0;
-
     // get unread direct messages
-    document.querySelectorAll(directMessageSelector).forEach((node) => {
-      // Hangouts Chat overrides the muted indicator when there is a direct mention
-      // Check for the width of the badge element
-      if (!isMuted(node) && node.clientWidth != 0) {
-        directCount += 1;
-      }
-    });
+    let directCount = Number(document.querySelector(directMessageSelector).innerText)
 
-    let indirectCount = 0;
-    document.querySelectorAll(allMessageSelector).forEach((node) => {
-      if (!isMuted(node)) {
-        allMessageCount += 1;
-      }
-    });
-    indirectCount = allMessageCount - directCount;
+    // get unread indirect messages
+    let indirectCount = Number(document.querySelector(indirectMessageSelector).innerText);
 
     // set Franz badge
     Franz.setBadge(directCount, indirectCount);
