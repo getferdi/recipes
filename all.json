@@ -726,6 +726,17 @@
     }
   },
   {
+    "author": "Kevin Papst <support@kimai.cloud>",
+    "featured": false,
+    "id": "kimaicloud",
+    "name": "Kimai Cloud",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kimaicloud/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kimaicloud/icon.svg"
+    }
+  },
+  {
     "author": "hongsy <hongsy2006@gmail.com>",
     "featured": false,
     "id": "lark",
@@ -1302,7 +1313,7 @@
     "featured": false,
     "id": "telegram-react",
     "name": "Telegram React",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram-react/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram-react/icon.svg"
@@ -1672,11 +1683,11 @@
     }
   },
   {
-    "author": "Adam Birds <adam.birds@adbtechltd.co.uk> and akashnimare",
+    "author": "Adam Birds <adam.birds@adbwebdesigns.co.uk> and akashnimare",
     "featured": false,
     "id": "zulip",
     "name": "Zulip",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/zulip/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/zulip/icon.svg"
