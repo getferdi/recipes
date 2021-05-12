@@ -1,7 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="52 52">
-<path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"/>
-<path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"/>
-<path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"/>
-<path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92"/>
-<path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"/>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+<g transform="matrix(1 0 0 1.333333 0 0)">
+	<g transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)">
+	</g>
+    <path transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)"  d="M58 108L72 108L72 74L52 59L52 102C 52 105.32 54.69 108 58 108" stroke="none" fill="#4285F4" fill-rule="nonzero" />
+	<g transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)">
+	</g>
+    <path transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)"  d="M120 108L134 108C 137.32 108 140 105.31 140 102L140 102L140 59L120 74" stroke="none" fill="#34A853" fill-rule="nonzero" />
+	<g transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)">
+	</g>
+    <path transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)"  d="M120 48L120 74L140 59L140 51C 140 43.58 131.53 39.35 125.6 43.8" stroke="none" fill="#FBBC04" fill-rule="nonzero" />
+	<g transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)">
+	</g>
+    <path transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)"  d="M72 74L72 48L96 66L120 48L120 74L96 92" stroke="none" fill="#EA4335" fill-rule="nonzero" />
+	<g transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)">
+	</g>
+    <path transform="matrix(11.63636 0 0 11.63636 -605.0909 -488.7273)"  d="M52 51L52 59L72 74L72 48L66.4 43.8C 60.46 39.35 52 43.58 52 51" stroke="none" fill="#C5221F" fill-rule="nonzero" />
+</g>
 </svg>
