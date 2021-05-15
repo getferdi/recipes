@@ -1,7 +1,7 @@
 {
   "id": "yahoo-mail",
   "name": "Yahoo Mail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yahoo Mail recipe for Franz",
   "main": "index.js",
   "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",

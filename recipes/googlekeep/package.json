@@ -1,7 +1,7 @@
 {
   "id": "googlekeep",
   "name": "Google Keep",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Google Keep",
   "main": "index.js",
   "author": "SiloCityLabs LLC",

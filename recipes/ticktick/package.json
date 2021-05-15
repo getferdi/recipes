@@ -1,7 +1,7 @@
 {
   "id": "TickTick",
   "name": "TickTick",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Integration of TickTick",
   "main": "index.js",
   "author": "Jonas Hilke <jonashilke@gmail.com>",

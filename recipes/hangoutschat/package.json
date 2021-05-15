@@ -1,7 +1,7 @@
 {
   "id": "hangoutschat",
   "name": "Hangouts Chat",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Hangouts Chat",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io> and Iván López (ilopmar)",

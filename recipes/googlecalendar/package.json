@@ -1,15 +1,15 @@
 {
-    "id": "googlecalendar",
-    "name": "Google Calendar",
-    "version": "1.0.3",
-    "description": "Google Calendar",
-    "main": "index.js",
-    "author": "Rico Herwig <rherwig4711@gmail.com>",
-    "license": "MIT",
-    "config": {
-        "serviceURL": "https://calendar.google.com/calendar",
-        "hasNotificationSound": true,
-        "hasDirectMessages": true,
-        "openDevTools": true
-    }
+  "id": "googlecalendar",
+  "name": "Google Calendar",
+  "version": "1.0.4",
+  "description": "Google Calendar",
+  "main": "index.js",
+  "author": "Rico Herwig <rherwig4711@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://calendar.google.com/calendar",
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "openDevTools": true
   }
+}

@@ -1,7 +1,7 @@
 {
   "id": "icloud-reminders",
   "name": "iCloud Reminders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "icloud-reminders",
   "main": "index.js",
   "author": "Ferdi <hello@getferdi.com>",

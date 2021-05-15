@@ -1,7 +1,7 @@
 {
   "id": "lark",
   "name": "Lark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lark",
   "main": "index.js",
   "author": "hongsy <hongsy2006@gmail.com>",

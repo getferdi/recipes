@@ -1,7 +1,7 @@
 {
   "id": "standardnotes",
   "name": "StandardNotes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "StandardNotes",
   "main": "index.js",
   "author": "vantezzen <hello@vantezzen.io>",

@@ -1,7 +1,7 @@
 {
   "id": "nextcloud-talk",
   "name": "Nextcloud Talk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Nextcloud Talk - chat, video & audio-conferencing using WebRTC",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

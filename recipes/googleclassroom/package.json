@@ -1,7 +1,7 @@
 {
     "id": "googleclassroom",
     "name": "Google Classroom",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Google Classroom",
     "main": "index.js",
     "author": "Tania R. Zuniga <tania@tanx.dev>",

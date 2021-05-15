@@ -1,7 +1,7 @@
 {
   "id": "gitter",
   "name": "Gitter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gitter",
   "main": "index.js",
   "author": "Brian Gilbert <brian@briangilbert.net>",

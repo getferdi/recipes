@@ -1,7 +1,7 @@
 {
   "id": "nextcloud-calendar",
   "name": "Nextcloud Calendar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ferdi recipe for Nextcloud Calendar.",
   "main": "index.js",
   "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
