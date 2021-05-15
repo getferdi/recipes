@@ -411,7 +411,7 @@
     "featured": false,
     "id": "gitlab",
     "name": "GitLab",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/gitlab/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/gitlab/icon.svg"
@@ -1574,7 +1574,7 @@
   },
   {
     "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
-    "featured": false,
+    "featured": true,
     "id": "yahoo-mail",
     "name": "Yahoo Mail",
     "version": "1.0.1",
