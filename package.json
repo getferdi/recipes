@@ -10,7 +10,7 @@
     "package": "node scripts/package.js",
     "create": "node scripts/create.js",
     "lint": "eslint --quiet --fix recipes",
-    "reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write --require-pragma \"**/*.{js,scss}\"",
+    "reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write --require-pragma \"**/*.{js,json,scss}\"",
     "minify-images": "./scripts/minify-images.sh"
   },
   "repository": {
