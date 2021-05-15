@@ -169,7 +169,7 @@
     "featured": false,
     "id": "clockify",
     "name": "Clockify",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/clockify/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/clockify/icon.svg"
@@ -224,7 +224,7 @@
     "featured": false,
     "id": "element",
     "name": "Element",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/element/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/element/icon.svg"
@@ -312,7 +312,7 @@
     "featured": false,
     "id": "fastmail",
     "name": "FastMail",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/fastmail/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/fastmail/icon.svg"
@@ -334,7 +334,7 @@
     "featured": false,
     "id": "figma",
     "name": "Figma",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/figma/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/figma/icon.svg"
@@ -422,7 +422,7 @@
     "featured": true,
     "id": "gitter",
     "name": "Gitter",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/gitter/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/gitter/icon.svg"
@@ -455,7 +455,7 @@
     "featured": false,
     "id": "googlecalendar",
     "name": "Google Calendar",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecalendar/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecalendar/icon.svg"
@@ -466,7 +466,7 @@
     "featured": false,
     "id": "googleclassroom",
     "name": "Google Classroom",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googleclassroom/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googleclassroom/icon.svg"
@@ -477,7 +477,7 @@
     "featured": false,
     "id": "googledrive",
     "name": "Google Drive",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googledrive/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googledrive/icon.svg"
@@ -488,7 +488,7 @@
     "featured": false,
     "id": "googlekeep",
     "name": "Google Keep",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlekeep/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlekeep/icon.svg"
@@ -499,7 +499,7 @@
     "featured": false,
     "id": "googlemeet",
     "name": "Google Meet",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlemeet/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlemeet/icon.svg"
@@ -598,7 +598,7 @@
     "featured": false,
     "id": "hangoutschat",
     "name": "Hangouts Chat",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/hangoutschat/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/hangoutschat/icon.svg"
@@ -620,7 +620,7 @@
     "featured": false,
     "id": "icloud-reminders",
     "name": "iCloud Reminders",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/icloud-reminders/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/icloud-reminders/icon.svg"
@@ -741,7 +741,7 @@
     "featured": false,
     "id": "lark",
     "name": "Lark",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/lark/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/lark/icon.svg"
@@ -851,7 +851,7 @@
     "featured": false,
     "id": "mstodo",
     "name": "Microsoft To Do",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mstodo/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mstodo/icon.svg"
@@ -906,7 +906,7 @@
     "featured": false,
     "id": "nextcloud-calendar",
     "name": "Nextcloud Calendar",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-calendar/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-calendar/icon.svg"
@@ -939,7 +939,7 @@
     "featured": false,
     "id": "nextcloud-talk",
     "name": "Nextcloud Talk",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-talk/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nextcloud-talk/icon.svg"
@@ -1005,7 +1005,7 @@
     "featured": false,
     "id": "onenote",
     "name": "OneNote",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/onenote/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/onenote/icon.svg"
@@ -1027,7 +1027,7 @@
     "featured": false,
     "id": "pinterest",
     "name": "Pinterest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pinterest/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pinterest/icon.svg"
@@ -1071,7 +1071,7 @@
     "featured": false,
     "id": "proton-mail",
     "name": "ProtonMail",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/proton-mail/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/proton-mail/icon.svg"
@@ -1181,7 +1181,7 @@
     "featured": false,
     "id": "simplenote",
     "name": "Simplenote",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/simplenote/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/simplenote/icon.svg"
@@ -1214,7 +1214,7 @@
     "featured": false,
     "id": "slite",
     "name": "Slite",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/slite/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/slite/icon.svg"
@@ -1236,7 +1236,7 @@
     "featured": false,
     "id": "standardnotes",
     "name": "StandardNotes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/standardnotes/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/standardnotes/icon.svg"
@@ -1346,7 +1346,7 @@
     "featured": false,
     "id": "TickTick",
     "name": "TickTick",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/TickTick/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/TickTick/icon.svg"
@@ -1511,7 +1511,7 @@
     "featured": true,
     "id": "whatsapp",
     "name": "WhatsApp",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/whatsapp/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/whatsapp/icon.svg"
@@ -1577,7 +1577,7 @@
     "featured": false,
     "id": "yahoo-mail",
     "name": "Yahoo Mail",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/yahoo-mail/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/yahoo-mail/icon.svg"
@@ -1599,7 +1599,7 @@
     "featured": false,
     "id": "youtrack",
     "name": "YouTrack",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/youtrack/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/youtrack/icon.svg"
