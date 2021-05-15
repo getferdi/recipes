@@ -18,13 +18,12 @@ If there is no repository on GitHub you can also create one yourself - this ofte
 IF YOU ARE NOT FAMILIAR WITH JAVASCRIPT: Please still search for a recipe using the guide above and add it to your request.
 -->
 
-
 <!-- Please complete the following form to create your recipe request: -->
-Name of the service (e.g. WhatsApp): 
+Name of the service (e.g. WhatsApp):
 URL of the service (e.g. whatsapp.com):
 
 GitHub URL to a recipe <!-- (optional but highly recommended. Please look at the intructions above)  -->: https://github.com/...
 
 Features you want implemented (optional):
 <!-- In this list you can write features you want this service to support, e.g. Notification support -->
-- 
+-
