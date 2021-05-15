@@ -20,6 +20,7 @@ Service ID: [What ID does your recipe use?]
 ### Additional information
 <!-- Please also accept the following checkboxes -->
 - [ ] I am the original creator of this package
+- [ ] I have run the `npm run package` and verified that there are no validation errors reported for this package
 - [ ] My recipe has been tested to work inside Ferdi
 
 <!-- Here you can write anything else you want to tell us. -->
