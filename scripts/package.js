@@ -5,6 +5,8 @@ const targz = require('targz');
 const fs = require('fs-extra');
 const path = require('path');
 const sizeOf = require('image-size');
+const simpleGit = require('simple-git');
+const pkgVersionChangedMatcher = new RegExp(/\n\+.*version.*/);
 
 // Publicly availible link to this repository's recipe folder
 // Used for generating public icon URLs
@@ -33,10 +35,11 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
 // Let us work in an async environment
 (async () => {
   // Create paths to important files
-  const recipesFolder = path.join(__dirname, '../recipes');
-  const outputFolder = path.join(__dirname, '../archives');
-  const allJson = path.join(__dirname, '../all.json');
-  const featuredFile = path.join(__dirname, '../featured.json');
+  const repoRoot = path.join(__dirname, '..');
+  const recipesFolder = path.join(repoRoot, 'recipes');
+  const outputFolder = path.join(repoRoot, 'archives');
+  const allJson = path.join(repoRoot, 'all.json');
+  const featuredFile = path.join(repoRoot, 'featured.json');
   const featuredRecipes = await fs.readJSON(featuredFile);
   let recipeList = [];
   let unsuccessful = 0;
@@ -44,6 +47,8 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
   await fs.ensureDir(outputFolder);
   await fs.emptyDir(outputFolder);
   await fs.remove(allJson);
+
+  const git = await simpleGit(repoRoot);
 
   const availableRecipes = fs.readdirSync(recipesFolder, { withFileTypes: true })
     .filter(dir => dir.isDirectory())
@@ -54,14 +59,14 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     const packageJson = path.join(recipeSrc, 'package.json');
     const svgIcon = path.join(recipeSrc, 'icon.svg');
     const pngIcon = path.join(recipeSrc, 'icon.png');
-  
+
     // Check that package.json exists
     if (!await fs.pathExists(packageJson)) {
       console.log(`⚠️ Couldn't package "${recipe}": Folder doesn't contain a "package.json".`);
       unsuccessful++;
       continue;
     }
-  
+
     // Check that icons exist
     const hasSvg = await fs.pathExists(svgIcon);
     const hasPng = await fs.pathExists(pngIcon);
@@ -97,7 +102,7 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
 
     // Read package.json
     const config = await fs.readJson(packageJson)
-  
+
     // Make sure it contains all required fields
     if (!config) {
       console.log(`⚠️ Couldn't package "${recipe}": Could not read or parse "package.json"`);
@@ -119,14 +124,33 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     if (!config.config || typeof config.config !== "object") {
       configErrors.push("The recipe's package.json contains no 'config' object. This field should contain a configuration for your service.");
     }
-  
+
+    const relativeRepoSrc = path.relative(repoRoot, recipeSrc);
+    // Check for changes in recipe's directory, and if changes are present, then the changes should contain a version bump
+    await git.diffSummary(relativeRepoSrc, (err, result) => {
+      if (err) {
+        configErrors.push(`Got the following error while checking for git changes: ${err}`);
+      } else if (result && (result.changed !== 0 || result.insertions !== 0 || result.deletions !== 0)) {
+        const pkgJsonRelative = path.relative(repoRoot, packageJson);
+        if (!result.files.find(({file}) => file === pkgJsonRelative)) {
+          configErrors.push(`Found changes in '${relativeRepoSrc}' without the corresponding version bump in '${pkgJsonRelative}'`);
+        } else {
+          git.diff(pkgJsonRelative, (_diffErr, diffResult) => {
+            if (diffResult && !pkgVersionChangedMatcher.test(diffResult)) {
+              configErrors.push(`Found changes in '${relativeRepoSrc}' without the corresponding version bump in '${pkgJsonRelative}' (found other changes though)`);
+            }
+          });
+        }
+      }
+    });
+
     if (configErrors.length > 0) {
       console.log(`⚠️ Couldn't package "${recipe}": There were errors in the recipe's package.json:
   ${configErrors.reduce((str, err) => `${str}\n${err}`)}`);
       unsuccessful++;
       continue;
     }
-  
+
     if (!await fs.exists(path.join(recipeSrc, 'webview.js'))) {
       console.log(`⚠️ Couldn't package "${recipe}": The recipe doesn't contain a "webview.js"`);
       unsuccessful++;
@@ -137,10 +161,10 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       unsuccessful++;
       continue;
     }
-  
+
     // Package to .tar.gz
     compress(recipeSrc, path.join(outputFolder, `${config.id}.tar.gz`));
-  
+
     // Add recipe to all.json
     const isFeatured = featuredRecipes.includes(config.id);
     const packageInfo = {
@@ -148,7 +172,7 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       "featured": isFeatured,
       "id": config.id,
       "name": config.name,
-      "version": config.version || '1.0.0',
+      "version": config.version,
       "icons": {
         "png": `${repo}${config.id}/icon.png`,
         "svg": `${repo}${config.id}/icon.svg`,
@@ -156,7 +180,6 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     };
     recipeList.push(packageInfo);
   }
-
 
   // Sort package list alphabetically
   recipeList = recipeList.sort((a, b) => {
