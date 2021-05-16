@@ -1401,7 +1401,7 @@
     "featured": true,
     "id": "tweetdeck",
     "name": "Tweetdeck",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/tweetdeck/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/tweetdeck/icon.svg"
