@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "prepare": "husky install",
     "package": "node scripts/package.js",
     "create": "node scripts/create.js",
     "lint": "eslint --quiet --fix recipes",
