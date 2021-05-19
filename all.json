@@ -11,6 +11,17 @@
     }
   },
   {
+    "author": "Yoav Maman",
+    "featured": false,
+    "id": "amazon-work-mail",
+    "name": "Amazon WorkMail",
+    "version": "1.0.2",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/amazon-work-mail/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/amazon-work-mail/icon.svg"
+    }
+  },
+  {
     "author": "Daniel Weinberger, Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "android-messages",

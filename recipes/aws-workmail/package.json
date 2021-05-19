@@ -1,0 +1,25 @@
+{
+  "id": "amazon-work-mail",
+  "name": "Amazon WorkMail",
+  "version": "1.0.2",
+  "description": "Amazon WorkMail",
+  "main": "index.js",
+  "author": "Yoav Maman",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.awsapps.com/mail",
+    "serviceName": "Amazon WorkMail",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIdirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "awsapps.com",
+        "team": "WorkMail"
+    }
+  }
+}
