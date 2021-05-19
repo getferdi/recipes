@@ -1,0 +1,24 @@
+{
+  "id": "snapdrop",
+  "name": "Snapdrop",
+  "version": "1.0.0",
+  "description": "Snapdrop recipe for Franz",
+  "main": "index.js",
+  "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://snapdrop.net/",
+    "serviceName": "Snapdrop",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

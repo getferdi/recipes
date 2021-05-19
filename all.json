@@ -1221,6 +1221,17 @@
     }
   },
   {
+    "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+    "featured": false,
+    "id": "snapdrop",
+    "name": "Snapdrop",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/snapdrop/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/snapdrop/icon.svg"
+    }
+  },
+  {
     "author": "Kittywhiskers Van Gogh <63189531+kittywhiskers@users.noreply.github.com>",
     "featured": false,
     "id": "stackexchange",
