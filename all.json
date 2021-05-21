@@ -462,6 +462,17 @@
     }
   },
   {
+    "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+    "featured": false,
+    "id": "google-contacts",
+    "name": "Google Contacts",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-contacts/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-contacts/icon.svg"
+    }
+  },
+  {
     "author": "Rico Herwig <rherwig4711@gmail.com>",
     "featured": false,
     "id": "googlecalendar",

@@ -1,0 +1,12 @@
+{
+  "id": "google-contacts",
+  "name": "Google Contacts",
+  "version": "1.0.0",
+  "description": "Google Contacts",
+  "main": "index.js",
+  "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://contacts.google.com/"
+  }
+}
