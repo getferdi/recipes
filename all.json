@@ -818,7 +818,7 @@
     "featured": true,
     "id": "mattermost",
     "name": "Mattermost",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mattermost/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mattermost/icon.svg"
