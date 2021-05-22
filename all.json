@@ -719,7 +719,7 @@
     "featured": false,
     "id": "jira",
     "name": "Jira",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jira/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jira/icon.svg"

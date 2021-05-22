@@ -1,7 +1,7 @@
 {
   "id": "jira",
   "name": "Jira",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Jira",
   "main": "index.js",
   "author": "Leonardo Bragatti <leonardo.bragatti@gmail.com> and The Ferdi Team <hello@getferdi.com>",
@@ -9,6 +9,7 @@
   "config": {
     "serviceURL": "https://{teamId}.atlassian.net",
     "urlInputSuffix": ".atlassian.net",
+    "hasHostedOption": true,
     "hasTeamId": true,
     "hasCustomUrl": true,
     "hasNotificationSound": true
