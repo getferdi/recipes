@@ -730,7 +730,7 @@
     "featured": false,
     "id": "jitsi",
     "name": "Jitsi Meet",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jitsi/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jitsi/icon.svg"
