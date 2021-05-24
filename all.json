@@ -829,7 +829,7 @@
     "featured": true,
     "id": "messenger",
     "name": "Messenger",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/messenger/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/messenger/icon.svg"
