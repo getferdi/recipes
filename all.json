@@ -627,6 +627,17 @@
     }
   },
   {
+    "author": "Jonathan Simcoe <jonathan@postpost.design>",
+    "featured": false,
+    "id": "harvest",
+    "name": "Harvest",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/harvest/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/harvest/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "hipchat",
