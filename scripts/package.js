@@ -49,6 +49,10 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
   await fs.remove(allJson);
 
   const git = await simpleGit(repoRoot);
+  const isGitRepo = await git.checkIsRepo();
+  if (!isGitRepo) {
+    console.debug("NOT A git repo: will bypass dirty state checks");
+  }
 
   const availableRecipes = fs.readdirSync(recipesFolder, { withFileTypes: true })
     .filter(dir => dir.isDirectory())
@@ -125,24 +129,27 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       configErrors.push("The recipe's package.json contains no 'config' object. This field should contain a configuration for your service.");
     }
 
-    const relativeRepoSrc = path.relative(repoRoot, recipeSrc);
-    // Check for changes in recipe's directory, and if changes are present, then the changes should contain a version bump
-    await git.diffSummary(relativeRepoSrc, (err, result) => {
-      if (err) {
-        configErrors.push(`Got the following error while checking for git changes: ${err}`);
-      } else if (result && (result.changed !== 0 || result.insertions !== 0 || result.deletions !== 0)) {
-        const pkgJsonRelative = path.relative(repoRoot, packageJson);
-        if (!result.files.find(({file}) => file === pkgJsonRelative)) {
-          configErrors.push(`Found changes in '${relativeRepoSrc}' without the corresponding version bump in '${pkgJsonRelative}'`);
-        } else {
-          git.diff(pkgJsonRelative, (_diffErr, diffResult) => {
-            if (diffResult && !pkgVersionChangedMatcher.test(diffResult)) {
-              configErrors.push(`Found changes in '${relativeRepoSrc}' without the corresponding version bump in '${pkgJsonRelative}' (found other changes though)`);
-            }
-          });
+    if (isGitRepo) {
+      const relativeRepoSrc = path.relative(repoRoot, recipeSrc);
+
+      // Check for changes in recipe's directory, and if changes are present, then the changes should contain a version bump
+      await git.diffSummary(relativeRepoSrc, (err, result) => {
+        if (err) {
+          configErrors.push(`Got the following error while checking for git changes: ${err}`);
+        } else if (result && (result.changed !== 0 || result.insertions !== 0 || result.deletions !== 0)) {
+          const pkgJsonRelative = path.relative(repoRoot, packageJson);
+          if (!result.files.find(({file}) => file === pkgJsonRelative)) {
+            configErrors.push(`Found changes in '${relativeRepoSrc}' without the corresponding version bump in '${pkgJsonRelative}'`);
+          } else {
+            git.diff(pkgJsonRelative, (_diffErr, diffResult) => {
+              if (diffResult && !pkgVersionChangedMatcher.test(diffResult)) {
+                configErrors.push(`Found changes in '${relativeRepoSrc}' without the corresponding version bump in '${pkgJsonRelative}' (found other changes though)`);
+              }
+            });
+          }
         }
-      }
-    });
+      });
+    };
 
     if (configErrors.length > 0) {
       console.log(`⚠️ Couldn't package "${recipe}": There were errors in the recipe's package.json:
