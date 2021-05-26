@@ -1,12 +1,12 @@
 "use strict";
 
 const {
-  remote
-} = require('electron');
+  getCurrentWebContents
+} = require('@electron/remote');
 
 const path = require('path');
 
-const webContents = remote.getCurrentWebContents();
+const webContents = getCurrentWebContents();
 const {
   session
 } = webContents;
@@ -36,16 +36,16 @@ module.exports = Franz => {
     for (var i = 0; i < chatElems.length; i++) {
       var chatElem = chatElems[i];
       var unreadElem = chatElem.children[0].children[0].children[1].children[1].children[1];
-      
+
       var countValue = parseInt(unreadElem.textContent) || 0; // Returns 0 in case of isNaN
-      
+
       if (unreadElem.querySelectorAll("[data-icon=muted]").length === 0) {
         count += countValue;
       } else {
         indirectCount += countValue;
     	}
     }
-    
+
     Franz.setBadge(count, indirectCount);
   };
 

@@ -1,7 +1,7 @@
 {
   "id": "lastpass",
   "name": "LastPass",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "LastPass integration",
   "main": "index.js",
   "author": "Janis Hau <janis@my-new.me>, Jonathan Winter <jonathanhwinter@gmail.com>",

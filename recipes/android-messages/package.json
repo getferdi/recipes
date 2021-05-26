@@ -1,7 +1,7 @@
 {
   "id": "android-messages",
   "name": "Android Messages",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Android Messages",
   "main": "index.js",
   "author": "Daniel Weinberger, Stefan Malzner <stefan@adlk.io>",

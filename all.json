@@ -26,7 +26,7 @@
     "featured": false,
     "id": "android-messages",
     "name": "Android Messages",
-    "version": "1.3.0",
+    "version": "2.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/android-messages/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/android-messages/icon.svg"
@@ -521,7 +521,7 @@
     "featured": false,
     "id": "googlemeet",
     "name": "Google Meet",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlemeet/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlemeet/icon.svg"
@@ -785,7 +785,7 @@
     "featured": false,
     "id": "lastpass",
     "name": "LastPass",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/lastpass/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/lastpass/icon.svg"
@@ -1555,7 +1555,7 @@
     "featured": true,
     "id": "whatsapp",
     "name": "WhatsApp",
-    "version": "2.0.9",
+    "version": "3.0.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/whatsapp/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/whatsapp/icon.svg"

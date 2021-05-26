@@ -1,12 +1,12 @@
 "use strict";
 
 const {
-  remote
-} = require('electron');
+  getCurrentWebContents
+} = require('@electron/remote');
 
 const path = require('path');
 
-const webContents = remote.getCurrentWebContents();
+const webContents = getCurrentWebContents();
 const {
   session
 } = webContents;
