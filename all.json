@@ -1731,7 +1731,7 @@
     "featured": false,
     "id": "zulip",
     "name": "Zulip",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/zulip/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/zulip/icon.svg"
