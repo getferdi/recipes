@@ -1,7 +1,7 @@
 {
   "id": "telegram-react",
   "name": "Telegram React",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Telegram React",
   "main": "index.js",
   "author": "Amine Mouafik <amine@mouafik.fr>",

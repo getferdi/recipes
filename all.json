@@ -1368,7 +1368,7 @@
     "featured": false,
     "id": "telegram-react",
     "name": "Telegram React",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram-react/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram-react/icon.svg"
