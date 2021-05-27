@@ -693,6 +693,17 @@
     }
   },
   {
+    "author": "Anna Arad <annagram@shards.me>",
+    "featured": false,
+    "id": "inoreader",
+    "name": "Inoreader",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/inoreader/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/inoreader/icon.svg"
+    }
+  },
+  {
     "author": "Amine Mouafik <amine@mouafik.fr>",
     "featured": false,
     "id": "instagram",
