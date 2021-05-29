@@ -1,0 +1,14 @@
+{
+  "id": "pleroma",
+  "name": "Pleroma",
+  "version": "1.0.0",
+  "description": "Pleroma — a lightweight fediverse server",
+  "main": "index.js",
+  "author": "Ferdi <hello@getferdi.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Pleroma",
+    "hasCustomUrl": true
+  }
+}
