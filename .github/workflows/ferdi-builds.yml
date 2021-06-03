@@ -1,0 +1,53 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+# Note: This workflow requires some secrets setup, and set on this repo with the names:
+  # 'FERDI_PUBLISH_TOKEN' (A GitHub Personal Access Token with appropriate permissions - for publishing the built artifacts)
+  # 'APPLEID' (The username of your Apple developer account - for notarizing the mac artifacts)
+  # 'APPLEID_PASSWORD' (An app-specific password - for notarizing the mac artifacts)
+  # 'CSC_LINK' (The HTTPS link or local path to certificate - for code signing of mac and windows artifacts)
+  # 'CSC_KEY_PASSWORD' (The password to decrypt the certificate given in CSC_LINK - for code signing of mac and windows artifacts)
+
+name: Ferdi Recipes Builds
+
+on:
+  # Push to any tracked branches
+  push:
+    branches: [master]
+  # PRs only on develop branch
+  pull_request:
+    branches: [master]
+  # Manual trigger from the UI
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Message for build'
+        required: true
+
+jobs:
+  build:
+    name: Ferdi Recipes Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print latest commit
+        run: echo ${{ github.sha }}
+      - name: Set env vars
+        run: echo "NPM_CACHE=$HOME/.npm" >> $GITHUB_ENV
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ${{ env.NPM_CACHE }}
+          key: build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            build-${{ env.cache-name }}-
+            build-
+      - name: Use Node.js 14.16.1
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.16.1
+      - name: Install node dependencies recursively
+        run: npm i && npm run package
