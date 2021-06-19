@@ -803,6 +803,17 @@
     }
   },
   {
+    "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+    "featured": false,
+    "id": "line-me",
+    "name": "Line.me",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/line-me/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/line-me/icon.svg"
+    }
+  },
+  {
     "author": "Stefan Malzner <stefan@adlk.io>",
     "featured": false,
     "id": "linkedin",

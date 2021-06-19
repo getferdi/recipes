@@ -1,0 +1,24 @@
+{
+  "id": "line-me",
+  "name": "Line.me",
+  "version": "1.0.0",
+  "description": "Line.me recipe for Franz",
+  "main": "index.js",
+  "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://line.me/en",
+    "serviceName": "Line.me",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
