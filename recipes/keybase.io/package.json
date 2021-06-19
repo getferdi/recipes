@@ -1,0 +1,13 @@
+{
+  "id": "keybase.io",
+  "name": "Keybase",
+  "version": "1.0.0",
+  "description": "Keybase recipe for Franz",
+  "main": "index.js",
+  "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://keybase.io/login",
+    "hasNotificationSound": true
+  }
+}

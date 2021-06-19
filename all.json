@@ -770,6 +770,17 @@
     }
   },
   {
+    "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+    "featured": false,
+    "id": "keybase.io",
+    "name": "Keybase",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/keybase.io/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/keybase.io/icon.svg"
+    }
+  },
+  {
     "author": "Kevin Papst <support@kimai.cloud>",
     "featured": false,
     "id": "kimaicloud",
