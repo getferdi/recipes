@@ -1,5 +1,16 @@
 [
   {
+    "author": "David Sipos <sipos22@msn.com>",
+    "featured": false,
+    "id": "air-droid",
+    "name": "air-droid",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/air-droid/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/air-droid/icon.svg"
+    }
+  },
+  {
     "author": "Casey Sparks <caseyalexsparks@gmail.com>",
     "featured": false,
     "id": "airtable",
@@ -77,6 +88,17 @@
     }
   },
   {
+    "author": "",
+    "featured": false,
+    "id": "basecamp",
+    "name": "basecamp",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/basecamp/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/basecamp/icon.svg"
+    }
+  },
+  {
     "author": "Thomas Fehrenbach",
     "featured": false,
     "id": "bigbluebutton",
@@ -110,6 +132,28 @@
     }
   },
   {
+    "author": "Yitch <mr.yitch@gmail.com>",
+    "featured": false,
+    "id": "box",
+    "name": "box",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/box/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/box/icon.svg"
+    }
+  },
+  {
+    "author": "Merlin Schumacher <merlin.schumacher@gmail.com>",
+    "featured": false,
+    "id": "buffer",
+    "name": "buffer",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/buffer/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/buffer/icon.svg"
+    }
+  },
+  {
     "author": "Matthew Toohey",
     "featured": false,
     "id": "campuswire",
@@ -129,6 +173,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/canvas/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/canvas/icon.svg"
+    }
+  },
+  {
+    "author": "Julien Ma <hello@julienma.com>",
+    "featured": false,
+    "id": "chatra",
+    "name": "chatra",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/chatra/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/chatra/icon.svg"
     }
   },
   {
@@ -231,6 +286,17 @@
     }
   },
   {
+    "author": "Carlos Clavero <cclavero@kyos.es>",
+    "featured": false,
+    "id": "easy-redmine",
+    "name": "easy-redmine",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/easy-redmine/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/easy-redmine/icon.svg"
+    }
+  },
+  {
     "author": "Sylvain Cecchetto <cecchetto.sylvain@me.com>, Omove <61330514+omove@users.noreply.github.com>, Achim Leitner <1033549+fjl5@users.noreply.github.com>",
     "featured": false,
     "id": "element",
@@ -316,6 +382,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/fastmail/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/fastmail/icon.svg"
+    }
+  },
+  {
+    "author": "Kan Fushihara <kan.fushihara@gmail.com>",
+    "featured": false,
+    "id": "feedbin",
+    "name": "feedbin",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/feedbin/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/feedbin/icon.svg"
     }
   },
   {
@@ -649,6 +726,17 @@
     }
   },
   {
+    "author": "Ryan Voltaire <ryan.voltaire@icloud.com>",
+    "featured": false,
+    "id": "iCloud",
+    "name": "iCloud",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/iCloud/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/iCloud/icon.svg"
+    }
+  },
+  {
     "author": "Ferdi <hello@getferdi.com>",
     "featured": false,
     "id": "icloud-reminders",
@@ -756,6 +844,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jitsi/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jitsi/icon.svg"
+    }
+  },
+  {
+    "author": "Jan Zaloudek <mail@janzaloudek.com>",
+    "featured": false,
+    "id": "jollor",
+    "name": "jollor",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jollor/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/jollor/icon.svg"
     }
   },
   {
@@ -1045,6 +1144,17 @@
     }
   },
   {
+    "author": "Nomad List <hello@nomadlist.com>",
+    "featured": false,
+    "id": "nomadlist",
+    "name": "nomadlist",
+    "version": "1.0.2",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nomadlist/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/nomadlist/icon.svg"
+    }
+  },
+  {
     "author": "Tania R. Zuniga <tania@tanx.dev>",
     "featured": false,
     "id": "notion",
@@ -1089,6 +1199,17 @@
     }
   },
   {
+    "author": "Jasper van Veenhuizen <jasper@vanveenhuizen.nl>",
+    "featured": false,
+    "id": "paymo",
+    "name": "paymo",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/paymo/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/paymo/icon.svg"
+    }
+  },
+  {
     "author": "Ferdi <hello@getferdi.com>",
     "featured": false,
     "id": "pinterest",
@@ -1097,6 +1218,28 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pinterest/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pinterest/icon.svg"
+    }
+  },
+  {
+    "author": "Laszlo Racz <hdkiller@gmail.com>",
+    "featured": false,
+    "id": "pivotal-tracker",
+    "name": "pivotal-tracker",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pivotal-tracker/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/pivotal-tracker/icon.svg"
+    }
+  },
+  {
+    "author": "jtgrenz <jon.g@shopify.com",
+    "featured": false,
+    "id": "plan",
+    "name": "plan",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/plan/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/plan/icon.svg"
     }
   },
   {
@@ -1133,6 +1276,17 @@
     }
   },
   {
+    "author": "Jan Willem Kaper <kapersoft@gmail.com>",
+    "featured": false,
+    "id": "podio",
+    "name": "podio",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/podio/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/podio/icon.svg"
+    }
+  },
+  {
     "author": "Roman Dąbal <dabalroman@gmail.com>",
     "featured": false,
     "id": "pomodoro-tracker",
@@ -1152,6 +1306,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/proton-mail/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/proton-mail/icon.svg"
+    }
+  },
+  {
+    "author": "Joschka Schulz",
+    "featured": false,
+    "id": "protonet",
+    "name": "protonet",
+    "version": "1.0.1",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/protonet/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/protonet/icon.svg"
     }
   },
   {
@@ -1372,6 +1537,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/tawk/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/tawk/icon.svg"
+    }
+  },
+  {
+    "author": "Rias Van der Veken <hello@rias.be>",
+    "featured": false,
+    "id": "teamleader",
+    "name": "teamleader",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/teamleader/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/teamleader/icon.svg"
     }
   },
   {

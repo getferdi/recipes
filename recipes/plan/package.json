@@ -1,0 +1,24 @@
+{
+  "id": "plan",
+  "name": "plan",
+  "version": "1.0.0",
+  "description": "Plan is a better way to manage everything you have to do and everywhere you have to be.",
+  "main": "index.js",
+  "author": "jtgrenz <jon.g@shopify.com",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://getplan.co/",
+    "serviceName": "Plan",
+    "message": "Plan is a better way to manage everything you have to do and everywhere you have to be.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

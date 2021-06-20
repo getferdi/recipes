@@ -1,0 +1,24 @@
+{
+  "id": "basecamp",
+  "name": "basecamp",
+  "version": "1.0.0",
+  "description": "Basecamp plugin for ferdi.",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://launchpad.37signals.com/",
+    "serviceName": "Basecamp",
+    "message": "Basecamp plugin for ferdi.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
