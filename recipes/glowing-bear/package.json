@@ -1,6 +1,6 @@
 {
-  "id": "glowingbear",
-  "name": "Glowing Bear",
+  "id": "glowing-bear",
+  "name": "glowing-bear",
   "version": "1.0.0",
   "description": "Glowing Bear - WeeChat web frontend",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "config": {
     "serviceURL": "https://www.glowing-bear.org",
     "hasNotificationSound": true,
-	"hasIndirectMessages": true
+    "hasIndirectMessages": true
   }
 }

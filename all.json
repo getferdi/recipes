@@ -286,17 +286,6 @@
     }
   },
   {
-    "author": "Behind The Math <behindthemath@gmail.com>",
-    "featured": false,
-    "id": "ex-google-voice",
-    "name": "Google Voice",
-    "version": "0.3.2",
-    "icons": {
-      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/ex-google-voice/icon.png",
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/ex-google-voice/icon.svg"
-    }
-  },
-  {
     "author": "Tony Ko <tony@htko.ca> and The Ferdi Team <hello@getferdi.com>",
     "featured": false,
     "id": "facebook",
@@ -442,12 +431,12 @@
   {
     "author": "Jonathan Juursema <dev@jonathanj.nl>",
     "featured": false,
-    "id": "glowingbear",
-    "name": "Glowing Bear",
+    "id": "glowing-bear",
+    "name": "glowing-bear",
     "version": "1.0.0",
     "icons": {
-      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/glowingbear/icon.png",
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/glowingbear/icon.svg"
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/glowing-bear/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/glowing-bear/icon.svg"
     }
   },
   {
@@ -470,6 +459,17 @@
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-contacts/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-contacts/icon.svg"
+    }
+  },
+  {
+    "author": "Behind The Math <behindthemath@gmail.com>",
+    "featured": false,
+    "id": "google-voice",
+    "name": "google-voice",
+    "version": "0.3.3",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-voice/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-voice/icon.svg"
     }
   },
   {
