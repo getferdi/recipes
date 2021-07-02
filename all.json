@@ -686,7 +686,7 @@
     "featured": true,
     "id": "hangouts",
     "name": "Hangouts",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/hangouts/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/hangouts/icon.svg"
