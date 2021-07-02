@@ -939,7 +939,7 @@
     "featured": false,
     "id": "mailbox.org",
     "name": "mailbox.org",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mailbox.org/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mailbox.org/icon.svg"
