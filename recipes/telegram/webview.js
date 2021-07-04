@@ -1,3 +1,5 @@
+// Code copied from: https://gitlab.com/gortega4/ferdi_recipes
+
 'use strict';
 
 const path = require('path');
@@ -5,14 +7,11 @@ const path = require('path');
 module.exports = Franz => {
   const getMessages = function getMessages() {
     let count = 0;
-    const searchElement = document.querySelector('.im_dialogs_search_field');
-    if (searchElement && searchElement.value === '') {
-      const elements = document.querySelectorAll('.im_dialog_badge:not(.ng-hide):not(.im_dialog_badge_muted)');
-      if (elements) {
-        for (let i = 0; i < elements.length; i += 1) {
-          if (elements[i].innerHTML !== 0) {
-            count += 1;
-          }
+    const elements = document.querySelectorAll('.unread');
+    if (elements) {
+      for (let i = 0; i < elements.length; i += 1) {
+        if (parseInt(elements[i].innerText)) {
+          count += parseInt(elements[i].innerText)
         }
       }
     }
@@ -23,4 +22,3 @@ module.exports = Franz => {
   Franz.injectCSS(path.join(__dirname, 'service.css'));
   Franz.loop(getMessages);
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlbGVncmFtL3dlYnZpZXcuanMiXSwibmFtZXMiOlsicGF0aCIsInJlcXVpcmUiLCJtb2R1bGUiLCJleHBvcnRzIiwiRnJhbnoiLCJnZXRNZXNzYWdlcyIsImNvdW50Iiwic2VhcmNoRWxlbWVudCIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsInZhbHVlIiwiZWxlbWVudHMiLCJxdWVyeVNlbGVjdG9yQWxsIiwiaSIsImxlbmd0aCIsImlubmVySFRNTCIsInNldEJhZGdlIiwiaW5qZWN0Q1NTIiwiam9pbiIsIl9fZGlybmFtZSIsImxvb3AiXSwibWFwcGluZ3MiOiI7O0FBQUEsTUFBTUEsT0FBT0MsUUFBUSxNQUFSLENBQWI7O0FBRUFDLE9BQU9DLE9BQVAsR0FBa0JDLEtBQUQsSUFBVztBQUMxQixRQUFNQyxjQUFjLFNBQVNBLFdBQVQsR0FBdUI7QUFDekMsUUFBSUMsUUFBUSxDQUFaO0FBQ0EsVUFBTUMsZ0JBQWdCQyxTQUFTQyxhQUFULENBQXVCLDBCQUF2QixDQUF0QjtBQUNBLFFBQUlGLGlCQUFpQkEsY0FBY0csS0FBZCxLQUF3QixFQUE3QyxFQUFpRDtBQUMvQyxZQUFNQyxXQUFXSCxTQUFTSSxnQkFBVCxDQUEwQiw0REFBMUIsQ0FBakI7QUFDQSxVQUFJRCxRQUFKLEVBQWM7QUFDWixhQUFLLElBQUlFLElBQUksQ0FBYixFQUFnQkEsSUFBSUYsU0FBU0csTUFBN0IsRUFBcUNELEtBQUssQ0FBMUMsRUFBNkM7QUFDM0MsY0FBSUYsU0FBU0UsQ0FBVCxFQUFZRSxTQUFaLEtBQTBCLENBQTlCLEVBQWlDO0FBQy9CVCxxQkFBUyxDQUFUO0FBQ0Q7QUFDRjtBQUNGO0FBQ0Y7O0FBRURGLFVBQU1ZLFFBQU4sQ0FBZVYsS0FBZjtBQUNELEdBZkQ7O0FBaUJBRixRQUFNYSxTQUFOLENBQWdCakIsS0FBS2tCLElBQUwsQ0FBVUMsU0FBVixFQUFxQixhQUFyQixDQUFoQjtBQUNBZixRQUFNZ0IsSUFBTixDQUFXZixXQUFYO0FBQ0QsQ0FwQkQiLCJmaWxlIjoidGVsZWdyYW0vd2Vidmlldy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHBhdGggPSByZXF1aXJlKCdwYXRoJyk7XG5cbm1vZHVsZS5leHBvcnRzID0gKEZyYW56KSA9PiB7XG4gIGNvbnN0IGdldE1lc3NhZ2VzID0gZnVuY3Rpb24gZ2V0TWVzc2FnZXMoKSB7XG4gICAgbGV0IGNvdW50ID0gMDtcbiAgICBjb25zdCBzZWFyY2hFbGVtZW50ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmltX2RpYWxvZ3Nfc2VhcmNoX2ZpZWxkJyk7XG4gICAgaWYgKHNlYXJjaEVsZW1lbnQgJiYgc2VhcmNoRWxlbWVudC52YWx1ZSA9PT0gJycpIHtcbiAgICAgIGNvbnN0IGVsZW1lbnRzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLmltX2RpYWxvZ19iYWRnZTpub3QoLm5nLWhpZGUpOm5vdCguaW1fZGlhbG9nX2JhZGdlX211dGVkKScpO1xuICAgICAgaWYgKGVsZW1lbnRzKSB7XG4gICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZWxlbWVudHMubGVuZ3RoOyBpICs9IDEpIHtcbiAgICAgICAgICBpZiAoZWxlbWVudHNbaV0uaW5uZXJIVE1MICE9PSAwKSB7XG4gICAgICAgICAgICBjb3VudCArPSAxO1xuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cblxuICAgIEZyYW56LnNldEJhZGdlKGNvdW50KTtcbiAgfTtcblxuICBGcmFuei5pbmplY3RDU1MocGF0aC5qb2luKF9fZGlybmFtZSwgJ3NlcnZpY2UuY3NzJykpO1xuICBGcmFuei5sb29wKGdldE1lc3NhZ2VzKTtcbn07XG4iXX0=

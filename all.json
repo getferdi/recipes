@@ -1577,7 +1577,7 @@
     "featured": true,
     "id": "telegram",
     "name": "Telegram",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/telegram/icon.svg"
