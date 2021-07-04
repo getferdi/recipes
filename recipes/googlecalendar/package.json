@@ -1,13 +1,14 @@
 {
   "id": "googlecalendar",
   "name": "Google Calendar",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Google Calendar",
   "main": "index.js",
   "author": "Rico Herwig <rherwig4711@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://calendar.google.com/calendar",
+    "hasCustomUrl": true,
     "hasNotificationSound": true,
     "hasDirectMessages": true,
     "openDevTools": true

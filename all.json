@@ -554,7 +554,7 @@
     "featured": false,
     "id": "googlecalendar",
     "name": "Google Calendar",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "icons": {
       "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecalendar/icon.png",
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecalendar/icon.svg"
