@@ -6,3 +6,7 @@ yarn-error.log
 npm-debug.log*
 lerna-debug.log
 server*.log
+*.png
+*.jpg
+*.jpeg
+*.bmp

@@ -41,7 +41,7 @@ const filesThatNeedTextReplace = ['package.json', 'index.js', 'README.md'];
   if (await fs.exists(newRecipeFolder)) {
     console.log('⚠️ Recipe already exists');
     return;
-  } 
+  }
 
   console.log('[Info] Passed pre-checks');
 
@@ -62,9 +62,9 @@ const filesThatNeedTextReplace = ['package.json', 'index.js', 'README.md'];
 
   open(newRecipeFolder);
   console.log(`✅ Successfully created your recipe.
-  
+
 What's next?
 - Make sure you restart Ferdi in order for the recipe to show up
-- Customise "webview.js", "package.json", "icon.svg" and "icon.png (see https://github.com/getferdi/recipes/blob/master/docs/integration.md#recipe-structure)
+- Customise "webview.js", "package.json" and "icon.svg" (see https://github.com/getferdi/recipes/blob/master/docs/integration.md#recipe-structure)
 - Publish your recipe (see https://github.com/getferdi/recipes/blob/master/docs/integration.md#publishing)`);
 })();

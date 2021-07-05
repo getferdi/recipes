@@ -62,7 +62,6 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     const recipeSrc = path.join(recipesFolder, recipe);
     const packageJson = path.join(recipeSrc, 'package.json');
     const svgIcon = path.join(recipeSrc, 'icon.svg');
-    const pngIcon = path.join(recipeSrc, 'icon.png');
 
     // Check that package.json exists
     if (!await fs.pathExists(packageJson)) {
@@ -73,16 +72,8 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
 
     // Check that icons exist
     const hasSvg = await fs.pathExists(svgIcon);
-    const hasPng = await fs.pathExists(pngIcon);
-    if (!hasSvg && !hasPng) {
-      console.log(`⚠️ Couldn't package "${recipe}": Recipe doesn't contain an icon SVG and PNG`);
-      unsuccessful++;
-    } else if (!hasSvg) {
+    if (!hasSvg) {
       console.log(`⚠️ Couldn't package "${recipe}": Recipe doesn't contain an icon SVG`);
-      unsuccessful++;
-      continue;
-    } else if (!hasPng) {
-      console.log(`⚠️ Couldn't package "${recipe}": Recipe doesn't contain an icon PNG`);
       unsuccessful++;
       continue;
     }
@@ -92,14 +83,6 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     const svgHasRightSize = svgSize.width === svgSize.height;
     if (!svgHasRightSize) {
       console.log(`⚠️ Couldn't package "${recipe}": Recipe SVG icon isn't a square`);
-      unsuccessful++;
-      continue;
-    }
-
-    const pngSize = sizeOf(pngIcon);
-    const pngHasRightSize = pngSize.width === 1024 && pngSize.height === 1024;
-    if (!pngHasRightSize) {
-      console.log(`⚠️ Couldn't package "${recipe}": Recipe PNG icon dimensions should be 1024x1024`);
       unsuccessful++;
       continue;
     }
@@ -181,7 +164,6 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       "name": config.name,
       "version": config.version,
       "icons": {
-        "png": `${repo}${config.id}/icon.png`,
         "svg": `${repo}${config.id}/icon.svg`,
       },
     };

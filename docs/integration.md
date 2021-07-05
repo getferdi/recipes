@@ -58,7 +58,6 @@ This command will automatically create the development recipe in the correct fol
 Every recipe needs a specific file structure in order to work as a Ferdi recipe
 
 * icon.svg - Icon for the service in SVG form (must be square)
-* icon.png - Icon for the service in PNG form (1024x1024px)
 * index.js - Backend script, this script is NOT included in the service webview but only in Ferdi itself
 * package.json - Information about the recipe
 * webview.js - Frontend script, this script is injected into the service itself but still has access to all NodeJS APIs
