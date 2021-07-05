@@ -11,8 +11,7 @@
     "package": "node scripts/package.js",
     "create": "node scripts/create.js",
     "lint": "eslint --quiet --fix recipes",
-    "reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write --require-pragma \"**/*.{js,json,scss}\"",
-    "minify-images": "./scripts/minify-images.sh"
+    "reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write --require-pragma \"**/*.{js,json,scss}\""
   },
   "repository": {
     "type": "git",
@@ -38,7 +37,6 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.10.0",
     "husky": "^6.0.0",
-    "imagemin-cli": "^6.0.0",
     "prettier": "^2.3.0",
     "simple-git": "^2.39.0"
   }
