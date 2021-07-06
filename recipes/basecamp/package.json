@@ -1,7 +1,7 @@
 {
   "id": "basecamp",
   "name": "basecamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basecamp plugin for ferdi.",
   "main": "index.js",
   "author": "",

@@ -1,7 +1,7 @@
 {
   "id": "paymo",
   "name": "paymo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Paymoapp",
   "main": "index.js",
   "author": "Jasper van Veenhuizen <jasper@vanveenhuizen.nl>",

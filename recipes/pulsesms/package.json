@@ -1,7 +1,7 @@
 {
   "id": "pulsesms",
   "name": "PulseSMS",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "PulseSMS Franz Recipe",
   "main": "index.js",
   "author": "Serubin <serubin@serubin.net>",

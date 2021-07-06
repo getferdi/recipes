@@ -1,7 +1,7 @@
 {
   "id": "iCloud",
   "name": "iCloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "iCloud web portal",
   "main": "index.js",
   "author": "Ryan Voltaire <ryan.voltaire@icloud.com>",

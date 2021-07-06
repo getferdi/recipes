@@ -1,7 +1,7 @@
 {
   "id": "tawk",
   "name": "Tawk.to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tawk.to",
   "main": "index.js",
   "author": "Brian Gilbert <brian@briangilbert.net>",

@@ -1,7 +1,7 @@
 {
   "id": "infomaniak-mail",
   "name": "Infomaniak Mail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "infomaniak-mail",
   "main": "index.js",
   "author": "Lionel <lionel@bergeret.email>",

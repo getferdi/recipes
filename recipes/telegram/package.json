@@ -1,7 +1,7 @@
 {
   "id": "telegram",
   "name": "Telegram",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Telegram",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

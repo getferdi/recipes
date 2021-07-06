@@ -1,7 +1,7 @@
 {
   "id": "zulip",
   "name": "Zulip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Zulip",
   "main": "index.js",
   "author": "Adam Birds <adam.birds@adbwebdesigns.co.uk> and akashnimare",

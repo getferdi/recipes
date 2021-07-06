@@ -1,7 +1,7 @@
 {
   "id": "clickup",
   "name": "ClickUp",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "ClickUp Productivity Software",
   "main": "index.js",
   "author": "Genesis Guerrero",

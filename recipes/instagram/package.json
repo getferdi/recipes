@@ -1,7 +1,7 @@
 {
   "id": "instagram",
   "name": "Instagram",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Instagram",
   "main": "index.js",
   "author": "Amine Mouafik <amine@mouafik.fr>",

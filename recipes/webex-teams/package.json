@@ -1,7 +1,7 @@
 {
   "id": "webex-teams",
   "name": "Webex Teams",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cisco Webex Teams",
   "main": "index.js",
   "author": "Rok Bertoncelj <rok.bertoncelj@gmail.com>",

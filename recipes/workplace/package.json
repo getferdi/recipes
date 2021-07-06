@@ -1,7 +1,7 @@
 {
     "id": "workplace",
     "name": "Workplace",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Workplace by facebook",
     "main": "index.js",
     "author": "Rico Herwig <rherwig4711@gmail.com>, Stefan Malzner <stefan@adlk.io>",
@@ -13,4 +13,4 @@
         "hasTeamId": true,
         "urlInputSuffix": ".workplace.com"
     }
-  }
+}

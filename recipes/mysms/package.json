@@ -1,7 +1,7 @@
 {
   "id": "mysms",
   "name": "MySMS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MySMS",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

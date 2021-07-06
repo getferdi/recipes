@@ -1,7 +1,7 @@
 {
   "id": "withspectrum",
   "name": "Spectrum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A community platform for the future.",
   "main": "index.js",
   "author": "Max Stoiber",

@@ -1,7 +1,7 @@
 {
   "id": "tutanota",
   "name": "Tutanota",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An unofficial Ferdi recipe for Tutanota",
   "main": "index.js",
   "author": "Kittywhiskers Van Gogh <63189531+kittywhiskers@users.noreply.github.com>",

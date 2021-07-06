@@ -1,8 +1,7 @@
-  
 {
   "id": "unraid",
   "name": "Unraid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unraid dashboard",
   "main": "index.js",
   "author": "Neil Tonge <me@neiltonge.co.uk>",

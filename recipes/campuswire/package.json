@@ -1,7 +1,7 @@
 {
   "id": "campuswire",
   "name": "Campuswire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Campuswire",
   "main": "index.js",
   "author": "Matthew Toohey",

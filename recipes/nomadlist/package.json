@@ -1,7 +1,7 @@
 {
   "id": "nomadlist",
   "name": "nomadlist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Join 10,000+ people in the community for digital nomads and remote workers",
   "main": "index.js",
   "author": "Nomad List <hello@nomadlist.com>",

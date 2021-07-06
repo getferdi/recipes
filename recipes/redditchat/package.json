@@ -1,7 +1,7 @@
 {
   "id": "redditchat",
   "name": "Reddit Chat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reddit Chat",
   "main": "index.js",
   "author": "Alex Bloom <administrator@shadowserversystems.com",

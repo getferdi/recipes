@@ -1,7 +1,7 @@
 {
   "id": "todoist",
   "name": "Todoist",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "todoist plugin for Franz 5",
   "main": "index.js",
   "author": "Alex Ward <alex@alexward.me.uk>, Mike Burke <mburke@dmwtechnology.com>",

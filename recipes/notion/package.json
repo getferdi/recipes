@@ -1,7 +1,7 @@
 {
   "id": "notion",
   "name": "Notion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Notion",
   "main": "index.js",
   "author": "Tania R. Zuniga <tania@tanx.dev>",

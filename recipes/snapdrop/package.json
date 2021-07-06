@@ -1,7 +1,7 @@
 {
   "id": "snapdrop",
   "name": "Snapdrop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Snapdrop recipe for Franz",
   "main": "index.js",
   "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",

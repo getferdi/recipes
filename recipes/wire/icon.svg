@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Untitled</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon">
-            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="512" height="512"></rect>
-            <path d="M99,127 L99,290 C99,341.362482 140.637518,383 192,383 C243.362482,383 285,341.362482 285,290 L285,157 C285,140.983742 272.016258,128 256,128 C239.983742,128 227,140.983742 227,157 L227,290 C227,341.362482 268.637518,383 320,383 C371.362482,383 413,341.362482 413,290 L413,127" id="Path" stroke="#000000" stroke-width="19"></path>
-        </g>
-    </g>
-</svg>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#FFF" fill-rule="nonzero" d="M0 0h512v512H0z"/><path d="M99 127v163c0 51.362 41.638 93 93 93s93-41.638 93-93V157c0-16.016-12.984-29-29-29s-29 12.984-29 29v133c0 51.362 41.638 93 93 93s93-41.638 93-93V127" stroke="#000" stroke-width="19"/></g></svg>

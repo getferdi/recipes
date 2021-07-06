@@ -1,13 +1,13 @@
 {
-    "id": "vk",
-    "name": "VK",
-    "version": "1.0.0",
-    "description": "VK.com",
-    "main": "index.js",
-    "author": "Stefan Malzner <stefan@adlk.io>",
-    "license": "MIT",
-    "repository": "https://github.com/meetfranz/recipe-vk",
-    "config": {
-      "serviceURL": "https://www.vk.com"
-    }
+  "id": "vk",
+  "name": "VK",
+  "version": "1.0.1",
+  "description": "VK.com",
+  "main": "index.js",
+  "author": "Stefan Malzner <stefan@adlk.io>",
+  "license": "MIT",
+  "repository": "https://github.com/meetfranz/recipe-vk",
+  "config": {
+    "serviceURL": "https://www.vk.com"
   }
+}

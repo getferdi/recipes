@@ -1,7 +1,7 @@
 {
     "id": "feedly",
     "name": "Feedly",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Feedly",
     "main": "index.js",
     "author": "Patrick Kastner <patrick.kastner@gmail.com>",
@@ -9,4 +9,4 @@
     "config": {
         "serviceURL": "https://feedly.com"
     }
-  }
+}

@@ -1,7 +1,7 @@
 {
 	"id": "wire",
 	"name": "Wire",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Modern day collaboration meets the most advanced security and superior user experience.",
 	"main": "index.js",
 	"author": "Dustin Steiner <dustin.steiner@gmail.com>",

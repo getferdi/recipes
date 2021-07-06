@@ -1,7 +1,7 @@
 {
   "id": "sendtask",
   "name": "Sendtask",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sendtask",
   "main": "index.js",
   "author": "Patrick Daniel",

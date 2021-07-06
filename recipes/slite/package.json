@@ -1,7 +1,7 @@
 {
   "id": "slite",
   "name": "Slite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "slite",
   "main": "index.js",
   "author": "Ferdi <hello@getferdi.com>",

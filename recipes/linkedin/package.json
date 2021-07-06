@@ -1,7 +1,7 @@
 {
   "id": "linkedin",
   "name": "LinkedIn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LinkedIn",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

@@ -1,7 +1,7 @@
 {
   "id": "devdocs",
   "name": "DevDocs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "devdocs",
   "main": "index.js",
   "author": "Ferdi <hello@getferdi.com>",

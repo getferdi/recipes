@@ -1,7 +1,7 @@
 {
   "id": "google-contacts",
   "name": "Google Contacts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google Contacts",
   "main": "index.js",
   "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",

@@ -1,7 +1,7 @@
 {
   "id": "googledrive",
   "name": "Google Drive",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Google Drive",
   "main": "index.js",
   "author": "Djonathan Goulart<d.goulart@outlook.com.br>",

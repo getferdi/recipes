@@ -1,7 +1,7 @@
 {
   "id": "tweetdeck",
   "name": "Tweetdeck",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tweetdeck",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

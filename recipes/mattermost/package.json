@@ -1,7 +1,7 @@
 {
   "id": "mattermost",
   "name": "Mattermost",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Mattermost",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

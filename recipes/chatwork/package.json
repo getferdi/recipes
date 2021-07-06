@@ -1,7 +1,7 @@
 {
   "id": "chatwork",
   "name": "ChatWork",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ChatWork is a group chat app for business.",
   "main": "index.js",
   "author": "Koma, hideosasaki",

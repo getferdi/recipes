@@ -1,7 +1,7 @@
 {
   "id": "threema",
   "name": "Threema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Threema",
   "main": "index.js",
   "author": "Anna Damm <Arany@users.noreply.github.com>",

@@ -1,7 +1,7 @@
 {
 	"id": "roundcube",
 	"name": "Roundcube",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Roundcube - Free and Open Source Webmail Software",
 	"main": "index.js",
 	"author": "Jonathan Juursema <dev@jonathanj.nl>",

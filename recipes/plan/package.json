@@ -1,7 +1,7 @@
 {
   "id": "plan",
   "name": "plan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plan is a better way to manage everything you have to do and everywhere you have to be.",
   "main": "index.js",
   "author": "jtgrenz <jon.g@shopify.com",

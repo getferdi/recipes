@@ -1,7 +1,7 @@
 {
   "id": "canvas",
   "name": "Canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Canvas",
   "main": "index.js",
   "author": "Sagir Mohammed <sagirr63@gmail.com>",

@@ -1,7 +1,7 @@
 {
 	"id": "stride",
 	"name": "Stride",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Atlassian Stride",
 	"main": "index.js",
 	"author": "Tobias Theobald <tobitheo@gmail.com>",

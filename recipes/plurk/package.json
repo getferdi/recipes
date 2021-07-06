@@ -1,7 +1,7 @@
 {
   "id": "plurk",
   "name": "Plurk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plurk intergration of Franz",
   "main": "index.js",
   "author": "YWJamesLin <ywjameslin.ga>",

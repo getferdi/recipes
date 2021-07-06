@@ -1,7 +1,7 @@
 {
   "id": "voxer",
   "name": "Voxer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Voxer",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

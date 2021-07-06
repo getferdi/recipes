@@ -1,7 +1,7 @@
 {
   "id": "glowing-bear",
   "name": "glowing-bear",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Glowing Bear - WeeChat web frontend",
   "main": "index.js",
   "author": "Jonathan Juursema <dev@jonathanj.nl>",

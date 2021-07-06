@@ -1,7 +1,7 @@
 {
   "id": "franz-custom-website",
   "name": "Custom Website",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add a custom website to Franz",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

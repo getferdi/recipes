@@ -1,7 +1,7 @@
 {
   "id": "monicahq",
   "name": "Monica HQ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal CRM. Remember everything about your friends and family.",
   "main": "index.js",
   "author": "Johannes Becker <mail@jkbecker.net>",

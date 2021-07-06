@@ -1,7 +1,7 @@
 {
   "id": "thelounge",
   "name": "The Lounge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Lounge - Self-hosted web IRC client",
   "main": "index.js",
   "author": "Jonathan Juursema <dev@jonathanj.nl>",

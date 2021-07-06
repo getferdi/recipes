@@ -1,7 +1,7 @@
 {
   "id": "googlepodcasts",
   "name": "Google Podcasts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Podcasts",
   "main": "index.js",
   "author": "Stephen Papierski <stephenpapierski@gmail.com>",

@@ -1,7 +1,7 @@
 {
   "id": "facebook",
   "name": "Facebook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Facebook",
   "main": "index.js",
   "author": "Tony Ko <tony@htko.ca> and The Ferdi Team <hello@getferdi.com>",

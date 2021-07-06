@@ -1,7 +1,7 @@
 {
   "id": "jollor",
   "name": "jollor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jollor - Manage your social media with ease",
   "main": "index.js",
   "author": "Jan Zaloudek <mail@janzaloudek.com>",

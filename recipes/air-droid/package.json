@@ -1,7 +1,7 @@
 {
   "id": "air-droid",
   "name": "air-droid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AirDroid allows you to access and manage your Android phone or tablet from Windows, Mac or the Web, wirelessly, for free. Transfer files between your devices, and share files to your friends.",
   "main": "index.js",
   "author": "David Sipos <sipos22@msn.com>",

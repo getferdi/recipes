@@ -1,7 +1,7 @@
 {
   "id": "idobata",
   "name": "Idobata",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Idobata plugin for meetfranz.",
   "main": "index.js",
   "author": "",

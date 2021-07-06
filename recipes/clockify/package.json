@@ -1,7 +1,7 @@
 {
   "id": "clockify",
   "name": "Clockify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Clockify",
   "main": "index.js",
   "author": "Sunny Singh <sunnysinghnitb@gmail.com>",

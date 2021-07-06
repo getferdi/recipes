@@ -1,7 +1,7 @@
 {
   "id": "buffer",
   "name": "buffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Buffer – A better way to share on social media",
   "main": "index.js",
   "author": "Merlin Schumacher <merlin.schumacher@gmail.com>",

@@ -1,7 +1,7 @@
 {
   "id": "msteams",
   "name": "Microsoft Teams",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Microsoft Teams",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

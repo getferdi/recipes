@@ -1,7 +1,7 @@
 {
   "id": "reddit",
   "name": "Reddit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reddit",
   "main": "index.js",
   "author": "Alex Devero <deveroalex@gmail.com> and The Ferdi Team <hello@getferdi.com>",

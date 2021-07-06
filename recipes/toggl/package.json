@@ -1,7 +1,7 @@
 {
   "id": "toggl",
   "name": "toggl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "toggl",
   "main": "index.js",
   "author": "exampleman <franzplugin@example.com>",

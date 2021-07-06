@@ -1,12 +1,12 @@
 {
   "id": "twitter",
   "name": "Twitter",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Twitter",
   "main": "index.js",
   "author": "Ferdi Team <hello@getferdi.com> and Jason White <jdwhite@menelos.com>",
   "license": "MIT",
-  "repository": "https://github.com/getferdi/recipes",  
+  "repository": "https://github.com/getferdi/recipes",
   "config": {
     "serviceURL": "https://twitter.com",
     "hasNotificationSound": true,

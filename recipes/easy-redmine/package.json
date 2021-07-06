@@ -1,7 +1,7 @@
 {
   "id": "easy-redmine",
   "name": "easy-redmine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "easy redmine",
   "main": "index.js",
   "author": "Carlos Clavero <cclavero@kyos.es>",
@@ -9,12 +9,12 @@
   "config": {
     "serviceURL": "https://{teamID}.easyredmine.com",
     "serviceName": "EasyRedmine",
-	"popup": [
-      "^https:\/\/([a-zA-Z0-9\\-]*).easyredmine.com"
+    "popup": [
+      "^https://([a-zA-Z0-9\\-]*).easyredmine.com"
     ],
-	"wording": {
-        "url": "easyredmine.com",
-        "team": "easyredmine"
+    "wording": {
+      "url": "easyredmine.com",
+      "team": "easyredmine"
     },
     "message": "",
     "hasNotificationSound": false,

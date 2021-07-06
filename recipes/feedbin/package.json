@@ -1,7 +1,7 @@
 {
   "id": "feedbin",
   "name": "feedbin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "feedbin",
   "main": "index.js",
   "author": "Kan Fushihara <kan.fushihara@gmail.com>",

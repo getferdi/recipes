@@ -1,7 +1,7 @@
 {
   "id": "github_entreprise",
   "name": "GitHub Enterprise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GitHub Enterprise",
   "main": "index.js",
   "author": "Antoine Aumjaud",

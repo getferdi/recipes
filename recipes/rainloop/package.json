@@ -1,14 +1,14 @@
 {
-    "id": "rainloop",
-	"name": "RainLoop",
-    "version": "1.0.0",
-    "description": "RainLoop Webmail – Simple, modern & fast web-based email client",
-    "main": "index.js",
-    "author": "Marcel Deglau <me@marceldeglau.de>",
-	"repository": "https://github.com/promarcel/franz-recipe-rainloop",
-    "license": "MIT",
-	"config": {
-		"hasNotificationSound": true,
-		"hasCustomUrl": true
-	}
+   "id": "rainloop",
+   "name": "RainLoop",
+   "version": "1.0.1",
+   "description": "RainLoop Webmail – Simple, modern & fast web-based email client",
+   "main": "index.js",
+   "author": "Marcel Deglau <me@marceldeglau.de>",
+   "repository": "https://github.com/promarcel/franz-recipe-rainloop",
+   "license": "MIT",
+   "config": {
+      "hasNotificationSound": true,
+      "hasCustomUrl": true
+   }
 }

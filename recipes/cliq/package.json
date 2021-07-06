@@ -1,7 +1,7 @@
 {
   "id": "cliq",
   "name": "Cliq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cliq",
   "main": "index.js",
   "author": "Cliqgeek <git@cliqgeeks.com>",

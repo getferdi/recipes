@@ -1,10 +1,10 @@
 {
   "id": "gotomeeting",
   "name": "Go To Meeting",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "GoToMeeting App",
   "main": "index.js",
-  "repository":"https://github.com/tristanplouz/ferdi-recipe-gotomeeting.git",
+  "repository": "https://github.com/tristanplouz/ferdi-recipe-gotomeeting.git",
   "author": "Tristan D",
   "license": "MIT",
   "config": {

@@ -1,7 +1,7 @@
 {
   "id": "googlecalendar",
   "name": "Google Calendar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Google Calendar",
   "main": "index.js",
   "author": "Rico Herwig <rherwig4711@gmail.com>",

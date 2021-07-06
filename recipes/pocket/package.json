@@ -1,7 +1,7 @@
 {
   "id": "pocket",
   "name": "Pocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pocket",
   "main": "index.js",
   "author": "Diego bersanetti <diego.bersanetti@gmail.com>",

@@ -1,7 +1,7 @@
 {
   "id": "zoho",
   "name": "Zoho Mail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zoho Mail – Hosted Email for Businesses",
   "main": "index.js",
   "author": "Troke <jame_glove@yahoo.com>",

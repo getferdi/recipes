@@ -1,7 +1,7 @@
 {
   "id": "box",
   "name": "box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Box",
   "main": "index.js",
   "author": "Yitch <mr.yitch@gmail.com>",

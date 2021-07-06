@@ -1,7 +1,7 @@
 {
   "id": "trello",
   "name": "Trello",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Trello",
   "main": "index.js",
   "author": "Thom van Hal <thom@thvmh.nl>",

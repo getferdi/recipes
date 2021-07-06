@@ -1,7 +1,7 @@
 {
   "id": "erepublik",
   "name": "eRepublik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "erepublik",
   "main": "index.js",
   "author": "Ari Oki <ariokidev@gmail.com>",

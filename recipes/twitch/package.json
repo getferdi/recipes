@@ -1,7 +1,7 @@
 {
   "id": "twitch",
   "name": "Twitch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Twitch chat",
   "main": "index.js",
   "author": "Colin O'Dell <colinodell@gmail.com>; RedbackThomson <redbackthomson@hotmail.com>",

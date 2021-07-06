@@ -1,7 +1,7 @@
 {
   "id": "airtable",
   "name": "Airtable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Airtable",
   "main": "index.js",
   "author": "Casey Sparks <caseyalexsparks@gmail.com>",

@@ -1,7 +1,7 @@
 {
   "id": "grape",
   "name": "Grape",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grape",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",

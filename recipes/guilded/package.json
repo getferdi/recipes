@@ -1,7 +1,7 @@
 {
   "id": "guilded",
   "name": "Guilded",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Guilded",
   "main": "index.js",
   "author": "Jake Lee <ferdi@jakelee.co.uk>",

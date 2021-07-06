@@ -1,7 +1,7 @@
 {
   "id": "chatra",
   "name": "chatra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chatra – Live chat software",
   "main": "index.js",
   "author": "Julien Ma <hello@julienma.com>",

@@ -1,7 +1,7 @@
 {
   "id": "amazon-work-mail",
   "name": "Amazon WorkMail",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Amazon WorkMail",
   "main": "index.js",
   "author": "Yoav Maman",
@@ -18,8 +18,8 @@
     "webviewOptions": {},
     "openDevTools": false,
     "wording": {
-        "url": "awsapps.com",
-        "team": "WorkMail"
+      "url": "awsapps.com",
+      "team": "WorkMail"
     }
   }
 }

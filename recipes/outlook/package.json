@@ -1,7 +1,7 @@
 {
   "id": "outlook",
   "name": "Outlook Web App",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Outlook Web App",
   "main": "index.js",
   "author": "Wouter Van Speybroeck <wouter.van.speybroeck@gmail.com>",

@@ -1,7 +1,7 @@
 {
   "id": "monday",
   "name": "Monday",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Monday.com",
   "main": "index.js",
   "author": "Wilhelm Hjelm <wilhelm@hjelms.se>",

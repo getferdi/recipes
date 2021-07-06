@@ -1,7 +1,7 @@
 {
   "id": "azure-devops",
   "name": "Azure DevOps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "azure-devops",
   "main": "index.js",
   "author": "BilelJegham",

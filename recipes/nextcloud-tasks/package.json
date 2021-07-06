@@ -1,7 +1,7 @@
 {
   "id": "nextcloud-tasks",
   "name": "Nextcloud Tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ferdi recipe for Nextcloud Tasks. Easily sync tasks from various devices with your Nextcloud and edit them online.",
   "main": "index.js",
   "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",

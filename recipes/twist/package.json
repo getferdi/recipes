@@ -1,7 +1,7 @@
 {
   "id": "twist",
   "name": "twist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "twist",
   "main": "index.js",
   "author": "Stuart Clark <stuart@realityloop.com>",

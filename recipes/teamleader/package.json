@@ -1,7 +1,7 @@
 {
   "id": "teamleader",
   "name": "teamleader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "teamleader",
   "main": "index.js",
   "author": "Rias Van der Veken <hello@rias.be>",

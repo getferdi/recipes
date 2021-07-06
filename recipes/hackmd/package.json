@@ -1,7 +1,7 @@
 {
   "id": "hackmd",
   "name": "HackMd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HackMd",
   "main": "index.js",
   "author": "Armaldio <armaldio@gmail.com>",

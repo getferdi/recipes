@@ -1,7 +1,7 @@
 {
   "id": "protonet",
   "name": "protonet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Protonet",
   "main": "index.js",
   "author": "Joschka Schulz",
@@ -15,8 +15,8 @@
     "hasIndirectMessages": false,
     "hasTeamID": true,
     "wording": {
-        "url": "protonet.info",
-        "team": "Protonet"
+      "url": "protonet.info",
+      "team": "Protonet"
     },
     "customURL": false,
     "hostedOnly": false,
