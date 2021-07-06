@@ -1264,7 +1264,7 @@
     "featured": false,
     "id": "rocketchat",
     "name": "Rocket.Chat",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/rocketchat/icon.svg"
     }

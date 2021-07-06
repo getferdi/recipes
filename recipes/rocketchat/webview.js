@@ -1,11 +1,8 @@
-"use strict";
+'use strict';
 
-const {
-  ipcRenderer
-} = require('electron');
+const { ipcRenderer } = require('electron');
 
 const getTeamIcon = function getTeamIcon() {
-  console.log('getTeamIcon');
   const manifestElement = document.querySelector('link[rel="manifest"]');
 
   if (manifestElement == null) {
@@ -13,7 +10,6 @@ const getTeamIcon = function getTeamIcon() {
   }
 
   const manifestUrl = manifestElement.getAttribute('href');
-  console.log(manifestUrl);
 
   if (manifestUrl == null) {
     return;
@@ -29,7 +25,10 @@ const getTeamIcon = function getTeamIcon() {
     const response = JSON.parse(this.responseText);
 
     if (response.icons.length >= 1) {
-      ipcRenderer.sendToHost('avatar', `${window.location.protocol}//${window.location.host}${response.icons[0].src}`);
+      ipcRenderer.sendToHost(
+        'avatar',
+        `${window.location.protocol}//${window.location.host}${response.icons[0].src}`
+      );
     }
   };
 
@@ -37,14 +36,25 @@ const getTeamIcon = function getTeamIcon() {
   xmlhttp.send();
 };
 
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
-    const directMessages = Math.round(document.querySelectorAll('.unread.unread-mention, .badge--unread').length / 2);
-    const indirectMessages = Math.round(document.querySelectorAll('.unread:not(.unread-mention), .sidebar-item--unread').length / 2);
-    Franz.setBadge(directMessages, indirectMessages);
+    const directMessages = document.querySelectorAll('.rcx-badge');
+
+    let directMessagesCount = 0;
+
+    for (const directMessage of directMessages) {
+      directMessagesCount += parseInt(directMessage.textContent, 10);
+    }
+
+    const indirectMessagesCount = Math.round(
+      document.querySelectorAll('.rcx-sidebar-item--highlighted').length
+    );
+
+    Ferdi.setBadge(directMessagesCount, indirectMessagesCount);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
   setTimeout(() => {
     getTeamIcon();
   }, 4000);
