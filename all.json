@@ -854,7 +854,7 @@
     "featured": false,
     "id": "mailbox.org",
     "name": "mailbox.org",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/mailbox.org/icon.svg"
     }
