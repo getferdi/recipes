@@ -13,7 +13,6 @@
     "hasNotificationSound": true,
     "hasIndirectMessages": false,
     "hasTeamID": false,
-    "hasPredefinedUrl": true,
     "hostedOnly": false,
     "webviewOptions": {
       "disablewebsecurity": ""

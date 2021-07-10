@@ -14,7 +14,6 @@
     "hasDirectMessages": true,
     "hasIndirectMessages": false,
     "hasTeamID": false,
-    "hasPredefinedUrl": true,
     "hasCustomUrl": false,
     "webviewOptions": {
       "disablewebsecurity": ""
