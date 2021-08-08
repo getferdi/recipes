@@ -3,7 +3,8 @@
 node_modules
 archives/
 yarn-error.log
-npm-debug.log*
+npm-debug.log
+.pnpm-debug.log
 lerna-debug.log
 server*.log
 *.png

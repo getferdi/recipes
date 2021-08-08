@@ -32,7 +32,7 @@ jobs:
       - name: Print latest commit
         run: echo ${{ github.sha }}
       - name: Set env vars
-        run: echo "NPM_CACHE=$HOME/.npm" >> $GITHUB_ENV
+        run: echo "PNPM_CACHE=$HOME/.pnpm-store" >> $GITHUB_ENV
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Cache node modules
@@ -40,8 +40,8 @@ jobs:
         env:
           cache-name: cache-node-modules
         with:
-          path: ${{ env.NPM_CACHE }}
-          key: build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          path: ${{ env.PNPM_CACHE }}
+          key: build-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             build-${{ env.cache-name }}-
             build-
@@ -50,4 +50,4 @@ jobs:
         with:
           node-version: 14.17.3
       - name: Install node dependencies recursively
-        run: npm i && npm run package
+        run: pnpm i && pnpm run package
