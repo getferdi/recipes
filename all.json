@@ -510,6 +510,16 @@
     }
   },
   {
+    "author": "Markus Hatvan <contact@markushatvan.com>",
+    "featured": false,
+    "id": "googlechat",
+    "name": "Google Chat",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlechat/icon.svg"
+    }
+  },
+  {
     "author": "Tania R. Zuniga <tania@tanx.dev>",
     "featured": false,
     "id": "googleclassroom",
