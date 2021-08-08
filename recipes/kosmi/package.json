@@ -1,0 +1,23 @@
+{
+  "id": "kosmi",
+  "name": "Kosmi",
+  "version": "1.0.0",
+  "description": "Kosmi",
+  "main": "index.js",
+  "repository": "https://github.com/kosmigramma/franz-recipe-kosmi",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.kosmi.io",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}

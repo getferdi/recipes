@@ -810,6 +810,17 @@
     }
   },
   {
+    "author": "",
+    "featured": false,
+    "id": "kosmi",
+    "name": "Kosmi",
+    "version": "1.0.0",
+    "icons": {
+      "png": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kosmi/icon.png",
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kosmi/icon.svg"
+    }
+  },
+  {
     "author": "hongsy <hongsy2006@gmail.com>",
     "featured": false,
     "id": "lark",
