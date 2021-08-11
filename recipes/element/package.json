@@ -8,7 +8,7 @@
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.element.io",
-    "hasTeamID": false,
+    "hasTeamId": false,
     "hasCustomUrl": true,
     "message": "Element's default URL is https://app.element.io/",
     "urlInputSuffix": false,

@@ -11,7 +11,7 @@
     "serviceName": "Chatra",
     "message": "",
     "popup": [],
-    "hasTeamID": false,
+    "hasTeamId": false,
     "hasNotificationSound": true,
     "hasIndirectMessages": true,
     "customURL": false,

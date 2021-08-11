@@ -19,7 +19,7 @@
     "message": "",
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
-    "hasTeamID": true,
+    "hasTeamId": true,
     "customURL": false,
     "hostedOnly": false,
     "webviewOptions": {

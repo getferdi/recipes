@@ -8,6 +8,6 @@
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.evernote.com/Login.action",
-    "hasTeamID": false
+    "hasTeamId": false
   }
 }

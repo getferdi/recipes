@@ -11,7 +11,7 @@
     "hasNotificationSound": true,
     "hasDirectMessages": true,
     "hasIndirectMessages": false,
-    "hasTeamID": false,
+    "hasTeamId": false,
     "hasCustomUrl": false
   }
 }
