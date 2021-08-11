@@ -1,0 +1,9 @@
+{
+  "id": "protoncalendar",
+  "name": "ProtonCalendar",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://calendar.protonmail.com/"
+  }
+}
