@@ -1,10 +1,7 @@
 {
   "id": "googlemeet",
   "name": "Google Meet",
-  "version": "2.0.2",
-  "description": "Google Meet",
-  "main": "index.js",
-  "author": "Patrick Thoelken <patrick.thoelken@outlook.com>",
+  "version": "2.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://meet.google.com",

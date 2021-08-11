@@ -1,10 +1,7 @@
 {
   "id": "inoreader",
   "name": "Inoreader",
-  "version": "1.0.1",
-  "description": "The content reader for power users who want to save time.",
-  "main": "index.js",
-  "author": "Anna Arad <annagram@shards.me>",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "https://github.com/annagrram/recipe-inoreader",
   "config": {

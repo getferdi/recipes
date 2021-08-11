@@ -1,14 +1,10 @@
 {
   "id": "telegram",
   "name": "Telegram",
-  "version": "3.0.3",
-  "description": "Telegram",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "3.0.4",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.telegram.org",
-    "hasDirectMessages": true,
     "hasNotificationSound": true
   }
 }

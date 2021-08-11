@@ -1,18 +1,11 @@
 {
   "id": "whatsapp",
   "name": "WhatsApp",
-  "version": "3.0.2",
-  "description": "WhatsApp",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
-  "contributors": [
-    "beppe9000 <6625123+beppe9000@users.noreply.github.com>"
-  ],
+  "version": "3.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.whatsapp.com",
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
     "hasIndirectMessages": true,
     "disablewebsecurity": true
   }

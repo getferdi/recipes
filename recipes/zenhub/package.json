@@ -1,15 +1,11 @@
 {
   "id": "zenhub",
   "name": "ZenHub",
-  "version": "0.1.1",
-  "description": "ZenHub recipe",
-  "main": "index.js",
-  "author": "Fabio Kuhn <mordaroso@gmail.com>",
+  "version": "0.1.2",
   "license": "MIT",
   "repository": "https://github.com/mordaroso/recipe-franz-zenhub",
   "config": {
     "hasTeamId": true,
-    "serviceURL": "https://app.zenhub.com/workspace/o/{teamId}/boards",
-    "urlInputSuffix": "Organization with repo name (eg. meetfranz/franz)"
+    "serviceURL": "https://app.zenhub.com/workspace/o/{teamId}/boards"
   }
 }

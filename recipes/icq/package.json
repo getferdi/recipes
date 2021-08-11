@@ -1,13 +1,10 @@
 {
-    "id": "icq",
-    "name": "ICQ",
-    "version": "1.0.1",
-    "description": "icq.com",
-    "main": "index.js",
-    "author": "Stefan Malzner <stefan@adlk.io>",
-    "license": "MIT",
-    "repository": "https://github.com/meetfranz/recipe-icq",
-    "config": {
-      "serviceURL": "https://web.icq.com"
-    }
+  "id": "icq",
+  "name": "ICQ",
+  "version": "1.0.2",
+  "license": "MIT",
+  "repository": "https://github.com/meetfranz/recipe-icq",
+  "config": {
+    "serviceURL": "https://web.icq.com"
   }
+}

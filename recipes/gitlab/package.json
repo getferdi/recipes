@@ -1,10 +1,7 @@
 {
   "id": "gitlab",
   "name": "GitLab",
-  "version": "1.1.1",
-  "description": "An unofficial Ferdi recipe for GitLab CI",
-  "main": "index.js",
-  "author": "Kittywhiskers Van Gogh <63189531+kittywhiskers@users.noreply.github.com>",
+  "version": "1.1.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://gitlab.com/users/sign_in",

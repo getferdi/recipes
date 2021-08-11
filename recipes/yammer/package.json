@@ -1,15 +1,10 @@
 {
   "id": "yammer",
   "name": "Yammer",
-  "version": "1.0.1",
-  "description": "Yammer plugin for Franz 5",
-  "main": "index.js",
-  "author": "Dave Reid <dave@davereid.net>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.yammer.com/login",
-    "hasDirectMessages": true,
-    "hasIndirectMessages": true,
-    "hasNotificationSound": false
+    "hasIndirectMessages": true
   }
 }

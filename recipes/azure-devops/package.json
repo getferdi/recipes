@@ -1,10 +1,7 @@
 {
   "id": "azure-devops",
   "name": "Azure DevOps",
-  "version": "1.0.1",
-  "description": "azure-devops",
-  "main": "index.js",
-  "author": "BilelJegham",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://dev.azure.com/"

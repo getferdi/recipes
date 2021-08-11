@@ -1,10 +1,7 @@
 {
   "id": "clickup",
   "name": "ClickUp",
-  "version": "2.1.1",
-  "description": "ClickUp Productivity Software",
-  "main": "index.js",
-  "author": "Genesis Guerrero",
+  "version": "2.1.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.clickup.com",

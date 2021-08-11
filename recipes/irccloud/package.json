@@ -1,15 +1,11 @@
 {
-    "id": "irccloud",
-    "name": "IRCCloud",
-    "version": "1.0.2",
-    "description": "IRCCloud",
-    "main": "index.js",
-    "author": "Alberto Murillo <albertomurillosilva@gmail.com>",
-    "license": "MIT",
-    "repository": "https://github.com/albertomurillo/recipe-irccloud",
-    "config": {
-      "serviceURL": "https://www.irccloud.com",
-      "hasDirectMessages": true,
-      "hasIndirectMessages": true
-    }
+  "id": "irccloud",
+  "name": "IRCCloud",
+  "version": "1.0.3",
+  "license": "MIT",
+  "repository": "https://github.com/albertomurillo/recipe-irccloud",
+  "config": {
+    "serviceURL": "https://www.irccloud.com",
+    "hasIndirectMessages": true
   }
+}

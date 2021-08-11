@@ -1,15 +1,11 @@
 {
   "id": "hangoutschat",
   "name": "Hangouts Chat",
-  "version": "1.4.2",
-  "description": "Hangouts Chat",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io> and Iván López (ilopmar)",
+  "version": "1.4.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://chat.google.com",
     "hasNotificationSound": true,
-    "hasIndirectMessages": true,
-    "dissablewebsecurity": true
+    "hasIndirectMessages": true
   }
 }

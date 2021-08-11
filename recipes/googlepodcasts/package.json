@@ -1,10 +1,7 @@
 {
   "id": "googlepodcasts",
   "name": "Google Podcasts",
-  "version": "1.0.1",
-  "description": "Google Podcasts",
-  "main": "index.js",
-  "author": "Stephen Papierski <stephenpapierski@gmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://podcasts.google.com/"

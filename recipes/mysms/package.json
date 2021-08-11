@@ -1,10 +1,7 @@
 {
   "id": "mysms",
   "name": "MySMS",
-  "version": "1.0.1",
-  "description": "MySMS",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.mysms.com"

@@ -1,15 +1,11 @@
 {
   "id": "steamchat",
   "name": "SteamChat",
-  "version": "1.1.4",
-  "description": "Steam Chat",
-  "main": "index.js",
-  "author": "Kevin Oestmark <yo@kevin.am>",
+  "version": "1.1.5",
   "license": "MIT",
   "config": {
     "serviceURL": "https://steamcommunity.com/chat",
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
     "hasIndirectMessages": true
   }
 }

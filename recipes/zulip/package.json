@@ -1,14 +1,10 @@
 {
   "id": "zulip",
   "name": "Zulip",
-  "version": "1.0.4",
-  "description": "Zulip",
-  "main": "index.js",
-  "author": "Adam Birds <adam.birds@adbwebdesigns.co.uk> and akashnimare",
+  "version": "1.0.5",
   "license": "MIT",
   "config": {
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
     "hasIndirectMessages": true,
     "hasCustomUrl": true
   }

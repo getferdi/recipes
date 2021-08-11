@@ -1,10 +1,7 @@
 {
   "id": "lark",
   "name": "Lark",
-  "version": "0.0.3",
-  "description": "Lark",
-  "main": "index.js",
-  "author": "hongsy <hongsy2006@gmail.com>",
+  "version": "0.0.4",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.larksuite.com/messenger/",

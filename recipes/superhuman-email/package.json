@@ -1,10 +1,7 @@
 {
   "id": "superhuman",
   "name": "superhuman",
-  "version": "1.0.1",
-  "description": "View tool for Gmail",
-  "main": "index.js",
-  "author": "Crystal Larsh <crystal@tabletoppm.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "https://github.com/CrystalLarsh/franz-superhuman-recipe",
   "config": {

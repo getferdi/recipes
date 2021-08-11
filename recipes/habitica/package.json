@@ -1,11 +1,8 @@
 {
   "id": "habitica",
   "name": "Habitica",
-  "version": "1.0.2",
-  "description": "Habitica",
-  "main": "index.js",
+  "version": "1.0.3",
   "license": "MIT",
-  "author": "Yuriy Badalyantc <lmnet89@gmail.com>",
   "repository": "https://github.com/lmnet/franz-recipe-notion",
   "config": {
     "serviceURL": "https://habitica.com"

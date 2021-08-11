@@ -1,14 +1,10 @@
 {
-    "id": "intercom",
-    "name": "Intercom",
-    "version": "1.0.0",
-    "description": "Adds support for Intercom",
-    "main": "index.js",
-    "author": "DJ Walker <donwalker1987@gmail.com>",
-    "license": "MIT",
-    "repository": "",
-    "config": {
-      "serviceURL": "https://app.intercom.io/",
-      "hasNotificationSound": true
-    }
+  "id": "intercom",
+  "name": "Intercom",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.intercom.io/",
+    "hasNotificationSound": true
   }
+}

@@ -1,10 +1,7 @@
 {
   "id": "mstodo",
   "name": "Microsoft To Do",
-  "version": "1.0.2",
-  "description": "Microsoft To Do",
-  "main": "index.js",
-  "author": "Yoga Setiawan <ariokidev@gmail.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://to-do.live.com/tasks/",

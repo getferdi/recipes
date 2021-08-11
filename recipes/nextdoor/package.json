@@ -1,14 +1,9 @@
 {
   "id": "nextdoor",
   "name": "Nextdoor",
-  "version": "1.0.2",
-  "description": "Nextdoor",
-  "main": "index.js",
-  "author": "Jake Lee <ferdi@jakelee.co.uk>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://nextdoor.co.uk/inbox/",
-    "hasTeamId": false,
-    "hasNotificationSound": false
+    "serviceURL": "https://nextdoor.co.uk/inbox/"
   }
 }

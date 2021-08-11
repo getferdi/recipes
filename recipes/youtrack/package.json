@@ -1,10 +1,7 @@
 {
   "id": "youtrack",
   "name": "YouTrack",
-  "version": "1.0.2",
-  "description": "youtrack",
-  "main": "index.js",
-  "author": "Ferdi <hello@getferdi.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.myjetbrains.com/youtrack/",

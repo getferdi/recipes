@@ -1,15 +1,11 @@
 {
   "id": "unraid",
   "name": "Unraid",
-  "version": "1.0.2",
-  "description": "Unraid dashboard",
-  "main": "index.js",
-  "author": "Neil Tonge <me@neiltonge.co.uk>",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": "https://github.com/rctneil/franz-recipe-unraid",
   "config": {
     "serviceURL": "{teamId}",
-    "hasNotificationSound": false,
     "hasTeamId": true
   }
 }

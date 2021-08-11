@@ -1,15 +1,11 @@
 {
   "id": "msteams",
   "name": "Microsoft Teams",
-  "version": "3.0.0",
-  "description": "Microsoft Teams",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "3.0.1",
   "license": "MIT",
   "config": {
     "serviceURL": "https://teams.microsoft.com",
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
     "hasIndirectMessages": true
   }
 }

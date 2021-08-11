@@ -1,17 +1,12 @@
 {
   "id": "element",
   "name": "Element",
-  "version": "1.0.4",
-  "description": "Decentralized, encrypted chat & collaboration powered by [matrix]",
-  "main": "index.js",
-  "author": "Sylvain Cecchetto <cecchetto.sylvain@me.com>, Omove <61330514+omove@users.noreply.github.com>, Achim Leitner <1033549+fjl5@users.noreply.github.com>",
+  "version": "1.0.5",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.element.io",
-    "hasTeamId": false,
     "hasCustomUrl": true,
     "message": "Element's default URL is https://app.element.io/",
-    "urlInputSuffix": false,
     "hasNotificationSound": true,
     "hasIndirectMessages": true
   }

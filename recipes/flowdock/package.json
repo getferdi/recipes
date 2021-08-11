@@ -1,15 +1,10 @@
 {
   "id": "flowdock",
   "name": "Flowdock",
-  "version": "1.0.1",
-  "description": "Flowdock",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.flowdock.com/app/",
-    "hasNotificationSound": true,
-    "hasDirectMessages": true,
-    "hasIndirectMessages": false
+    "hasNotificationSound": true
   }
 }

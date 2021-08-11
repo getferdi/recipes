@@ -1,10 +1,7 @@
 {
   "id": "monday",
   "name": "Monday",
-  "version": "1.0.2",
-  "description": "Monday.com",
-  "main": "index.js",
-  "author": "Wilhelm Hjelm <wilhelm@hjelms.se>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.monday.com",

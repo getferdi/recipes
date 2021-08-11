@@ -1,10 +1,7 @@
 {
   "id": "gadugadu",
   "name": "Gadu-Gadu",
-  "version": "1.0.3",
-  "description": "Gadu-Gadu the most popular polish communicator of the 00's",
-  "main": "index.js",
-  "author": "Wojciech Zięciak <wojciech.zieciak@gmail.com>",
+  "version": "1.0.4",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.gg.pl",

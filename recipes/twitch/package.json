@@ -1,17 +1,13 @@
 {
   "id": "twitch",
   "name": "Twitch",
-  "version": "1.0.1",
-  "description": "Twitch chat",
-  "main": "index.js",
-  "author": "Colin O'Dell <colinodell@gmail.com>; RedbackThomson <redbackthomson@hotmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.twitch.tv/{teamId}/chat",
     "hasTeamId": true,
     "urlInputPrefix": "https://go.twitch.tv/",
     "hasNotificationSound": true,
-    "hasIndirectMessages": false,
     "message": "Twitch chat allows you to not only interact with fellow members of the Twitch Community, but Broadcasters as well."
   }
 }

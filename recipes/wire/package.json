@@ -1,18 +1,10 @@
 {
-	"id": "wire",
-	"name": "Wire",
-	"version": "1.0.1",
-	"description": "Modern day collaboration meets the most advanced security and superior user experience.",
-	"main": "index.js",
-	"author": "Dustin Steiner <dustin.steiner@gmail.com>",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/getferdi/",
-		"directory": "recipes/wire"
-	},
-	"config": {
-		"serviceURL": "https://app.wire.com/",
-		"hasIndirectMessages": true
-	}
+  "id": "wire",
+  "name": "Wire",
+  "version": "1.0.2",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.wire.com/",
+    "hasIndirectMessages": true
+  }
 }

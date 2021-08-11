@@ -1,10 +1,7 @@
 {
   "id": "wrike",
   "name": "Wrike",
-  "version": "1.0.2",
-  "description": "Project management SaaS",
-  "main": "index.js",
-  "author": "Koma",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": "https://github.com/koma-private/recipe-wrike",
   "config": {

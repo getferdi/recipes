@@ -1,14 +1,10 @@
 {
   "id": "groupme",
   "name": "GroupMe",
-  "version": "1.0.1",
-  "description": "GroupMe",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.groupme.com",
-    "hasNotificationSound": true,
-    "hasDirectMessages": true
+    "hasNotificationSound": true
   }
 }

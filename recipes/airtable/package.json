@@ -1,17 +1,10 @@
 {
   "id": "airtable",
   "name": "Airtable",
-  "version": "1.0.2",
-  "description": "Airtable",
-  "main": "index.js",
-  "author": "Casey Sparks <caseyalexsparks@gmail.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": "https://github.com/transnat/recipe-airtable",
   "config": {
-    "serviceURL": "https://airtable.com",
-    "hasTeamId": false,
-    "hasCustomUrl": false,
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false
+    "serviceURL": "https://airtable.com"
   }
 }

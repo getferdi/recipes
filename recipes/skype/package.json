@@ -1,10 +1,7 @@
 {
   "id": "skype",
   "name": "Skype",
-  "version": "3.0.0",
-  "description": "Skype",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "3.0.1",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.skype.com/",

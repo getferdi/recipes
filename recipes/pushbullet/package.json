@@ -1,10 +1,7 @@
 {
   "id": "pushbullet",
   "name": "Pushbullet",
-  "version": "1.0.2",
-  "description": "Pushbullet",
-  "main": "index.js",
-  "author": "Diego bersanetti <diego.bersanetti@gmail.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.pushbullet.com/"

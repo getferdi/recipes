@@ -1,10 +1,7 @@
 {
   "id": "sendtask",
   "name": "Sendtask",
-  "version": "1.0.3",
-  "description": "Sendtask",
-  "main": "index.js",
-  "author": "Patrick Daniel",
+  "version": "1.0.4",
   "repository": "https://github.com/patrickdaniel/sendtask-franz",
   "license": "MIT",
   "config": {

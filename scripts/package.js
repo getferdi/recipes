@@ -112,6 +112,33 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       configErrors.push("The recipe's package.json contains no 'config' object. This field should contain a configuration for your service.");
     }
 
+    const topLevelKeys = Object.keys(config);
+    topLevelKeys.forEach(key => {
+      if (typeof(config[key]) === 'string' && config[key] === '') {
+        configErrors.push(`The recipe's package.json contains empty value for key: ${key}`);
+      }
+    });
+
+    const knownTopLevelKeys = ['id', 'name', 'version', 'license', 'repository', 'config'];
+    const unrecognizedKeys = topLevelKeys.filter(x => !knownTopLevelKeys.includes(x));
+    if (unrecognizedKeys.length > 0) {
+      configErrors.push(`The recipe's package.json contains the following keys that are not recognized: ${unrecognizedKeys}`);
+    }
+    if (config.config && typeof config.config === "object") {
+      const configKeys = Object.keys(config.config);
+      const knownConfigKeys = ['serviceURL', 'hasTeamId', 'urlInputPrefix', 'urlInputSuffix', 'hasHostedOption', 'hasCustomUrl', 'hasNotificationSound', 'hasDirectMessages', 'hasIndirectMessages', 'message', 'disablewebsecurity'];
+      const unrecognizedConfigKeys = configKeys.filter(x => !knownConfigKeys.includes(x));
+      if (unrecognizedConfigKeys.length > 0) {
+        configErrors.push(`The recipe's package.json contains the following keys that are not recognized: ${unrecognizedConfigKeys}`);
+      }
+
+      configKeys.forEach(key => {
+        if (typeof(config.config[key]) === 'string' && config.config[key] === '') {
+          configErrors.push(`The recipe's package.json contains empty value for key: ${key}`);
+        }
+      });
+    }
+
     if (isGitRepo) {
       const relativeRepoSrc = path.relative(repoRoot, recipeSrc);
 
@@ -158,7 +185,6 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
     // Add recipe to all.json
     const isFeatured = featuredRecipes.includes(config.id);
     const packageInfo = {
-      "author": config.author || '',
       "featured": isFeatured,
       "id": config.id,
       "name": config.name,

@@ -1,10 +1,7 @@
 {
   "id": "nextcloud",
   "name": "Nextcloud",
-  "version": "1.0.1",
-  "description": "Ferdi recipe for Nextcloud. Nextcloud is a safe home for all your data – community-driven, free & open source.",
-  "main": "index.js",
-  "author": "Edgars Andersons <Edgars+github@gaitenis.id.lv>",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "https://github.com/eandersons/ferdi-recipe-nextcloud",
   "config": {

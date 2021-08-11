@@ -65,16 +65,13 @@ Every recipe needs a specific file structure in order to work as a Ferdi recipe
 
 ### package.json
 
-The package.json is structured like any other node module and allows to completely configure the service.
+The `package.json` is structured like any other node module and allows to completely configure the service.
 
 ```json
 {
   "id": "tweetdeck",
   "name": "Tweetdeck",
   "version": "1.0.1",
-  "description": "Tweetdeck",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
   "repository": "https://github.com/meetfranz/recipe-tweetdeck",
   "config": {
@@ -85,7 +82,7 @@ The package.json is structured like any other node module and allows to complete
 
 To get more information about all the provided configuration flags, check the [config docs](configuration.md).
 
-Please note that the fields `id`, `name`, `version` and `config` and required.
+Please note that the fields `id`, `name`, `version` and `config` are mandatory.
 
 ### index.js
 
@@ -130,7 +127,7 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like 
 
 Some services may not be compatible with Ferdi adding it's signature to the user agent.
 
-If you encounter such a service, you remove this signature with the following snippet of code
+If you encounter such a service, please remove this signature with the following snippet of code
 
 ```js
 overrideUserAgent() {
@@ -151,7 +148,7 @@ overrideUserAgent() {
 
 ### webview.js
 
-The webview.js is the actual script that will be loaded into the webview. Here you can do whatever you want to do in order perfectly integrate the service into Ferdi. For convenience, we have provided a very simple set of functions to set unread message badges (`Ferdi.setBadge()`) and inject CSS files (`Ferdi.injectCSS()`).
+The `webview.js` is the actual script that will be loaded into the webview. Here you can do whatever you want to do in order perfectly integrate the service into Ferdi. For convenience, we have provided a very simple set of functions to set unread message badges (`Ferdi.setBadge()`) and inject CSS files (`Ferdi.injectCSS()`).
 
 ```js
 // orat.io integration
@@ -176,17 +173,17 @@ To get more information about the provided functions, check the [API docs](front
 
 ## Icons
 
-In order to show every service icon crystal clear within the Ferdi UI, we require the icon in both .svg (square) and .png (square, 1024x1024px) formats.
+In order to show every service icon crystal clear within the Ferdi UI, we require the icon in .svg (square, 1024x1024px) format.
 
 ## Dark Mode
 
 You can provide a custom Dark Mode Theme for your recipes just by putting the `darkmode.css` into your recipe folder. Once the `darkmode.css` exists, you can enable the Dark Mode in your service settings.
 
-Recipe Dark Mode is only supported by Ferdi 5.0.0-beta.19+
+Recipe Dark Mode is only supported by Ferdi 5.0.0-beta.19+. Even then, certain services do not allow clients like Ferdi to override these styles (an example of this is google calendar).
 
 ## Debugging
 
-In order to debug your service integration, open Ferdi and use the shortcut `Cmd/Ctrl+Alt+Shift+i` to open the recipes developer tools.
+In order to debug your service integration, open Ferdi and use the shortcut `Cmd/Ctrl+Alt+Shift+I` to open the recipes developer tools.
 
 ## Publishing
 

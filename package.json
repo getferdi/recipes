@@ -1,8 +1,6 @@
 {
   "name": "ferdi-recipes",
   "version": "1.0.0",
-  "description": "Recipes for the Ferdi Desktop App",
-  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
