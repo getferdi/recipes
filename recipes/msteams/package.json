@@ -1,8 +1,11 @@
 {
   "id": "msteams",
   "name": "Microsoft Teams",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "license": "MIT",
+  "aliases": [
+    "teamsChat"
+  ],
   "config": {
     "serviceURL": "https://teams.microsoft.com",
     "hasNotificationSound": true,

@@ -119,7 +119,7 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       }
     });
 
-    const knownTopLevelKeys = ['id', 'name', 'version', 'license', 'repository', 'config'];
+    const knownTopLevelKeys = ['id', 'name', 'version', 'license', 'repository', 'aliases', 'config'];
     const unrecognizedKeys = topLevelKeys.filter(x => !knownTopLevelKeys.includes(x));
     if (unrecognizedKeys.length > 0) {
       configErrors.push(`The recipe's package.json contains the following keys that are not recognized: ${unrecognizedKeys}`);
@@ -189,6 +189,7 @@ const compress = (src, dest) => new Promise((resolve, reject) => {
       "id": config.id,
       "name": config.name,
       "version": config.version,
+      "aliases": config.aliases,
       "icons": {
         "svg": `${repo}${config.id}/icon.svg`,
       },

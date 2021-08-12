@@ -453,7 +453,11 @@
     "featured": false,
     "id": "googlecalendar",
     "name": "Google Calendar",
-    "version": "2.1.0",
+    "version": "2.1.1",
+    "aliases": [
+      "google-calendar",
+      "gCalendar"
+    ],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecalendar/icon.svg"
     }
@@ -570,7 +574,11 @@
     "featured": false,
     "id": "hangoutschat",
     "name": "Hangouts Chat",
-    "version": "1.4.3",
+    "version": "1.4.4",
+    "aliases": [
+      "google-chat",
+      "gChat"
+    ],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/hangoutschat/icon.svg"
     }
@@ -822,7 +830,10 @@
     "featured": false,
     "id": "msteams",
     "name": "Microsoft Teams",
-    "version": "3.0.1",
+    "version": "3.0.2",
+    "aliases": [
+      "teamsChat"
+    ],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/msteams/icon.svg"
     }

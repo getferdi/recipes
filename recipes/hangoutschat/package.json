@@ -1,8 +1,12 @@
 {
   "id": "hangoutschat",
   "name": "Hangouts Chat",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "license": "MIT",
+  "aliases": [
+    "google-chat",
+    "gChat"
+  ],
   "config": {
     "serviceURL": "https://chat.google.com",
     "hasNotificationSound": true,

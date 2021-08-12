@@ -29,6 +29,9 @@ The license of the integration. We prefer MIT, but here is a list of all the ava
 `string` **repository**<br />
 Link to your Github, Gitlab or Bitbucket public repository. Not used in the application, but is very helpful if we need to log bugs or update to newer versions, etc.
 
+`array[string]` **aliases**<br />
+The list of alternate names that this recipe can be called
+
 `object` **config** _mandatory_<br />
 This is the Ferdi-specific integration config.
 
