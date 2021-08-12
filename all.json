@@ -246,7 +246,11 @@
     "featured": false,
     "id": "element",
     "name": "Element",
-    "version": "1.0.5",
+    "version": "1.0.6",
+    "aliases": [
+      "Riot.im",
+      "Matrix"
+    ],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/element/icon.svg"
     }

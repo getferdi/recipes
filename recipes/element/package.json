@@ -1,8 +1,12 @@
 {
   "id": "element",
   "name": "Element",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
+  "aliases": [
+    "Riot.im",
+    "Matrix"
+  ],
   "config": {
     "serviceURL": "https://app.element.io",
     "hasCustomUrl": true,
