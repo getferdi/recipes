@@ -1,8 +1,11 @@
 {
-  "id": "amazon-work-mail",
+  "id": "aws-workmail",
   "name": "Amazon WorkMail",
   "version": "1.0.5",
   "license": "MIT",
+  "aliases": [
+    "AWS WorkMail"
+  ],
   "config": {
     "serviceURL": "https://{teamID}.awsapps.com/mail",
     "hasIndirectMessages": false,

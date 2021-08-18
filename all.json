@@ -19,15 +19,6 @@
   },
   {
     "featured": false,
-    "id": "amazon-work-mail",
-    "name": "Amazon WorkMail",
-    "version": "1.0.5",
-    "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/amazon-work-mail/icon.svg"
-    }
-  },
-  {
-    "featured": false,
     "id": "android-messages",
     "name": "Android Messages",
     "version": "2.0.3",
@@ -60,6 +51,18 @@
     "version": "1.0.1",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/asana/icon.svg"
+    }
+  },
+  {
+    "featured": false,
+    "id": "aws-workmail",
+    "name": "Amazon WorkMail",
+    "version": "1.0.5",
+    "aliases": [
+      "AWS WorkMail"
+    ],
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/aws-workmail/icon.svg"
     }
   },
   {
@@ -437,15 +440,6 @@
   },
   {
     "featured": false,
-    "id": "google-contacts",
-    "name": "Google Contacts",
-    "version": "1.0.3",
-    "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-contacts/icon.svg"
-    }
-  },
-  {
-    "featured": false,
     "id": "google-voice",
     "name": "google-voice",
     "version": "0.3.5",
@@ -473,6 +467,15 @@
     "version": "1.0.5",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googleclassroom/icon.svg"
+    }
+  },
+  {
+    "featured": false,
+    "id": "googlecontacts",
+    "name": "Google Contacts",
+    "version": "1.0.3",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecontacts/icon.svg"
     }
   },
   {
@@ -733,11 +736,11 @@
   },
   {
     "featured": false,
-    "id": "kimaicloud",
+    "id": "kimai-cloud",
     "name": "Kimai Cloud",
     "version": "1.0.2",
     "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kimaicloud/icon.svg"
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kimai-cloud/icon.svg"
     }
   },
   {
@@ -760,11 +763,11 @@
   },
   {
     "featured": false,
-    "id": "line-me",
+    "id": "line.me",
     "name": "Line.me",
     "version": "1.0.2",
     "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/line-me/icon.svg"
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/line.me/icon.svg"
     }
   },
   {
@@ -997,11 +1000,11 @@
   },
   {
     "featured": false,
-    "id": "paymo",
+    "id": "paymoapp",
     "name": "paymo",
     "version": "1.0.2",
     "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/paymo/icon.svg"
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/paymoapp/icon.svg"
     }
   },
   {
@@ -1267,11 +1270,11 @@
   },
   {
     "featured": false,
-    "id": "superhuman",
+    "id": "superhuman-email",
     "name": "superhuman",
     "version": "1.0.2",
     "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/superhuman/icon.svg"
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/superhuman-email/icon.svg"
     }
   },
   {
@@ -1348,11 +1351,11 @@
   },
   {
     "featured": false,
-    "id": "TickTick",
+    "id": "ticktick",
     "name": "TickTick",
     "version": "1.1.3",
     "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/TickTick/icon.svg"
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/ticktick/icon.svg"
     }
   },
   {
