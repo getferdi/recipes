@@ -1,7 +1,7 @@
 {
   "id": "aws-workmail",
   "name": "Amazon WorkMail",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "aliases": [
     "AWS WorkMail"

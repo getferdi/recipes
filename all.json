@@ -57,7 +57,7 @@
     "featured": false,
     "id": "aws-workmail",
     "name": "Amazon WorkMail",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "aliases": [
       "AWS WorkMail"
     ],
@@ -473,7 +473,7 @@
     "featured": false,
     "id": "googlecontacts",
     "name": "Google Contacts",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecontacts/icon.svg"
     }
@@ -738,7 +738,7 @@
     "featured": false,
     "id": "kimai-cloud",
     "name": "Kimai Cloud",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kimai-cloud/icon.svg"
     }
@@ -765,7 +765,7 @@
     "featured": false,
     "id": "line.me",
     "name": "Line.me",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/line.me/icon.svg"
     }
@@ -1002,7 +1002,7 @@
     "featured": false,
     "id": "paymoapp",
     "name": "paymo",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/paymoapp/icon.svg"
     }
@@ -1029,7 +1029,7 @@
     "featured": false,
     "id": "plan",
     "name": "plan",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/plan/icon.svg"
     }
@@ -1272,7 +1272,7 @@
     "featured": false,
     "id": "superhuman-email",
     "name": "superhuman",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/superhuman-email/icon.svg"
     }
@@ -1353,7 +1353,7 @@
     "featured": false,
     "id": "ticktick",
     "name": "TickTick",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/ticktick/icon.svg"
     }
