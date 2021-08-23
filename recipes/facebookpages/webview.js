@@ -7,10 +7,6 @@ module.exports = (Franz, options) => {
       messages = parseInt(element.textContent, 10);
     }
 
-    if (isNaN(messages)) {
-      messages = 0;
-    }
-
     Franz.setBadge(messages);
   };
 

@@ -1,16 +1,12 @@
 {
   "id": "teamwork-projects",
   "name": "Teamwork Projects",
-  "version": "0.1.1",
-  "description": "Project management SaaS",
-  "main": "index.js",
-  "author": "Retzudo <https://github.com/Retzudo/>, Ported by Koma <https://github.com/koma-private/>",
+  "version": "0.1.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.teamwork.com/",
     "hasNotificationSound": true,
     "urlInputSuffix": ".teamwork.com",
-    "hasIndirectMessages": false,
     "hasTeamId": true
   }
 }

@@ -1,24 +1,10 @@
 {
   "id": "idobata",
   "name": "Idobata",
-  "version": "0.1.1",
-  "description": "Idobata plugin for meetfranz.",
-  "main": "index.js",
-  "author": "",
+  "version": "0.1.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://idobata.io",
-    "serviceName": "Idobata",
-    "message": "Idobata plugin for meetfranz.",
-    "popup": [],
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "message": "Idobata plugin for meetfranz."
   }
 }

@@ -1,10 +1,7 @@
 {
   "id": "threema",
   "name": "Threema",
-  "version": "1.0.1",
-  "description": "Threema",
-  "main": "index.js",
-  "author": "Anna Damm <Arany@users.noreply.github.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "https://github.com/Arany/franz-recipe-threema",
   "config": {

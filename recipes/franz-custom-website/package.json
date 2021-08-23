@@ -1,15 +1,10 @@
 {
   "id": "franz-custom-website",
   "name": "Custom Website",
-  "version": "1.0.4",
-  "description": "Add a custom website to Franz",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.5",
   "license": "MIT",
   "repository": "https://github.com/meetfranz/recipe-custom-website",
   "config": {
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
     "hasCustomUrl": true
   }
 }

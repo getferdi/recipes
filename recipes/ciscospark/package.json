@@ -1,10 +1,7 @@
 {
   "id": "ciscospark",
   "name": "Cisco Spark",
-  "version": "1.0.0",
-  "description": "Cisco Spark",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.1",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.ciscospark.com",

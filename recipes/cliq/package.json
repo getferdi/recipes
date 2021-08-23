@@ -1,10 +1,7 @@
 {
   "id": "cliq",
   "name": "Cliq",
-  "version": "1.0.1",
-  "description": "Cliq",
-  "main": "index.js",
-  "author": "Cliqgeek <git@cliqgeeks.com>",
+  "version": "1.0.3",
   "repository": "https://github.com/cliqgeek/recipe-cliq",
   "config": {
     "serviceURL": "https://www.zoho.com/cliq/login.html",

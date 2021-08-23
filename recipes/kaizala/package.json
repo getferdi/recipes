@@ -1,10 +1,7 @@
 {
   "id": "kaizala",
   "name": "Microsoft Kaizala",
-  "version": "1.1.1",
-  "description": "Microsoft Kaizala",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.1.2",
   "license": "MIT",
   "repository": "https://github.com/meetfranz/recipe-microsoft-kaizala",
   "config": {

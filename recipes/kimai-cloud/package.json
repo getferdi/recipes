@@ -1,17 +1,11 @@
 {
   "id": "kimaicloud",
   "name": "Kimai Cloud",
-  "version": "1.0.1",
-  "description": "Kimai Time-Tracker - Cloud version",
-  "main": "index.js",
-  "author": "Kevin Papst <support@kimai.cloud>",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "https://github.com/kimai-cloud/recipe-kimaicloud",
   "config": {
     "serviceURL": "https://{teamId}.kimai.cloud",
-    "hasNotificationSound": false,
-    "hasDirectMessages": true,
-    "hasIndirectMessages": false,
     "hasTeamId": true,
     "urlInputSuffix": ".kimai.cloud"
   }

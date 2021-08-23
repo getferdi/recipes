@@ -1,10 +1,7 @@
 {
   "id": "zendesk",
   "name": "zendesk",
-  "version": "1.0.3",
-  "description": "Zendesk",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.4",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.zendesk.com/agent",

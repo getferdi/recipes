@@ -1,13 +1,9 @@
 {
   "id": "evernote",
   "name": "Evernote",
-  "version": "1.0.1",
-  "description": "Evernote",
-  "main": "index.js",
-  "author": "concon",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://www.evernote.com/Login.action",
-    "hasTeamID": false
+    "serviceURL": "https://www.evernote.com/Login.action"
   }
 }

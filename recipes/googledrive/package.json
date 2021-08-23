@@ -1,25 +1,10 @@
 {
   "id": "googledrive",
   "name": "Google Drive",
-  "version": "2.0.0",
-  "description": "Google Drive",
-  "main": "index.js",
-  "author": "Djonathan Goulart<d.goulart@outlook.com.br>",
+  "version": "2.0.1",
   "repository": "https://github.com/BrianGilbert/franz-recipe-tawk",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://drive.google.com/",
-    "serviceName": "Google Drive",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "serviceURL": "https://drive.google.com/"
   }
 }

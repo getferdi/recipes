@@ -13,10 +13,6 @@ module.exports = Franz => {
       }
     }
 
-    if (isNaN(directs)) {
-      directs = 0;
-    }
-
     Franz.setBadge(directs);
   };
 

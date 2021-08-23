@@ -1,10 +1,7 @@
 {
   "id": "clubhouse",
   "name": "Clubhouse",
-  "version": "1.0.2",
-  "description": "Project Management for Software Teams",
-  "main": "index.js",
-  "author": "Daniele Lenares <daniele.lenares@gmail.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": "https://github.com/dnlnrs/ferdi-recipe-clubhouse",
   "config": {

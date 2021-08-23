@@ -1,24 +1,10 @@
 {
   "id": "teamleader",
   "name": "teamleader",
-  "version": "1.0.1",
-  "description": "teamleader",
-  "main": "index.js",
-  "author": "Rias Van der Veken <hello@rias.be>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.teamleader.eu/?gotologin",
-    "serviceName": "Teamleader",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasNotificationSound": true
   }
 }

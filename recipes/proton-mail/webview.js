@@ -6,9 +6,6 @@ module.exports = Franz => {
     }
     const text = element.innerText;
     const count = Number(text.substring(1, text.length - 1));
-    if (Number.isNaN(count)) {
-      return;
-    }
     Franz.setBadge(count);
   }
 

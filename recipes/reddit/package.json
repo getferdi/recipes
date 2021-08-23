@@ -1,14 +1,10 @@
 {
   "id": "reddit",
   "name": "Reddit",
-  "version": "1.0.1",
-  "description": "Reddit",
-  "main": "index.js",
-  "author": "Alex Devero <deveroalex@gmail.com> and The Ferdi Team <hello@getferdi.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": "https://github.com/getferdi/recipes",
   "config": {
-    "hasNotificationSound": false,
     "hasIndirectMessages": true,
     "serviceURL": "https://www.reddit.com/"
   }

@@ -1,0 +1,1080 @@
+/* Copied from: https://github.com/ducfilan/Dark-mode-Franz-Ferdi */
+
+:root:not(#z) {
+  --teal: var(--ac-0);
+  --teal-rgb: var(--ac-0-rgb);
+  --teal-light: var(--ac-1);
+  --teal-light-rgb: var(--ac-1-rgb);
+  --teal-lighter: var(--ac-2);
+  --teal-lighter-rgb: var(--ac-2);
+  --green-deep: var(--ac-3);
+  --green-deep-rgb: var(--ac-3-rgb);
+  --active-tab-marker: var(--ac-0);
+  --active-tab-marker-rgb: var(--ac-0-rgb);
+  --app-background-stripe: var(--bg-1);
+  --app-background-stripe-rgb: var(--bg-1-rgb);
+  --app-background: var(--bg-0);
+  --app-background-rgb: var(--bg-0-rgb);
+  --app-background-deeper: var(--bg-0);
+  --app-background-deeper-rgb: var(--bg-0-rgb);
+  --audio-progress-incoming: var(--green);
+  --audio-progress-incoming-rgb: var(--green-rgb);
+  --audio-progress-outgoing: var(--ac-2);
+  --audio-progress-outgoing-rgb: var(--ac-2-rgb);
+  --audio-progress-played-incoming: var(--blue);
+  --audio-progress-played-incoming-rgb: var(--blue-rgb);
+  --audio-progress-played-outgoing: var(--blue);
+  --audio-progress-played-outgoing-rgb: var(--blue-rgb);
+  --audio-track-incoming: var(--fg-4);
+  --audio-track-incoming-rgb: var(--fg-4-rgb);
+  --audio-track-outgoing: var(--fg-4);
+  --audio-track-outgoing-rgb: var(--fg-4-rgb);
+  --avatar-background: var(--bg-1);
+  --avatar-background-rgb: var(--bg-1-rgb);
+  --avatar-border: var(--fg-3);
+  --avatar-border-rgb: var(--fg-3-rgb);
+  --avatar-placeholder-background: var(--bg-5);
+  --avatar-placeholder-background-rgb: var(--bg-5-rgb);
+  --avatar-placeholder-primary: var(--fg-3);
+  --avatar-placeholder-primary-rgb: var(--fg-3-rgb);
+  --background-default: var(--bg-1);
+  --background-default-rgb: var(--bg-1-rgb);
+  --background-default-active: var(--bg-3);
+  --background-default-active-rgb: var(--bg-3-rgb);
+  --background-default-hover: var(--bg-2);
+  --background-default-hover-rgb: var(--bg-2-rgb);
+  --border-bubble: var(--shadow);
+  --border-bubble-rgb: var(--shadow-rgb);
+  --border-default: var(--bg-3);
+  --border-default-rgb: var(--bg-3-rgb);
+  --border-list: var(--bg-3);
+  --border-list-rgb: var(--bg-3-rgb);
+  --border-panel: var(--bg-5);
+  --border-panel-rgb: var(--bg-5-rgb);
+  --border-strong: var(--bg-5);
+  --border-strong-rgb: var(--bg-5-rgb);
+  --border-stronger: var(--bg-5);
+  --border-stronger-rgb: var(--fg-5-rgb);
+  --bubble-meta: var(--fg-3);
+  --bubble-meta-rgb: var(--fg-3-rgb);
+  --bubble-meta-icon: var(--fg-3);
+  --bubble-meta-icon-rgb: var(--fg-3-rgb);
+  --butterbar-battery-background: #57272b;
+  --butterbar-battery-background-rgb: 87, 39, 43;
+  --butterbar-battery-primary: var(--fg-0);
+  --butterbar-battery-primary-rgb: var(--fg-0-rgb);
+  --butterbar-battery-secondary: var(--fg-4);
+  --butterbar-battery-secondary-rgb: var(--fg-4-rgb);
+  --butterbar-connection-background: #504b24;
+  --butterbar-connection-background-rgb: 80, 75, 36;
+  --butterbar-connection-primary: var(--bg-3);
+  --butterbar-connection-primary-rgb: var(--bg-3-rgb);
+  --butterbar-connection-secondary: var(--bg-3);
+  --butterbar-connection-secondary-rgb: var(--bg-3-rgb);
+  --butterbar-default-background: #21425c;
+  --butterbar-default-background-rgb: 33, 66, 92;
+  --butterbar-icon: var(--fg-1);
+  --butterbar-icon-rgb: var(--fg-1-rgb);
+  --butterbar-primary: var(--fg-0);
+  --butterbar-primary-rgb: var(--fg-0-rgb);
+  --butterbar-secondary: var(--fg-4);
+  --butterbar-secondary-rgb: var(--fg-4-rgb);
+  --butterbar-update-background: var(--ac-0);
+  --butterbar-update-background-rgb: var(--ac-0-rgb);
+  --button-alternative: var(--ac-1);
+  --button-alternative-rgb: var(--ac-1-rgb);
+  --button-alternative-background: var(--bg-3);
+  --button-alternative-background-rgb: var(--bg-3-rgb);
+  --button-background-disabled: var(--bg-2);
+  --button-background-disabled-rgb: var(--bg-2-rgb);
+  --button-bubble: var(--ac-0);
+  --button-bubble-rgb: var(--ac-0-rgb);
+  --button-primary: var(--white);
+  --button-primary-rgb: var(--white-rgb);
+  --button-primary-background: var(--ac-0);
+  --button-primary-background-rgb: var(--ac-0-rgb);
+  --button-primary-background-hover: var(--ac-3);
+  --button-primary-background-hover-rgb: var(--ac-3-rgb);
+  --button-round-background: var(--ac-0);
+  --button-round-background-rgb: var(--ac-0-rgb);
+  --button-secondary: var(--ac-0);
+  --button-secondary-rgb: var(--ac-0-rgb);
+  --button-secondary-background: transparent;
+  --button-secondary-background-rgb: 0, 0, 0;
+  --button-secondary-background-hover: rgba(241, 241, 242, 0.051);
+  --button-secondary-background-hover-rgb: var(--fg-3-rgb);
+  --button-secondary-hover: var(--ac-0);
+  --button-secondary-hover-rgb: var(--ac-0-rgb);
+  --chat-marker: var(--fg-3);
+  --chat-marker-rgb: var(--fg-3-rgb);
+  --chat-marker-admin: var(--ac-0);
+  --chat-marker-admin-rgb: var(--ac-0-rgb);
+  --chat-marker-admin-border: var(--ac-0);
+  --chat-marker-admin-border-rgb: var(--ac-0-rgb);
+  --chat-marker-border: var(--fg-3);
+  --chat-marker-border-rgb: var(--fg-3-rgb);
+  --chatlist-icon: var(--fg-5);
+  --chatlist-icon-rgb: var(--fg-5-rgb);
+  --checkbox-background: var(--ac-0);
+  --checkbox-background-rgb: var(--ac-0-rgb);
+  --checkbox-mark: var(--white);
+  --checkbox-mark-rgb: var(--white-rgb);
+  --compose-background: var(--bg-1);
+  --compose-background-rgb: var(--bg-1-rgb);
+  --compose-background-focused: #203946;
+  --compose-background-focused-rgb: 32, 57, 70;
+  --compose-border-focused: #274656;
+  --compose-border-focused-rgb: 39, 70, 86;
+  --compose-panel-background: var(--bg-3);
+  --compose-panel-background-rgb: var(--bg-3-rgb);
+  --conversation-panel-background: var(--bg-2);
+  --conversation-panel-background-rgb: var(--bg-2-rgb);
+  --conversation-panel-border: var(--bg-5);
+  --conversation-panel-border-rgb: var(--fg-3-rgb);
+  --danger: var(--red);
+  --danger-rgb: var(--red-rgb);
+  --drawer-background: var(--bg-3);
+  --drawer-background-rgb: var(--bg-3-rgb);
+  --drawer-background-deep: var(--bg-0);
+  --drawer-background-deep-rgb: var(--bg-0-rgb);
+  --drawer-gallery-background: var(--bg-1);
+  --drawer-gallery-background-rgb: var(--bg-1-rgb);
+  --drawer-header-title: var(--fg-1);
+  --drawer-header-title-rgb: var(--fg-1-rgb);
+  --drawer-section-background: var(--bg-1);
+  --drawer-section-background-rgb: var(--bg-1-rgb);
+  --dropdown-background: var(--bg-2);
+  --dropdown-background-rgb: var(--bg-2-rgb);
+  --dropdown-background-hover: var(--bg-3);
+  --dropdown-background-hover-rgb: var(--bg-3-rgb);
+  --empty-state-background: var(--bg-3);
+  --empty-state-background-rgb: var(--bg-3-rgb);
+  --empty-state-icon: #757c81;
+  --empty-state-icon-rgb: 117, 124, 129;
+  --focus: var(--ac-3);
+  --focus-rgb: var(--ac-3-rgb);
+  --focus-animation: var(--ac-3);
+  --focus-animation-rgb: var(--ac-3-rgb);
+  --focus-animation-deeper: var(--ac-3);
+  --focus-animation-deeper-rgb: var(--ac-3-rgb);
+  --focus-lighter: var(--ac-3);
+  --focus-lighter-rgb: var(--ac-3-rgb);
+  --highlight: var(--ac-0);
+  --highlight-rgb: var(--ac-0-rgb);
+  --icon: var(--fg-3);
+  --icon-rgb: var(--fg-3-rgb);
+  --icon-ack: var(--ac-0);
+  --icon-ack-rgb: var(--ac-0-rgb);
+  --icon-disabled: var(--fg-5);
+  --icon-disabled-rgb: var(--fg-5-rgb);
+  --icon-fixed: var(--fg-3);
+  --icon-fixed-rgb: var(--fg-3-rgb);
+  --icon-lighter: var(--fg-5);
+  --icon-lighter-rgb: var(--fg-0-rgb);
+  --icon-search-back: var(--ac-2);
+  --icon-search-back-rgb: var(--ac-2-rgb);
+  --icon-strong: var(--fg-1);
+  --icon-strong-rgb: var(--fg-1-rgb);
+  --incoming-background: var(--bg-4);
+  --incoming-background-rgb: var(--bg-4-rgb);
+  --incoming-background-deeper: var(--bg-3);
+  --incoming-background-deeper-rgb: var(--bg-3-rgb);
+  --incoming-background-highlight: #ccc;
+  --incoming-background-highlight-rgb: 204, 204, 204;
+  --incoming-primary: var(--fg-3);
+  --incoming-primary-rgb: var(--fg-3-rgb);
+  --input-border-active: var(--ac-0);
+  --input-border-active-rgb: var(--ac-0-rgb);
+  --input-placeholder: var(--fg-4);
+  --input-placeholder-rgb: var(--fg-4);
+  --intro-background: var(--bg-2);
+  --intro-background-rgb: var(--bg-2-rgb);
+  --intro-border: var(--ac-3);
+  --intro-border-rgb: var(--ac-3-rgb);
+  --inverse: #f1f1f2;
+  --inverse-rgb: var(--fg-3-rgb);
+  --labels-icon: rgba(241, 241, 242, 0.4);
+  --labels-icon-rgb: var(--fg-3-rgb);
+  --link: var(--ac-0);
+  --link-rgb: var(--ac-0-rgb);
+  --live-location-footer-background: var(--bg-1);
+  --live-location-footer-background-rgb: var(--bg-1-rgb);
+  --live-location-glow: rgba(37, 211, 102, 0.302);
+  --live-location-glow-rgb: 37, 211, 102;
+  --live-location-glow-stale: rgba(255, 0, 31, 0.302);
+  --live-location-glow-stale-rgb: 255, 0, 31;
+  --location-cluster-background: var(--bg-1);
+  --location-cluster-background-rgb: var(--bg-1-rgb);
+  --media-editor-control: #1c313f;
+  --media-editor-control-rgb: 28, 49, 63;
+  --media-viewer-background: rgba(var(--bg-1-rgb), 0.95);
+  --media-viewer-background-rgb: var(--bg-1-rgb);
+  --media-viewer-button-background: var(--bg-3);
+  --media-viewer-button-background-rgb: var(--bg-3-rgb);
+  --media-viewer-button-icon: #f1f1f2;
+  --media-viewer-button-icon-rgb: var(--fg-3-rgb);
+  --menu-tabs-list-active: var(--ac-0);
+  --menu-tabs-list-active-rgb: var(--ac-0-rgb);
+  --message-background-deep: var(--bg-0);
+  --message-background-deep-rgb: var(--bg-0-rgb);
+  --message-placeholder-icon: rgba(204, 204, 204, 0.302);
+  --message-placeholder-icon-rgb: 204, 204, 204;
+  --message-selection-highlight: rgba(var(--ac-0-rgb), 0.1);
+  --message-selection-highlight-rgb: var(--ac-0-rgb);
+  --modal-backdrop: rgba(var(--bg-0-rgb), 0.95);
+  --modal-backdrop-rgb: var(--bg-0-rgb);
+  --modal-backdrop-solid: var(--bg-0);
+  --modal-backdrop-solid-rgb: var(--bg-0-rgb);
+  --modal-background: var(--bg-2);
+  --modal-background-rgb: var(--bg-2-rgb);
+  --notification-biz-background: var(--bg-3);
+  --notification-biz-background-rgb: var(--bg-3-rgb);
+  --notification-biz-text: #55fad9;
+  --notification-biz-text-rgb: 85, 250, 217;
+  --notification-e2e-background: var(--bg-0);
+  --notification-e2e-background-rgb: var(--bg-3-rgb);
+  --notification-e2e-icon: #fad964;
+  --notification-e2e-icon-rgb: 250, 217, 100;
+  --notification-e2e-text: #fad964;
+  --notification-e2e-text-rgb: 250, 217, 100;
+  --notification-text: rgba(241, 241, 242, 0.4);
+  --notification-text-rgb: var(--fg-3-rgb);
+  --outgoing-background: var(--ac-4);
+  --outgoing-background-rgb: var(--ac-4-rgb);
+  --outgoing-background-deeper: var(--ac-5);
+  --outgoing-background-deeper-rgb: var(--ac-5-rbg);
+  --outgoing-background-highlight: #ccc;
+  --outgoing-background-highlight-rgb: 204, 204, 204;
+  --overlay: var(--bg-0);
+  --overlay-rgb: var(--bg-0-rgb);
+  --panel-background: var(--bg-3);
+  --panel-background-rgb: var(--bg-3-rgb);
+  --panel-background-active: #1a262d;
+  --panel-background-active-rgb: 26, 38, 45;
+  --panel-background-colored: var(--bg-4);
+  --panel-background-colored-rgb: var(--bg-4-rgb);
+  --panel-background-colored-deeper: var(--bg-3);
+  --panel-background-colored-deeper-rgb: var(--bg-3-rgb);
+  --panel-background-deep: var(--bg-2);
+  --panel-background-deep-rgb: var(--bg-2-rgb);
+  --panel-background-deeper: var(--bg-2);
+  --panel-background-deeper-rgb: var(--bg-3-rgb);
+  --panel-background-hover: #1b272e;
+  --panel-background-hover-rgb: 27, 39, 46;
+  --panel-background-lighter: var(--bg-2);
+  --panel-background-lighter-rgb: var(--bg-3-rgb);
+  --panel-header-background: var(--bg-3);
+  --panel-header-background-rgb: var(--bg-3-rgb);
+  --panel-header-icon: var(--fg-3);
+  --panel-header-icon-rgb: var(--fg-3-rgb);
+  --panel-primary: rgba(241, 241, 242, 0.349);
+  --panel-primary-rgb: var(--fg-3-rgb);
+  --payment-amount: #00a593;
+  --payment-amount-rgb: 0, 164.8, 146.90743;
+  --payment-status-failed: #ef697a;
+  --payment-status-failed-rgb: 239, 105, 122;
+  --payment-status-processing: var(--fg-1);
+  --payment-status-processing-rgb: var(--fg-3-rgb);
+  --payment-status-success: #40cf6c;
+  --payment-status-success-rgb: 64, 207, 108;
+  --payment-status-waiting: var(--fg-1);
+  --payment-status-waiting-rgb: var(--fg-3-rgb);
+  --photopicker-overlay-background: rgba(33, 44, 49, 0.8);
+  --photopicker-overlay-background-rgb: 33, 44, 49;
+  --popup-panel-background: var(--bg-2);
+  --popup-panel-background-rgb: var(--bg-2-rgb);
+  --primary: var(--fg-2);
+  --primary-rgb: var(--fg-2-rgb);
+  --primary-strong: var(--fg-1);
+  --primary-strong-rgb: var(--fg-1-rgb);
+  --primary-stronger: var(--fg-0);
+  --primary-stronger-rgb: var(--fg-0-rgb);
+  --primary-title: var(--fg-2);
+  --primary-title-rgb: var(--fg-2-rgb);
+  --product-thumb-background: var(--bg-3);
+  --product-thumb-background-rgb: var(--bg-3-rgb);
+  --product-thumb-background-deeper: #2b3e49;
+  --product-thumb-background-deeper-rgb: 43.232, 61.76, 72.568;
+  --ptt-blue: var(--blue);
+  --ptt-blue-rgb: var(--blue-rgb);
+  --ptt-button-cancel: var(--red);
+  --ptt-button-cancel-rgb: var(--red-rgb);
+  --ptt-button-send: var(--green);
+  --ptt-button-send-rgb: var(--green);
+  --ptt-gray: var(--fg-4);
+  --ptt-gray-rgb: var(--fg-4-rgb);
+  --ptt-green: var(--green);
+  --ptt-green-rgb: var(--green);
+  --ptt-message-blue: var(--blue);
+  --ptt-message-blue-rgb: var(--blue-rgb);
+  --quick-action-button: var(--fg-3);
+  --quick-action-button-rgb: var(--fg-3-rgb);
+  --quick-action-button-background: var(--bg-4);
+  --quick-action-button-background-rgb: var(--bg-4-rgb);
+  --rich-text-panel-background: var(--bg-3);
+  --rich-text-panel-background-rgb: var(--bg-3-rgb);
+  --secondary: var(--fg-3);
+  --secondary-rgb: var(--fg-3-rgb);
+  --secondary-light: var(--fg-2);
+  --secondary-light-rgb: var(--fg-2-rgb);
+  --secondary-lighter: var(--fg-1);
+  --secondary-lighter-rgb: var(--fg-1-rgb);
+  --secondary-stronger: var(--fg-0);
+  --secondary-stronger-rgb: var(--fg-0-rgb);
+  --shadow: var(--bg-0);
+  --shadow-rgb: var(--bg-0-rgb);
+  --shadow-light: var(--bg-0);
+  --shadow-light-rgb: var(--bg-0-rgb);
+  --spinner-default: var(--fg-3);
+  --spinner-default-rgb: var(--fg-3-rgb);
+  --spinner-highlight: var(--ac-0);
+  --spinner-highlight-rgb: var(--ac-0-rgb);
+  --spinner-incoming: var(--fg-5);
+  --spinner-incoming-rgb: var(--fg-5-rgb);
+  --spinner-outgoing: var(--ac-5);
+  --spinner-outgoing-rgb: var(--ac-5-rgb);
+  --status-background: var(--bg-1);
+  --status-background-rgb: var(--bg-1-rgb);
+  --status-background-hover: var(--bg-2);
+  --status-background-hover-rgb: var(--bg-2-rgb);
+  --status-primary: #fff;
+  --status-primary-rgb: 255, 255, 255;
+  --status-secondary: rgba(255, 255, 255, 0.549);
+  --status-secondary-rgb: 255, 255, 255;
+  --status-secondary-stronger: #b3b3b3;
+  --status-secondary-stronger-rgb: 179, 179, 179;
+  --success: var(--ac-0);
+  --success-rgb: var(--ac-0-rgb);
+  --suspicious-background: rgba(239, 105, 122, 0.8);
+  --suspicious-background-rgb: 239, 105, 122;
+  --system-message-background: var(--ac-4);
+  --system-message-background-rgb: var(--ac-4-rgb);
+  --system-message-text: var(--fg-1);
+  --system-message-text-rgb: 241, 241, 242;
+  --teal-hover: #00b7a1;
+  --teal-hover-rgb: 0, 183, 161;
+  --teal-pale: #5fc8bc;
+  --teal-pale-rgb: 95, 200, 188;
+  --thumb-border-active: var(--bg-2);
+  --thumb-border-active-rgb: var(--bg-2-rgb);
+  --thumb-border-viewer-active: var(--fg-3);
+  --thumb-border-viewer-active-rgb: var(--fg-3-rgb);
+  --toast-background: var(--bg-3);
+  --toast-background-rgb: var(--bg-3-rgb);
+  --tooltip-background: rgba(89, 89, 89, 0.851);
+  --tooltip-background-rgb: 89.25, 89.25, 89.25;
+  --typing: var(--ac-0);
+  --typing-rgb: var(--ac-0-rgb);
+  --unread-background: var(--bg-3);
+  --unread-background-rgb: var(--bg-3-rgb);
+  --unread-bar-background: var(--bg-0);
+  --unread-bar-background-rgb: var(--bg-0-rgb);
+  --unread-marker-background: var(--ac-0);
+  --unread-marker-background-rgb: var(--ac-0-rgb);
+  --unread-marker-text: var(--white);
+  --unread-marker-text-rgb: var(--white-rgb);
+  --video-player-background: #000;
+  --video-player-background-rgb: 0, 0, 0;
+  --video-primary: #fff;
+  --video-primary-rgb: 255, 255, 255;
+  --voip-accept-background: #70db91;
+  --voip-accept-background-rgb: 112, 219, 145;
+  --voip-background: #262626;
+  --voip-background-rgb: 38, 38, 38;
+  --voip-background-deep: #000;
+  --voip-background-deep-rgb: 0, 0, 0;
+  --voip-primary: #fff;
+  --voip-primary-rgb: 255, 255, 255;
+  --voip-reject-background: #e54b40;
+  --voip-reject-background-rgb: 229, 75, 64;
+  --win32-title-primary: #fff;
+  --win32-title-primary-rgb: 255, 255, 255;
+  --bg-0: #1c2026 !important;
+  --bg-0-rgb: 28, 32, 38;
+  --bg-1: #1f232a !important;
+  --bg-1-rgb: 31, 35, 42;
+  --bg-2: #282d37 !important;
+  --bg-2-rgb: 40, 45, 55;
+  --bg-3: #323843 !important;
+  --bg-3-rgb: 50, 56, 67;
+  --bg-4: #3b4250 !important;
+  --bg-4-rgb: 59, 66, 80;
+  --bg-5: #444d5c !important;
+  --bg-5-rgb: 68, 77, 92;
+  --fg-0: #f0f0f0 !important;
+  --fg-0-rgb: 240, 240, 240;
+  --fg-1: #eee !important;
+  --fg-1-rgb: 238, 238, 238;
+  --fg-2: #e0e0e0 !important;
+  --fg-2-rgb: 224, 224, 224;
+  --fg-3: #d1d1d1 !important;
+  --fg-3-rgb: 209, 209, 209;
+  --fg-4: #b5b5b5 !important;
+  --fg-4-rgb: 181, 181, 181;
+  --fg-5: #8f8f8f !important;
+  --fg-5-rgb: 143, 143, 143;
+  --ac-0: #7289da !important;
+  --ac-0-rgb: 114, 137, 218;
+  --ac-1: #6a7fc9 !important;
+  --ac-1-rgb: 106, 127, 201;
+  --ac-2: #6376b9 !important;
+  --ac-2-rgb: 99, 118, 185;
+  --ac-3: #5b6da8 !important;
+  --ac-3-rgb: 91, 109, 168;
+  --ac-4: #38415a !important;
+  --ac-4-rgb: 56, 65, 90;
+  --ac-5: #303849 !important;
+  --ac-5-rgb: 48, 56, 73;
+  --white: #fff;
+  --white-rgb: 255, 255, 255;
+  --red: #dc322f;
+  --red-rgb: 220, 50, 47;
+  --green: #859900;
+  --green-rgb: 133, 153, 0;
+  --blue: #268bd2;
+  --blue-rgb: 38, 139, 210;
+  --yellow: #e5c512;
+  --yellow-rgb: 229, 197, 18;
+  --msg-l: #353b46;
+  --msg-r: #2c323d;
+  --t: transparent;
+  --shadow: rgba(0, 0, 0, 0.145);
+  --sh-h: rgba(0, 0, 0, 0.208);
+  --bshadow: 0 2px 4px var(--shadow);
+  --ui-font: "font_name", "Segoe UI", "Helvetica Neue", Helvetica,
+    "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+  --r-menus: 4px;
+  --r-inputs: 24px;
+  --r-avatars: 50%;
+  --c-m-hover: 0.6s;
+  --c-m-delay: 1.2s;
+  --bg-image: url("https://raw.githubusercontent.com/vednoc/dark-whatsapp/master/images/bg-blur-high.jpg");
+  --bg-opacity: 0.4;
+  --bg-blur: 0px;
+  --bg-blur-s: calc(-2 * var(--bg-blur));
+  --bg-hue: 320deg;
+  --bg-invert: 0;
+  --bg-size: cover;
+  --bg-pos: center;
+  --bg-rep: no-repeat;
+  --version: "2.10.0 — June 6th, 2020";
+  --message: "Dark mode for Franz and Ferdi by Duc Filan, for more services: https://github.com/ducfilan/Dark-mode-Franz-Ferdi";
+  --changes: "\A\A All credits for @vednoc/dark-whatsapp";
+}
+
+@supports (scrollbar-width: thin) {
+  * {
+    scrollbar-width: thin !important;
+    scrollbar-color: var(--ac-3) rgba(136, 136, 136, 0.082);
+  }
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--ac-3) !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--shadow) !important;
+}
+
+:root {
+  --intro-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  height='256' width='256'><g stroke='\%237289da'><path d='M128.4901 30.8659a95.4375 95.4375 0 00-95.4375 95.4375 95.4375 95.4375 0 0014.168 50.0332L35.6698 221.276l44.7989-12.498a95.4375 95.4375 0 0048.0214 12.9629 95.4375 95.4375 0 0095.4375-95.4375 95.4375 95.4375 0 00-95.4375-95.4375z' fill='\%231f232a' fill-rule='evenodd' stroke-width='18' stroke-linecap='square'/><path d='M97.8104 79.8463c-4.9671.0406-13.5028 2.0796-17.7812 14.8946-6.8318 20.4631 12.5737 43.3028 27.2438 57.4735 14.7975 14.2938 43.1559 26.507 58.0098 21.08 20.5566-8.9065 15.2475-22.9479 15.2475-22.9479l-22.9727-11.0878s-2.062-1.206-3.4146.5737c-1.0042 1.3213-9.4409 11.3755-9.4409 11.3755s-1.449 1.668-3.827.7402c-5.7574-2.2462-14.2018-7.4856-18.5314-10.7795-6.8875-5.2399-12.957-13.0846-16.9473-19.668-1.2556-2.5597.6953-4.709.6953-4.709s6.0303-8.2629 7.0176-9.5566c1.0068-1.3194.2539-3.3633.2539-3.3633l-10.539-23.2285s-2.0334-.8212-5.0138-.7969z' fill='\%237289da' stroke-linejoin='round'/></g></svg>");
+}
+
+html > body {
+  background-image: none !important;
+  color: var(--fg-0) !important;
+  background-color: var(--bg-0) !important;
+}
+
+html > body,
+html > body button,
+html > body input {
+  font-family: var(--ui-font);
+}
+
+html > body ._11dpe {
+  color: #eee !important;
+  border: 1px solid #444d5c;
+}
+
+html > body ._11dpe button:nth-child(2) {
+  color: #6a7fc9 !important;
+}
+
+html > body ._11dpe button:nth-child(3) {
+  color: #b5b5b5 !important;
+}
+
+html > body [data-asset-intro-image-light] {
+  max-width: 200px;
+  max-height: 200px;
+  background-image: var(--intro-image);
+  transition: opacity 0.6s ease;
+  border-radius: 0 !important;
+}
+
+html > body [data-asset-intro-image-light] + div h1 + div[class] {
+  font-size: 0;
+  color: #f0f0f0 !important;
+}
+
+html > body [data-asset-intro-image-light] + div h1 + div[class]::before {
+  display: block;
+  font-size: 16px;
+  margin-bottom: -16px;
+  white-space: pre-wrap;
+  content: var(--message) var(--changes);
+}
+
+html > body [data-asset-intro-image-light] + div h1 + div[class]::after {
+  display: block;
+  font-size: 16px;
+  margin-top: 16px;
+  padding-top: 24px;
+  margin-bottom: -16px;
+  content: var(--version);
+  border-top: 1px solid #3b4250;
+}
+
+html > body [data-asset-chat-background-light] {
+  filter: invert(1) !important;
+}
+
+._1BjNO[style] {
+  background-color: #444d5c !important;
+}
+
+._1BjNO[style],
+._1BjNO[style] > img,
+._18cLH {
+  border-radius: var(--r-avatars) !important;
+}
+
+.overlay ._2ouPw,
+.overlay ._21ltg,
+.overlay > .KeLEe {
+  background-color: var(--bg-3) !important;
+  border-bottom: 1px solid var(--bg-5) !important;
+}
+
+.overlay ._1kEVs {
+  background-color: transparent !important;
+}
+
+.overlay [data-animate-modal-popup] {
+  border: 1px solid #444d5c;
+  border-radius: var(--r-menus) !important;
+}
+
+.overlay [data-animate-modal-popup] .copyable-area > header {
+  border-bottom: 1px solid #444d5c;
+}
+
+._1KWct {
+  border-color: var(--bg-5) !important;
+  background-color: var(--bg-3) !important;
+}
+
+[data-animate-status-v3-modal-background="true"] {
+  background-color: var(--modal-backdrop) !important;
+}
+
+[data-animate-status-v3-modal-background="true"] > div {
+  background-color: #282d37 !important;
+}
+
+[data-animate-status-v3-modal-background="true"] > div > div:nth-child(1) {
+  background-color: #1c2026 !important;
+  border-right: 1px solid #444d5c;
+}
+
+@media (min-width: 1441px) {
+  [data-animate-status-v3-modal-background="true"] > div {
+    border: 1px solid #444d5c !important;
+    border-radius: var(--r-menus) !important;
+  }
+}
+
+.color-1 {
+  color: var(--ac-0) !important;
+}
+
+.bg-color-1 {
+  background-color: var(--ac-0) !important;
+}
+
+[data-icon="status-v3-unread"] [fill="#009588"] {
+  fill: #7289da !important;
+}
+
+[id*="startup"] {
+  background-color: #1c2026 !important;
+}
+
+progress {
+  background-color: #282d37 !important;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: #7289da !important;
+}
+
+::-moz-progress-bar {
+  background-color: #3b4250 !important;
+}
+
+::-webkit-progress-bar {
+  background-color: #3b4250 !important;
+}
+
+::-webkit-progress-value {
+  background-color: #7289da !important;
+}
+
+.landing-wrapper::before {
+  background-color: #282d37 !important;
+}
+
+.landing-header {
+  position: relative;
+}
+
+.landing-header path[fill^="#FFF"] {
+  fill: #7289da;
+}
+
+.landing-header path[fill^="#00E"] {
+  fill: #1f232a;
+}
+
+.landing-header div {
+  text-transform: unset;
+  color: #eee !important;
+}
+
+.landing-header::after {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  content: var(--version);
+}
+
+html[dir="RTL"] .landing-header::after {
+  left: 0;
+}
+
+html[dir="LTR"] .landing-header::after {
+  right: 0;
+}
+
+.landing-window:not(#z) {
+  border-radius: 4px;
+  background-color: #1f232a !important;
+  box-shadow: 0 0 1px #444d5c;
+}
+
+.landing-main a[href] {
+  color: #7289da !important;
+}
+
+.landing-main label,
+.landing-main ._2yUXW {
+  color: #d1d1d1 !important;
+}
+
+.landing-main .landing-title {
+  color: #eee !important;
+}
+
+.landing-main rect[fill^="#f2f"],
+.landing-main rect[fill^="#F2F"] {
+  fill: #444d5c;
+}
+
+.landing-main path[fill^="#818"] {
+  fill: #7289da;
+}
+
+.landing-main div[data-ref] {
+  border-radius: 0 !important;
+  filter: contrast(150%);
+  outline: 4px solid #fff;
+  box-shadow: 0 0 0 4px #fff;
+}
+
+.landing-main div[data-ref] [role="button"] {
+  color: #fff !important;
+  background-color: #7289da !important;
+}
+
+.landing-main div[data-ref]._2BIlf {
+  outline: 4px solid #7289da;
+  box-shadow: 0 0 0 4px #7289da;
+}
+
+.landing-main + ._3pdvT {
+  background-color: transparent !important;
+}
+
+.landing-main + ._3pdvT img {
+  opacity: 0.3;
+}
+
+.landing-main + ._3pdvT [style*="opacity: 1"] {
+  background-color: transparent !important;
+}
+
+.landing-main ._3ybl8 {
+  color: #fff !important;
+  background-color: #7289da !important;
+  box-shadow: bsh;
+}
+
+.landing-main ._3ybl8::before {
+  border-bottom-color: #7289da !important;
+}
+
+#app > div::after {
+  top: var(--bg-blur-s);
+  right: var(--bg-blur-s);
+  bottom: var(--bg-blur-s);
+  left: var(--bg-blur-s);
+  height: unset;
+  width: unset;
+  filter: blur(var(--bg-blur)) opacity(var(--bg-opacity))
+    invert(var(--bg-invert)) hue-rotate(var(--bg-hue));
+  background-color: transparent !important;
+  background-image: var(--bg-image) !important;
+  background-position: var(--bg-pos) !important;
+  background-repeat: var(--bg-rep) !important;
+  background-size: var(--bg-size) !important;
+}
+
+#app > div > span > div[style^="transform-origin:"][tabindex],
+#app > div ._2s_eZ[style^="transform-origin:"][tabindex] {
+  border: 1px solid var(--bg-4);
+  border-radius: var(--r-menus) !important;
+}
+
+#app > div > [tabindex] {
+  background: none !important;
+}
+
+@media (min-width: 1441px) {
+  #app > div > [tabindex] {
+    border-radius: var(--r-menus) !important;
+    border: 1px solid #444d5c !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.145);
+  }
+}
+
+#app > div > [tabindex]::after {
+  content: unset !important;
+}
+
+#app > div > [tabindex] .gQzdc,
+#app > div > [tabindex] ._3qx7_ {
+  border-bottom: 1px solid #444d5c !important;
+}
+
+#app > div > [tabindex] .gQzdc::after,
+#app > div > [tabindex] ._3qx7_::after {
+  display: none !important;
+}
+
+._1yO24 {
+  animation: none !important;
+}
+
+#app > div > [tabindex] .gQzdc label,
+#app > div > [tabindex] ._3qx7_ label {
+  border-radius: var(--r-inputs) !important;
+}
+
+#app > div > [tabindex] #side > header {
+  border-bottom: 1px solid #444d5c !important;
+}
+
+#app > div > [tabindex] #side > header + span > div {
+  border-bottom: 1px solid #444d5c !important;
+}
+
+#app > div > [tabindex] #side > header + span > div [data-icon="x"] svg path {
+  fill: #8f8f8f;
+}
+
+#app > div > [tabindex] ._14VS3 > ._1V8rX {
+  border-left: 1px solid #444d5c !important;
+}
+
+#app > div > [tabindex] ._14VS3 > ._1V8rX .copyable-area > header {
+  border-bottom: none !important;
+}
+
+#main > header {
+  border-right: none !important;
+  border-bottom: 1px solid !important;
+  border-color: var(--bg-5) !important;
+}
+
+#main > header::after {
+  content: unset !important;
+}
+
+#main ._1E1g0 {
+  text-shadow: 0 1px 0 rgba(var(--fg-3-rgb), 0.2);
+}
+
+#main ._9WQEN {
+  border: none !important;
+}
+
+#main [class*="message-"][data-id] > span + div:not(.urabC) > div {
+  box-shadow: 0 1px 0 rgba(var(--shadow-rgb), 0.33) !important;
+}
+
+#main .-AOZp ._2oA-- + div[style] {
+  background-color: var(--bg-4) !important;
+}
+
+#main > footer > .copyable-area {
+  border-top: 1px solid var(--bg-5) !important;
+}
+
+#main > footer + span > ._2pAWd {
+  border-top: 1px solid var(--bg-5) !important;
+  border-left: 1px solid var(--bg-5) !important;
+}
+
+#main > footer ._3eShu {
+  border-top: 1px solid var(--bg-5) !important;
+  border-bottom: 1px solid var(--bg-5) !important;
+}
+
+#main > footer ._3uMse {
+  border-radius: var(--r-inputs) !important;
+}
+
+@media screen and (max-height: 500px) {
+  #app > div > [tabindex] {
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  #app > div > [tabindex] {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .two > div:nth-child(3),
+  .three > div:nth-child(3) {
+    flex: 0 0 80px !important;
+    transition: 0.2s ease;
+  }
+
+  .two > div:nth-child(3):hover,
+  .three > div:nth-child(3):hover,
+  .two > div:nth-child(3):focus-within,
+  .three > div:nth-child(3):focus-within {
+    flex: 0 0 30% !important;
+  }
+
+  .two > div:nth-child(2) > div:nth-child(2) {
+    flex: 0 0 calc(100% - 80px) !important;
+    margin-left: calc(-30% + 80px);
+  }
+
+  .two > div:nth-child(3) {
+    min-width: 1px !important;
+    transition: 0.3s ease !important;
+    transition-delay: var(--c-m-delay) !important;
+  }
+
+  .two > div:nth-child(3):hover {
+    min-width: 349px !important;
+    transition-delay: var(--c-m-hover) !important;
+    flex: 0 0 30% !important;
+  }
+
+  .two > :nth-child(2) > :nth-child(1) {
+    z-index: 201 !important;
+    flex: 0 0 30% !important;
+  }
+
+  .two > :nth-child(2) > :nth-child(1) [style][tabindex] {
+    border-right: 1px solid #444d5c !important;
+  }
+
+  .two ._1xXdX:hover {
+    min-width: 349px !important;
+  }
+
+  .three > div:nth-child(2) > div:nth-child(2) {
+    flex: 0 0 calc(100% - 30% - 80px) !important;
+    margin-left: calc(-30% + 80px);
+  }
+
+  .three > div:nth-child(4) {
+    flex: 0 0 calc(100% - 30% - 80px) !important;
+  }
+
+  .three > div:nth-child(3):hover {
+    flex: 0 0 80px !important;
+  }
+
+  .three ._14VS3,
+  .three ._1xXdX {
+    flex: 0 0 30% !important;
+    border-color: transparent !important;
+  }
+
+  ._3qx7_:not(._3fVV4) label {
+    padding: 0px;
+  }
+
+  #side > header {
+    min-width: 240px;
+  }
+
+  #side > header + span {
+    display: none;
+  }
+
+  #side .eJ0yJ > div:last-child {
+    padding-left: 5px !important;
+  }
+
+  #side .eJ0yJ ._1582E {
+    position: relative;
+    flex-direction: row-reverse !important;
+  }
+
+  #side .eJ0yJ ._1582E .m61XR {
+    z-index: 999 !important;
+    margin-left: 0 !important;
+    position: absolute;
+    left: -41px;
+    bottom: -6px;
+    border-radius: 50%;
+  }
+
+  #side .eJ0yJ ._1582E .m61XR ._15G96 {
+    margin: 0;
+  }
+
+  #side .eJ0yJ ._1582E .m61XR ._31gEB {
+    border: 4px solid #1c2026;
+  }
+
+  #side .eJ0yJ ._1582E .m61XR > span {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+
+  #side .eJ0yJ ._1582E ._38QnI,
+  #side .eJ0yJ ._1582E .ZKn2B > *:not(._31gEB) {
+    display: none;
+  }
+
+  ._616fG {
+    overflow: unset !important;
+    margin-top: -8px !important;
+    margin-left: 0px !important;
+    position: absolute !important;
+  }
+
+  ._616fG::before {
+    content: "" !important;
+    z-index: 1 !important;
+    position: absolute !important;
+    top: -31px !important;
+    left: -71px !important;
+    height: 53px !important;
+    width: 53px !important;
+    border-radius: var(--r-avatars) !important;
+    box-shadow: inset 0 0 0 3px #859900 !important;
+    animation: 2s pulse infinite !important;
+  }
+
+  #side .eJ0yJ .zFnXi {
+    padding: 1.5px;
+    z-index: 101;
+    position: absolute;
+    margin: -2px 0 0 -75px;
+    border: 3px solid #1f232a;
+    background-color: #323843 !important;
+    border-radius: 50%;
+  }
+
+  #side .eJ0yJ .zFnXi > span > svg {
+    padding: 2px;
+    height: 14px !important;
+    width: 14px !important;
+  }
+
+  #side .eJ0yJ._13opk ._31gEB,
+  #side .eJ0yJ._13opk .zFnXi {
+    border-color: #323843 !important;
+    background-color: #444d5c !important;
+  }
+
+  #side .eJ0yJ:hover:not(._13opk) ._31gEB,
+  #side .eJ0yJ:hover:not(._13opk) .zFnXi {
+    border-color: #282d37 !important;
+  }
+
+  #side ._2kHpK {
+    min-width: 80px !important;
+  }
+}
+
+.copyable-text {
+  color: #eee;
+}
+
+._3FRCZ {
+  color: #eee !important;
+}
+
+._3uMse {
+  background-color: #282d37 !important;
+  border-color: #282d37 !important;
+}
+
+.r9_f4 > .h3p5g > ._3Whw5 {
+  color: #eee !important;
+}
+
+._2EoyP {
+  background-color: #1f232a !important;
+}
+
+._3xpD_,
+._1qTcI {
+  background-color: #282d37 !important;
+}
+
+._269b4 {
+  background-color: #323843 !important;
+}
+
+._3B5Ir {
+  background-color: #282d37 !important;
+}
+
+._1x3hh {
+  box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25) !important;
+}
+
+@keyframes pulse {
+  40% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 1;
+  }
+}

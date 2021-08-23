@@ -1,15 +1,10 @@
 {
-	"id": "roundcube",
-	"name": "Roundcube",
-	"version": "1.0.2",
-	"description": "Roundcube - Free and Open Source Webmail Software",
-	"main": "index.js",
-	"author": "Jonathan Juursema <dev@jonathanj.nl>",
-	"repository": "https://github.com/jonathanjuursema/franz-roundcube",
-	"license": "MIT",
-	"config": {
-		"hasCustomUrl": true,
-		"hasNotificationSound": false,
-		"hasIndirectMessages": false
-	}
+  "id": "roundcube",
+  "name": "Roundcube",
+  "version": "1.0.3",
+  "repository": "https://github.com/jonathanjuursema/franz-roundcube",
+  "license": "MIT",
+  "config": {
+    "hasCustomUrl": true
+  }
 }

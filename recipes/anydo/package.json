@@ -1,10 +1,7 @@
 {
   "id": "anydo",
   "name": "Any.do",
-  "version": "1.0.2",
-  "description": "Any.do plugin for Franz 5",
-  "main": "index.js",
-  "author": "Tom Chapman <thomas_chapman84@hotmail.com> and The Ferdi Team <hello@getferdi.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": "https://github.com/chappy84/recipe-anydo",
   "config": {

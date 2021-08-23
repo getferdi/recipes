@@ -1,22 +1,10 @@
 {
   "id": "toggl",
   "name": "toggl",
-  "version": "1.0.2",
-  "description": "toggl",
-  "main": "index.js",
-  "author": "exampleman <franzplugin@example.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.toggl.com/app/timer",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasNotificationSound": true
   }
 }

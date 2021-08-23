@@ -1,24 +1,11 @@
 {
   "id": "chatra",
   "name": "chatra",
-  "version": "1.0.1",
-  "description": "Chatra – Live chat software",
-  "main": "index.js",
-  "author": "Julien Ma <hello@julienma.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.chatra.io/",
-    "serviceName": "Chatra",
-    "message": "",
-    "popup": [],
-    "hasTeamID": false,
     "hasNotificationSound": true,
-    "hasIndirectMessages": true,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "webpreferences": ""
-    },
-    "openDevTools": false
+    "hasIndirectMessages": true
   }
 }

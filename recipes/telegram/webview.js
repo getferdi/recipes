@@ -8,11 +8,15 @@ module.exports = Franz => {
     let count_sec = 0;
     const elements = document.querySelectorAll('.rp');
     for (let i = 0; i < elements.length; i += 1) {
-      if (elements[i].querySelector('.dialog-subtitle-badge') && (!isNaN(parseInt(elements[i].querySelector('.dialog-subtitle-badge').innerText)))) {
-        if (parseInt(elements[i].querySelector('.dialog-subtitle-badge').innerText) != '' && (elements[i].dataset.peerId > 0)) {
-          count = +count + parseInt(elements[i].querySelector('.dialog-subtitle-badge').innerText);
-        } else {
-          count_sec = +count_sec + parseInt(elements[i].querySelector('.dialog-subtitle-badge').innerText);
+      const subtitleBadge = elements[i].querySelector('.dialog-subtitle-badge');
+      if (subtitleBadge) {
+        const parsedValue = parseInt(subtitleBadge.innerText);
+        if (!isNaN(parsedValue)) {
+          if (elements[i].dataset.peerId > 0) {
+            count += parsedValue;
+          } else {
+            count_sec += parsedValue;
+          }
         }
       }
     }

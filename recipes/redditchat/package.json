@@ -1,13 +1,9 @@
 {
   "id": "redditchat",
   "name": "Reddit Chat",
-  "version": "1.0.1",
-  "description": "Reddit Chat",
-  "main": "index.js",
-  "author": "Alex Bloom <administrator@shadowserversystems.com",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://www.reddit.com/chat/",
-    "hasNotificationSound": false
+    "serviceURL": "https://www.reddit.com/chat/"
   }
 }

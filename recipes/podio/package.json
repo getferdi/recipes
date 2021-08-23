@@ -1,22 +1,10 @@
 {
   "id": "podio",
   "name": "podio",
-  "version": "1.0.1",
-  "description": "Podio",
-  "main": "index.js",
-  "author": "Jan Willem Kaper <kapersoft@gmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://podio.com",
-    "serviceName": "Podio",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {},
-    "openDevTools": false
+    "hasNotificationSound": true
   }
 }

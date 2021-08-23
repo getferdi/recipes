@@ -7,9 +7,7 @@ module.exports = (Franz) => {
       return;
     }
     const messages = Number(inbox.innerText);
-    if (!Number.isNaN(messages)) {
-      Franz.setBadge(messages);
-    }
+    Franz.setBadge(messages);
   };
 
   Franz.injectJSUnsafe(path.join(__dirname, 'webview-unsafe.js'));

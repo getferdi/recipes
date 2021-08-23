@@ -1,14 +1,10 @@
 {
   "id": "outlook",
   "name": "Outlook Web App",
-  "version": "1.1.1",
-  "description": "Outlook Web App",
-  "main": "index.js",
-  "author": "Wouter Van Speybroeck <wouter.van.speybroeck@gmail.com>",
+  "version": "1.1.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://outlook.live.com/mail/",
-    "hasNotificationSound": true,
-    "hasTeamId": false
+    "hasNotificationSound": true
   }
 }

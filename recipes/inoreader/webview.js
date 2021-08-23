@@ -4,9 +4,7 @@ module.exports = (Franz) => {
     if (!all_articles) return;
 
     const unread_articles_cnt = Number(all_articles.textContent.split('+')[0]);
-    if (!Number.isNaN(unread_articles_cnt)) {
-      Franz.setBadge(unread_articles_cnt);
-    }
+    Franz.setBadge(unread_articles_cnt);
   };
 
   Franz.loop(getMessages);

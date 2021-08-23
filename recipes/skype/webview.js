@@ -35,12 +35,17 @@ module.exports = (Franz, settings) => {
       if (url.includes('views/imgpsh_fullsize_anim')) {
         event.preventDefault();
         event.stopPropagation();
+        // TODO: Can we send an ipc event 'open-browser-window' to open the child window? (see the slack recipe for how to send an ipc message)
+        // TODO: Can we change the slack recipe to add a clickHandler for screensharing/video calls? (https://github.com/getferdi/ferdi/issues/1697)
         const win = new BrowserWindow({
           width: 800,
           height: window.innerHeight,
           minWidth: 600,
           webPreferences: {
             partition: `persist:service-${settings.id}`,
+            // TODO: Aren't these needed here?
+            // contextIsolation: false,
+            // enableRemoteModule: true,
           },
         });
         win.loadURL(url);

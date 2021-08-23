@@ -1,10 +1,7 @@
 {
   "id": "SERVICE",
   "name": "SNAME",
-  "version": "1.0.0",
-  "description": "SERVICE",
-  "main": "index.js",
-  "author": "Ferdi <hello@getferdi.com>",
+  "version": "1.0.1",
   "license": "MIT",
   "config": {
     "serviceURL": "https://SERVICE.com"

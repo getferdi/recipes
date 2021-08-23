@@ -1,14 +1,10 @@
 {
   "id": "harvest",
   "name": "Harvest",
-  "version": "1.0.1",
-  "description": "A recipe to integrate Harvest with Franz.app.",
-  "main": "index.js",
-  "author": "Jonathan Simcoe <jonathan@postpost.design>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.harvestapp.com",
-    "openDevTools": true,
     "hasTeamId": true,
     "urlInputSuffix": ".harvestapp.com"
   }

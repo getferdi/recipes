@@ -5,10 +5,6 @@ module.exports = Franz => {
       directs = parseInt(document.getElementsByClassName('left_count')[0].innerText, 10);
     }
 
-    if (isNaN(directs)) {
-      directs = 0;
-    }
-
     Franz.setBadge(directs);
   };
 

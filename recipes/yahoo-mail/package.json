@@ -1,24 +1,10 @@
 {
   "id": "yahoo-mail",
   "name": "Yahoo Mail",
-  "version": "1.0.2",
-  "description": "Yahoo Mail recipe for Franz",
-  "main": "index.js",
-  "author": "Vijay Raghavan Aravamudhan <avijayr@protonmail.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://mail.yahoo.com",
-    "serviceName": "YahooMail",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasNotificationSound": true
   }
 }

@@ -12,10 +12,6 @@ module.exports = Franz => {
       count += parseInt(counters[i].textContent);
     }
 
-    if (isNaN(count)) {
-      count = 0;
-    }
-
     Franz.setBadge(count);
   };
 

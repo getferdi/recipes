@@ -1,10 +1,7 @@
 {
   "id": "rocketchat",
   "name": "Rocket.Chat",
-  "version": "1.0.10",
-  "description": "Rocket.Chat",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.0.11",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.rocket.chat",

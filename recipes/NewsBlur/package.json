@@ -1,24 +1,10 @@
 {
   "id": "NewsBlur",
   "name": "NewsBlur",
-  "version": "1.0.0",
-  "description": "NewsBlur is a personal news reader",
-  "main": "index.js",
-  "author": "takehitosato@gmail.com",
+  "version": "1.0.1",
   "license": "MIT",
   "config": {
     "serviceURL": "https://newsblur.com",
-    "serviceName": "NewsBlur",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasNotificationSound": true
   }
 }

@@ -1,0 +1,222 @@
+/* Copied from: https://github.com/ducfilan/Dark-mode-Franz-Ferdi */
+
+html {
+  -webkit-filter: invert(90%) hue-rotate(180deg) !important;
+  filter: invert(90%) hue-rotate(180deg) !important;
+  background: #191919 !important;
+}
+
+.CflnFb {
+  background-color: #7b96c1 !important;
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%)
+    contrast(105%) !important;
+  color: #fff !important;
+}
+
+.h5t3Nc .GrK4Mb,
+.h5t3Nc .hVDHke,
+.h5t3Nc .l7VQxb,
+.h5t3Nc .zP0T0b,
+.h5t3Nc .qNixLe {
+  background-color: #c9c9c9;
+  border-color: #fff;
+}
+
+.lq96Td {
+  background-color: #003e3a !important;
+  color: #fff !important;
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%)
+    contrast(105%) !important;
+}
+
+.GooADb {
+  color: #9dceff !important;
+  text-shadow: 0 0 #404040 !important;
+}
+
+.bJZIjf.qs41qe {
+  opacity: 0.3;
+}
+
+#gb a.gb_ja,
+#gb a.gb_ja:visited,
+#gb a.gb_ja:active,
+#gb a.gb_ka,
+#gb a.gb_ka:visited {
+  color: rgba(255, 255, 255, 0.87) !important;
+  text-decoration: none !important;
+  background-color: #000 !important;
+}
+
+.M6tHv {
+  background-color: #444 !important;
+}
+
+.gb_ea.gb_6f {
+  background-color: #e8e8e8 !important;
+}
+
+.gb_yc svg,
+.gb_kc svg {
+  color: #000 !important;
+  opacity: 0.54 !important;
+}
+
+.HkPXyb {
+  background-color: #f9f9f9;
+}
+
+.EfQccc.F262Ye.EiZ8Dd::after {
+  border-color: #000;
+}
+
+.uHMk6b.fsHoPb {
+  border: 7px solid #000 !important;
+}
+
+.g3VIld.GFhhge.Up8vH.hFEqNb.J9Nfi.iWO5td {
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%)
+    contrast(105%) !important;
+  background: #191919 !important;
+  color: #fff !important;
+}
+
+.g3dbUc .jKgTF,
+.QGRmIf,
+.lcPUt {
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%)
+    contrast(105%) !important;
+  font-weight: 700 !important;
+  mix-blend-mode: darken;
+}
+
+.g3dbUc.UflSff {
+  filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(105%)
+    opacity(40%) !important;
+  color: #404040 !important;
+}
+
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.UflSff.jKgTF {
+  filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(50%)
+    brightness(140%) opacity(90%) !important;
+}
+
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.UflSff {
+  filter: opacity(80%) !important;
+}
+
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.jKgTF {
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%)
+    contrast(105%) !important;
+  font-weight: 700 !important;
+}
+
+.W0m3G {
+  font-weight: 500 !important;
+}
+
+.g3dbUc {
+  font-weight: 900 !important;
+  color: #000 !important;
+}
+
+.g3dbUc.smECzc {
+  color: #666 !important;
+}
+
+.FAxxKc {
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.rq8Mwb {
+  filter: invert(100%) !important;
+}
+
+.WpDZC,
+.zHQkBf {
+  color: #c1c1c1 !important;
+}
+
+.XHsn7e,
+.YqtBEc,
+.xuBVOe,
+.Mh0NNb,
+.ck4bY,
+.asor.asor_i0,
+.gsoi.gsoi_w,
+.gsoi.gsoi_c.asor_v,
+.gsoi.gsoi_9.asor_v,
+.gsoi.gsoi_7.asor_v,
+#vqd3vxfo4jpl,
+#pnsketfj08m,
+.st-wc,
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd,
+.a63c9c.ztKZ3d,
+.a63c9c,
+.Oxm52e,
+.kImhzd,
+.hsrazb,
+.Tnsqdc,
+.kw5sif,
+.kXIDId,
+.sIyjR,
+.ghXZpb,
+.whsOnd.zHQkBf {
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%)
+    contrast(105%) !important;
+}
+
+.gb_3,
+#rAECCd,
+.jPtXgd {
+  font-weight: 600 !important;
+}
+
+#I0_1513527137275,
+.gb_W,
+:not([data-date]):before,
+img,
+svg,
+.jPtXgd,
+.gb_Wa.gb_Fe,
+.fFW7wc-OEVmcd {
+  filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%) !important;
+}
+
+.Wbs5sd,
+.rF3YF.wmyjXb,
+.A6wOnd,
+.VgueE,
+.Jmftzc.gVNoLb.EiZ8Dd,
+.Jmftzc.K9QN7e.EiZ8Dd.UflSff,
+.Jmftzc.K9QN7e.EiZ8Dd,
+.i5a7ie,
+.gb_Eb {
+  color: #000 !important;
+}
+
+.EfQccc.Hrn1mc.EiZ8Dd::after,
+.EfQccc.MmaWIb.KKjvXb.EiZ8Dd::after {
+  border: 1px solid #000;
+}
+
+.XBkKC.WSvIUd,
+.logo-plus-button-lockup-text {
+  color: #fff;
+}
+
+.IP9Hyd .O0WRkf:first-child,
+.gb_je.gb_ee {
+  color: #fff;
+}
+
+.Jmftzc.gVNoLb.LKeQwe,
+.Jmftzc.EiZ8Dd {
+  color: #000;
+}
+
+.gb_fa.gb_ng,
+.gb_Z {
+  font-weight: bolder !important;
+}

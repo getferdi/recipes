@@ -1,24 +1,10 @@
 {
   "id": "feedbin",
   "name": "feedbin",
-  "version": "1.0.1",
-  "description": "feedbin",
-  "main": "index.js",
-  "author": "Kan Fushihara <kan.fushihara@gmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://feedbin.com/login",
-    "serviceName": "Feedbin",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasNotificationSound": true
   }
 }

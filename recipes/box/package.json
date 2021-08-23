@@ -1,24 +1,9 @@
 {
   "id": "box",
   "name": "box",
-  "version": "1.0.1",
-  "description": "Box",
-  "main": "index.js",
-  "author": "Yitch <mr.yitch@gmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://account.box.com/login",
-    "serviceName": "Box",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "serviceURL": "https://account.box.com/login"
   }
 }

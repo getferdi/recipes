@@ -1,0 +1,421 @@
+/* Copied from: https://github.com/ducfilan/Dark-mode-Franz-Ferdi */
+
+:root:not(#z) {
+  --bshadow: 0 2px 4px var(--shadow);
+  --t: transparent !important;
+  --avatar: a_radius;
+  --ui-font: "font_name", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, Ubuntu, Cantarell, "Noto Sans", var(--emoji-font),
+    sans-serif;
+  --emoji-font: "font_name", "joypixels", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --white: #fff;
+  --dark: #1f232a;
+  --darken: #252a33;
+  --darker: #333943;
+  --light: #e9e9e9;
+  --lighter: #a1a1a1;
+  --accent: #7289da;
+  --shadow: rgba(0, 0, 0, 0.145);
+  --yellow: #e5c512;
+  --orange: #df4b16;
+  --red: #dc322f;
+  --magenta: #f33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+  --dark-rgb: 31, 35, 42;
+  --darken-rgb: 37, 42, 51;
+  --darker-rgb: 51, 57, 67;
+  --light-rgb: 233, 233, 233;
+  --lighter-rgb: 161, 161, 161;
+  --accent-rgb: 114, 137, 218;
+  --shadow-rgb: 0, 0, 0;
+  --white-rgb: 255, 255, 255;
+  --b6a: var(--darker-rgb);
+  --b38: var(--darker-rgb);
+  --ce3: var(--darker-rgb);
+  --ca6: var(--darker-rgb);
+  --d87: var(--darken-rgb);
+  --f23: var(--darken-rgb);
+  --b3f: var(--dark-rgb);
+  --i1d: var(--light-rgb);
+  --f75: var(--light-rgb);
+  --f52: var(--lighter-rgb);
+  --bb2: var(--darken-rgb);
+  --f23: var(--dark-rgb);
+  --fe0: var(--accent-rgb);
+  --d69: var(--accent-rgb);
+  --c37: var(--accent-rgb);
+  --eca: var(--darken-rgb);
+  --jb7: var(--shadow-rgb);
+  --fa7: var(--darken-rgb);
+  --de5: var(--white-rgb);
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+* {
+  scrollbar-width: thin;
+}
+html {
+  scrollbar-color: var(--accent) rgba(136, 136, 136, 0.082);
+}
+::-webkit-scrollbar {
+  background-color: rgba(136, 136, 136, 0.082) !important;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+body {
+  color: var(--light) !important;
+  background-color: var(--dark) !important;
+}
+body ::placeholder {
+  color: var(--lighter) !important;
+}
+body ::-webkit-input-placeholder {
+  color: var(--lighter) !important;
+}
+body,
+body button,
+body input,
+body textarea {
+  font-family: var(--ui-font) !important;
+}
+body[style*="background: white"] {
+  background-color: var(--dark) !important;
+}
+body[style*="background: white"] svg {
+  fill: var(--lighter) !important;
+}
+body[class*="error"] .top-bar,
+body[class*="404"] .top-bar {
+  color: var(--light) !important;
+  border-color: var(--darker) !important;
+  background-color: var(--darken) !important;
+}
+body[class*="error"] .top-bar .logo,
+body[class*="404"] .top-bar .logo {
+  filter: invert(0.8) !important;
+}
+body[class*="error"] a,
+body[class*="404"] a,
+body[class*="error"] strong,
+body[class*="404"] strong {
+  color: var(--accent) !important;
+}
+body svg[fill="#262626"] {
+  fill: var(--light);
+}
+body svg[fill="#ffffff"] {
+  fill: var(--light);
+}
+body svg[fill="#8e8e8e"] {
+  fill: var(--lighter);
+}
+body svg[fill="#ed4956"] {
+  fill: var(--red);
+}
+body svg[fill="#0095f6"] {
+  fill: var(--blue);
+}
+body svg path {
+  transition: fill-opacity 0.2s ease;
+}
+body svg:hover path {
+  fill-opacity: 0.6;
+}
+body .coreSpriteLoggedOutWordmark,
+body .coreSpriteMobileNavDirect,
+body .coreSpriteTaggedNull {
+  filter: invert(0.8) !important;
+}
+[class*="SpriteDirect"],
+[class*="SpriteFacebook"],
+[class*="SpriteLink"],
+[class*="SpriteMail"],
+[class*="SpriteApp"],
+[class*="Spritez"],
+[class*="SpriteKeyhole"],
+[class*="SpriteFriend_"],
+[class*="SpriteAdd_friend_"],
+[class*="SpriteDropdownArrowGrey"],
+[class*="SpritePagingChevron"],
+[class*="SpriteCamera"],
+[class*="SpriteProfileChannelNullState"],
+[class*="SpriteLocation_"],
+[class*="SpriteInfo__filled__16__grey"],
+[class*="SpriteCircle_add"] {
+  filter: invert(0.8) !important;
+}
+img[src*="44884218_345707102882519_2446069589734326272"] {
+  filter: invert(0.8) !important;
+}
+body ._2Lks6 {
+  color: var(--accent) !important;
+}
+body nav a[href="/"] img,
+[src*="logo.png"] {
+  filter: invert(0.8);
+}
+body .HZ802,
+body .nHGTw {
+  color: var(--white) !important;
+  background-color: var(--accent) !important;
+}
+body .HZ802 .H9zXO::after,
+body .nHGTw .H9zXO::after {
+  background-color: var(--accent) !important;
+}
+.iMofo {
+  box-shadow: 0 4px 16px var(--shadow) !important;
+}
+body .HZ802 [class*="Sprite"] + div > div,
+body .nHGTw [class*="Sprite"] + div > div {
+  color: var(--white) !important;
+}
+body > [role="presentation"],
+body > [role="dialog"] {
+  background: rgba(var(--b3f), 0.8) !important;
+}
+.not-logged-in .N9d2H {
+  display: none !important;
+}
+.not-logged-in [style*="overflow: hidden"] {
+  overflow: unset !important;
+}
+.not-logged-in [style*="overflow: hidden"] > [role="presentation"] {
+  display: none !important;
+}
+body .LFGs8 {
+  color: var(--accent) !important;
+}
+body .yQ0j1 {
+  color: var(--lighter) !important;
+}
+body .M-jxE,
+body .M-jxE > button {
+  background-color: var(--darken) !important;
+}
+body ._4Kbb_ {
+  margin-top: 1rem;
+  color: var(--light) !important;
+  border-color: var(--darker) !important;
+  background-color: var(--darken) !important;
+}
+.hUQXy,
+.hUQXy:visited {
+  color: var(--accent) !important;
+}
+body .jju9v {
+  border: 1px solid var(--darker);
+  color: var(--light) !important;
+  background-color: var(--darken) !important;
+}
+body .hI7cq {
+  color: var(--light) !important;
+}
+body .isgrP > ul {
+  background-color: var(--t) !important;
+}
+body ._7LpC8 a,
+body .rin8p {
+  color: var(--accent) !important;
+}
+body .rb9ad,
+body .-wdIA,
+body .d-Vzv {
+  border-color: var(--darker) !important;
+}
+body .leaflet-container {
+  background-color: var(--darken) !important;
+  box-shadow: 0 1px var(--darker);
+}
+body .leaflet-tile {
+  filter: invert(0.9) hue-rotate(180deg) !important;
+}
+body .leaflet-popup-content-wrapper,
+body .leaflet-popup-tip {
+  background-color: var(--darken) !important;
+  box-shadow: 0 3px 14px var(--shadow);
+}
+body .Sux9m {
+  border-color: #aaa !important;
+  background-color: rgba(238, 238, 238, 0.067) !important;
+  --eca: var(--light-rgb);
+}
+body .Sux9m ::placeholder {
+  color: #eee !important;
+}
+body .Sux9m ::-webkit-input-placeholder {
+  color: #eee !important;
+}
+body .Sux9m + div [class*="glyphsSpriteDirect_"] {
+  filter: invert(0.3) !important;
+}
+body .tCibT {
+  border: 1px solid var(--darker) !important;
+  box-shadow: var(--bshadow) !important;
+}
+.R8iOs {
+  border: 1px solid var(--darker) !important;
+  color: var(--light) !important;
+  background-color: var(--dark) !important;
+}
+.R8iOs > * {
+  color: inherit;
+}
+[role="button"] + span[class=""] > div[class],
+.G_hoz {
+  background-color: var(--darker) !important;
+}
+body header + div + div.GZkEI li[style] > div > div > [role],
+body article + div + div.GZkEI li[style] > div > div > [role] {
+  --d87: var(--dark-rgb);
+}
+body .WidCF,
+body .HaS-3 {
+  border-right: 1px solid var(--darker);
+  background-size: 200% 200% !important;
+  background: linear-gradient(
+    115deg,
+    var(--dark) 40%,
+    var(--darken),
+    var(--dark) 60%
+  );
+  animation: Loader 2.5s ease infinite !important;
+  background-color: var(--darken) !important;
+}
+body > [role="dialog"] > [role="dialog"] > [role="dialog"] {
+  border: 1px solid var(--darker) !important;
+  box-shadow: 0 0px 16px var(--darken);
+}
+body [role="dialog"] > article > header {
+  overflow-x: hidden !important;
+}
+body [role="dialog"] > article > header + div {
+  --jb7: var(--darken-rgb);
+}
+body > [role="presentation"] > [role="dialog"] > div {
+  border: 1px solid var(--darker) !important;
+}
+body > [role="presentation"] button.aOOlW:not(.SRPMb):hover,
+body > [role="presentation"] button.aOOlW:not(.SRPMb):active {
+  background-color: var(--darken) !important;
+}
+body article > header ~ div .WXPwG .Yi5aA {
+  background-color: var(--white) !important;
+}
+body img + div[style="height: 100%;"],
+body video + div[style="height: 100%;"] {
+  position: unset !important;
+  display: none !important;
+}
+body ._9AhH0 {
+  position: unset !important;
+}
+body .PyenC,
+body .fXIG0 {
+  bottom: 40px !important;
+}
+body .GBPOY {
+  border-radius: 3px;
+  border-color: var(--darker) !important;
+  background-color: var(--darken) !important;
+}
+body .GBPOY a {
+  color: var(--light) !important;
+}
+body .uo5MA,
+body .uo5MA > div:nth-child(1) {
+  box-shadow: var(--bshadow) !important;
+  border: 1px solid var(--darker);
+  background-color: var(--dark) !important;
+}
+body .uo5MA > div:nth-child(2) {
+  background-color: var(--dark) !important;
+}
+body .uo5MA > div:nth-child(3) {
+  border-radius: 0 0 6px 6px;
+}
+body .uo5MA .DPiy6 {
+  background-color: var(--t) !important;
+}
+body .QOqBd {
+  background-color: var(--darker) !important;
+}
+.X3a-9 {
+  background-color: var(--dark) !important;
+}
+body .CMoMH:not(._6FEQj) {
+  background-color: var(--dark) !important;
+}
+body .CMoMH._6FEQj {
+  background-color: var(--darker) !important;
+}
+body .XjicZ {
+  border-top: 1px solid var(--darker);
+  background-color: var(--darken) !important;
+}
+body .XjicZ p {
+  color: var(--light) !important;
+}
+body footer {
+  width: 100% !important;
+  margin: 0 auto !important;
+  max-width: 935px !important;
+  border-top: 1px solid var(--darker) !important;
+}
+.XfvCs {
+  margin-bottom: 30px !important;
+}
+body footer > div::after {
+  content: var(--note);
+  text-align: center;
+  margin-top: 2rem;
+}
+@keyframes Loader {
+  0% {
+    background-position: 33% 0%;
+  }
+  50% {
+    background-position: 68% 100%;
+  }
+  100% {
+    background-position: 33% 0%;
+  }
+}
+
+:root:not(#z) {
+  scrollbar-color: var(--accent) transparent;
+}
+
+:root ::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: 0 !important;
+}
+:root ::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar,
+div.N9abW::-webkit-scrollbar,
+div.frMpI.-sxBV::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: 0.5em !important;
+}
+div.N9abW::-webkit-scrollbar-thumb,
+div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar-thumb,
+div.frMpI.-sxBV::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+
+div.frMpI.-sxBV {
+  padding: 20px 30px 0 20px !important;
+}
+
+body footer nav + span::before,
+button.sXUSN:hover {
+  cursor: pointer !important;
+}

@@ -1,22 +1,10 @@
 {
   "id": "tawk",
   "name": "Tawk.to",
-  "version": "1.0.1",
-  "description": "Tawk.to",
-  "main": "index.js",
-  "author": "Brian Gilbert <brian@briangilbert.net>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://dashboard.tawk.to/",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": true,
-    "hasDirectMessages": true,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "hasCustomUrl": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    }
+    "hasNotificationSound": true
   }
 }

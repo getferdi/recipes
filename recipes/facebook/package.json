@@ -1,10 +1,7 @@
 {
   "id": "facebook",
   "name": "Facebook",
-  "version": "1.0.2",
-  "description": "Facebook",
-  "main": "index.js",
-  "author": "Tony Ko <tony@htko.ca> and The Ferdi Team <hello@getferdi.com>",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.facebook.com/login"

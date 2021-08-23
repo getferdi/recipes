@@ -1,10 +1,7 @@
 {
   "id": "fleep",
   "name": "Fleep",
-  "version": "1.0.1",
-  "description": "Fleep",
-  "main": "index.js",
-  "author": "Ian Sealy <ferdi@iansealy.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://fleep.io/chat"

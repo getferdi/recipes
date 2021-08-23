@@ -1,22 +1,11 @@
 {
   "id": "discord",
   "name": "Discord",
-  "version": "1.1.4",
-  "description": "Discord",
-  "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "version": "1.1.5",
   "license": "MIT",
   "config": {
     "serviceURL": "https://discordapp.com/login",
-    "message": "",
-    "popup": [],
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
-    "hasIndirectMessages": true,
-    "hasTeamID": false,
-    "hasCustomUrl": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    }
+    "hasIndirectMessages": true
   }
 }

@@ -1,10 +1,7 @@
 {
   "id": "anonaddy",
   "name": "AnonAddy",
-  "version": "1.0.1",
-  "description": "An unofficial Ferdi recipe for AnonAddy",
-  "main": "index.js",
-  "author": "Kittywhiskers Van Gogh <63189531+kittywhiskers@users.noreply.github.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://app.anonaddy.com/"

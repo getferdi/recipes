@@ -1,10 +1,7 @@
 {
   "id": "jira",
   "name": "Jira",
-  "version": "1.2.2",
-  "description": "Jira",
-  "main": "index.js",
-  "author": "Leonardo Bragatti <leonardo.bragatti@gmail.com> and The Ferdi Team <hello@getferdi.com>",
+  "version": "1.2.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.atlassian.net",

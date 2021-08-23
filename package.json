@@ -1,8 +1,6 @@
 {
   "name": "ferdi-recipes",
   "version": "1.0.0",
-  "description": "Recipes for the Ferdi Desktop App",
-  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
@@ -27,17 +25,16 @@
     "url": "https://github.com/getferdi/recipes/issues"
   },
   "homepage": "https://github.com/getferdi/recipes#readme",
-  "dependencies": {
-    "fs-extra": "10.0.0",
-    "image-size": "1.0.0",
-    "open": "8.2.0",
-    "targz": "1.0.1"
-  },
   "devDependencies": {
+    "@types/targz": "1.0.1",
     "babel-eslint": "10.0.3",
     "eslint": "5.10.0",
+    "fs-extra": "10.0.0",
     "husky": "7.0.1",
+    "image-size": "1.0.0",
+    "open": "8.2.0",
     "prettier": "2.3.2",
-    "simple-git": "2.39.0"
+    "simple-git": "2.39.0",
+    "targz": "1.0.1"
   }
 }

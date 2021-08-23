@@ -1,18 +1,11 @@
 {
   "id": "canvas",
   "name": "Canvas",
-  "version": "1.0.1",
-  "description": "Canvas",
-  "main": "index.js",
-  "author": "Sagir Mohammed <sagirr63@gmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.instructure.com/",
     "hasTeamId": true,
-    "urlInputSuffix": true,
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasCustomUrl": false,
     "message": "Your canvas TeamID is your school's initials eg MIT, FIU, UCF etc."
   }
 }

@@ -128,21 +128,19 @@ module.exports = (Ferdi) => {
   Ferdi.loop(getMessages);
 
   Ferdi.onNotify(notification => {
-
     if (typeof notification.title !== 'string') {
       notification.title = ((notification.title.props || {}).content || [])[0] || 'Messenger';
     }
 
     return notification;
-
   });
 };
 ```
 
 ### handleDarkMode(callback)
-You can use a `darkmode.css` to automatically get the service into a dark theme. If your service already supports its own dark mode (e.g. Reddit and YouTube have build-in dark modes) you can use a custom dark mode handler instead.
+You can use a `darkmode.css` to automatically get the service into a dark theme. If your service already supports its own dark mode (e.g. Reddit and YouTube have built-in dark modes), then you can use a custom dark mode handler instead.
 
-This handler should take the nesessary steps to (de-)activate dark mode on the page, e.g. by clicking a button or flipping a switch.
+This handler should take the necessary steps to (de-)activate dark mode on the page, e.g. by clicking a button or flipping a switch.
 
 Ferdi won't activate DarkReader or inject `darkmode.css` if the recipe has defined a custom handler. If you still need to do this, you can use the `injectDarkModeStyle` or `enableDarkMode` function provided as the second argument.
 
@@ -153,9 +151,9 @@ Ferdi won't activate DarkReader or inject `darkmode.css` if the recipe has defin
 1. `boolean` isEnabled: Is Dark Mode currently enabled?
 2. `object` helpers: Helper functions that you can use in your function:
   `enableDarkMode` - Enable DarkReader
+  `disableDarkMode` - Disable DarkReader
   `injectDarkModeStyle` - Inject darkmode.css
   `removeDarkModeStyle` - Remove service's darkmode.css
-  `disableDarkMode` - Disable DarkReader
   `isDarkModeStyleInjected` - Function that returns true if darkmode.css is injected into the page
 
 #### Usage
