@@ -38,30 +38,28 @@ We have also created a nice script that already does 50% of the work for you - y
 3. (Optional, if you want to use our creation script) Install its dependencies via the terminal:
 
 ```Bash
-npm install
+pnpm install
 ```
 
 4. You can now run our automatic recipe wizard that creates and opens the new recipe for you:
 
 ```Bash
 # Make sure you are still in the repository's folder
-npm run create "Service Name"
+pnpm run create "Service Name"
 ```
 
-Replace `Service Name` with the name of your service, e.g. `npm run create "Google Hangouts"`.
-This command will automatically create the development recipe in the correct folder, prepares it for your service and opens the new recipe in your file explorer or Finder.
-5. Reload Ferdi (`CMD/CTRL + SHIFT + R`) in order for it to register the new recipe
-6. You can now develop your recipe as described below. Please continue down below with "[Publishing](#Publishing)" after you are done creating your recipe.
+Replace `Service Name` with the name of your service, e.g. `pnpm run create "Google Hangouts"`.
+This command will automatically create the development recipe in the correct folder, prepares it for your service and opens the new recipe in your file explorer or Finder. 5. Reload Ferdi (`CMD/CTRL + SHIFT + R`) in order for it to register the new recipe 6. You can now develop your recipe as described below. Please continue down below with "[Publishing](#Publishing)" after you are done creating your recipe.
 
 ## Recipe structure
 
 Every recipe needs a specific file structure in order to work as a Ferdi recipe
 
-* icon.svg - Icon for the service in SVG form (must be square)
-* index.js - Backend script, this script is NOT included in the service webview but only in Ferdi itself
-* package.json - Information about the recipe
-* webview.js - Frontend script, this script is injected into the service itself but still has access to all NodeJS APIs
-* darkmode.css - CSS File that gets included when dark mode is activated
+- icon.svg - Icon for the service in SVG form (must be square)
+- index.js - Backend script, this script is NOT included in the service webview but only in Ferdi itself
+- package.json - Information about the recipe
+- webview.js - Frontend script, this script is injected into the service itself but still has access to all NodeJS APIs
+- darkmode.css - CSS File that gets included when dark mode is activated
 
 ### package.json
 
@@ -89,32 +87,33 @@ Please note that the fields `id`, `name`, `version` and `config` are mandatory.
 This is your "backend" code. Right now the options are very limited and most of the services don't need a custom handling here. If your service is relatively straight forward and has a static URL eg. _messenger.com_, _`[TEAMID]`.slack.com_ or _web.skype.com_ all you need to do to return the Ferdi Class:
 
 ```js
-module.exports = Ferdi => Ferdi;
+module.exports = (Ferdi) => Ferdi;
 ```
 
 If your service can be hosted on custom servers, you can validate the given URL to detect if it's your server and not e.g. google.com. To enable validation you can override the function `validateServer`
 
 ```js
 // RocketChat integration
-module.exports = Ferdi => class RocketChat extends Ferdi {
-  async validateUrl(url) {
-    try {
-      const resp = await window.fetch(`${url}/api/info`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-      const data = await resp.json();
+module.exports = (Ferdi) =>
+  class RocketChat extends Ferdi {
+    async validateUrl(url) {
+      try {
+        const resp = await window.fetch(`${url}/api/info`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+        const data = await resp.json();
 
-      return Object.hasOwnProperty.call(data, 'version');
-    } catch (err) {
-      console.error(err);
+        return Object.hasOwnProperty.call(data, "version");
+      } catch (err) {
+        console.error(err);
+      }
+
+      return false;
     }
-
-    return false;
-  }
-};
+  };
 ```
 
 `validateServer` needs to return a [`Promise`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise), otherwise validation will fail.
@@ -156,7 +155,7 @@ module.exports = (Ferdi) => {
   function getMessages() {
     let direct = 0;
     let indirect = 0;
-    const FerdiData = document.querySelector('#FerdiMessages').dataset;
+    const FerdiData = document.querySelector("#FerdiMessages").dataset;
     if (FerdiData) {
       direct = FerdiData.direct;
       indirect = FerdiData.indirect;
@@ -166,7 +165,7 @@ module.exports = (Ferdi) => {
   }
 
   Ferdi.loop(getMessages);
-}
+};
 ```
 
 To get more information about the provided functions, check the [API docs](frontend_api.md).

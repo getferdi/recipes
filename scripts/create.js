@@ -6,13 +6,13 @@ const path = require('path');
 const open = require('open');
 
 if (process.argv.length < 3) {
-  console.log(`Usage: npm run create <Recipe name> [Folder name]
+  console.log(`Usage: pnpm run create <Recipe name> [Folder name]
 For example:
-npm run create WhatsApp
-npm run create "Google Hangouts"
+pnpm run create WhatsApp
+pnpm run create "Google Hangouts"
 You can set "Folder name" to "FerdiDev" to use Ferdi's development instance instead:
 
-npm run create WhatsApp FerdiDev
+pnpm run create WhatsApp FerdiDev
 `);
   return;
 }
@@ -25,15 +25,21 @@ const filesThatNeedTextReplace = ['package.json', 'index.js', 'README.md'];
 
 (async () => {
   // Folder paths
-  const userData = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME + "/.config");
-  const recipesFolder = path.join(userData, folderName, "recipes");
-  const devRecipeFolder = path.join(recipesFolder, "dev");
+  const userData =
+    process.env.APPDATA ||
+    (process.platform == 'darwin'
+      ? process.env.HOME + '/Library/Application Support'
+      : process.env.HOME + '/.config');
+  const recipesFolder = path.join(userData, folderName, 'recipes');
+  const devRecipeFolder = path.join(recipesFolder, 'dev');
   const newRecipeFolder = path.join(devRecipeFolder, recipe);
   const sampleRecipe = path.join(__dirname, 'sample_recipe');
 
   // Make sure dev recipe folder exists
-  if (!await fs.exists(recipesFolder)) {
-    console.log(`Couldn't find your recipe folder (${recipesFolder}). Is Ferdi installed?`);
+  if (!(await fs.exists(recipesFolder))) {
+    console.log(
+      `Couldn't find your recipe folder (${recipesFolder}). Is Ferdi installed?`,
+    );
     return;
   }
   await fs.ensureDir(devRecipeFolder);

@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run lint && npm run reformat-files && npm run package
+pnpm run lint && pnpm run reformat-files && pnpm run package
