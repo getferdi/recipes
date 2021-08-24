@@ -1,0 +1,9 @@
+{
+  "id": "google-news",
+  "name": "Google News",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://news.google.com/"
+  }
+}
