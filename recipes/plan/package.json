@@ -1,7 +1,7 @@
 {
   "id": "plan",
   "name": "plan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "config": {
     "serviceURL": "https://getplan.co/",
