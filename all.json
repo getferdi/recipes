@@ -247,10 +247,7 @@
     "id": "element",
     "name": "Element",
     "version": "1.0.6",
-    "aliases": [
-      "Riot.im",
-      "Matrix"
-    ],
+    "aliases": ["Riot.im", "Matrix"],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/element/icon.svg"
     }
@@ -467,10 +464,7 @@
     "id": "googlecalendar",
     "name": "Google Calendar",
     "version": "2.1.1",
-    "aliases": [
-      "google-calendar",
-      "gCalendar"
-    ],
+    "aliases": ["google-calendar", "gCalendar"],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/googlecalendar/icon.svg"
     }
@@ -588,10 +582,7 @@
     "id": "hangoutschat",
     "name": "Hangouts Chat",
     "version": "1.4.6",
-    "aliases": [
-      "google-chat",
-      "gChat"
-    ],
+    "aliases": ["google-chat", "gChat"],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/hangoutschat/icon.svg"
     }
@@ -844,9 +835,7 @@
     "id": "msteams",
     "name": "Microsoft Teams",
     "version": "3.0.2",
-    "aliases": [
-      "teamsChat"
-    ],
+    "aliases": ["teamsChat"],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/msteams/icon.svg"
     }
