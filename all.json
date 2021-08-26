@@ -145,6 +145,15 @@
   },
   {
     "featured": false,
+    "id": "caprover",
+    "name": "caprover",
+    "version": "1.0.1",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/caprover/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "chatra",
     "name": "chatra",
     "version": "1.0.2",

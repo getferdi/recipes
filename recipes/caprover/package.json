@@ -1,0 +1,11 @@
+{
+  "id": "caprover",
+  "name": "caprover",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://captain.{teamID}",
+    "hasIndirectMessages": true,
+    "hasTeamId": true
+  }
+}
