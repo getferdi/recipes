@@ -1,0 +1,12 @@
+{
+  "id": "Scribens",
+  "name": "scribens",
+  "version": "1.0.0",
+  "description": "Scribens",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.scribens.fr"
+  }
+}
