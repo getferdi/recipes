@@ -1,5 +1,7 @@
 "use strict";
 
+// TODO: Some/most of this is already present in https://github.com/getferdi/ferdi/blob/develop/src/webview/screenshare.js#L5
+
 const { desktopCapturer, remote: { BrowserWindow } } = require("electron");
 const path = require('path');
 
