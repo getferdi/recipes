@@ -1,0 +1,9 @@
+{
+  "id": "ovh-cloud",
+  "name": "ovh-cloud",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.ovh.com/auth"
+  }
+}

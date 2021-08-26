@@ -1006,6 +1006,15 @@
   },
   {
     "featured": false,
+    "id": "ovh-cloud",
+    "name": "ovh-cloud",
+    "version": "1.0.1",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/ovh-cloud/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "paymo",
     "name": "paymo",
     "version": "1.0.2",
