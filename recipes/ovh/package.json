@@ -1,0 +1,12 @@
+{
+  "id": "Ovh",
+  "name": "Ovh",
+  "version": "1.0.0",
+  "description": "Ovh",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.ovh.com"
+  }
+}
