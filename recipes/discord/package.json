@@ -1,0 +1,11 @@
+{
+  "id": "discord",
+  "name": "Discord",
+  "version": "1.1.5",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://discordapp.com/login",
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true
+  }
+}
