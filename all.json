@@ -109,6 +109,15 @@
   },
   {
     "featured": false,
+    "id": "bitwarden",
+    "name": "bitwarden",
+    "version": "1.0.1",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/bitwarden/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "box",
     "name": "box",
     "version": "1.0.2",

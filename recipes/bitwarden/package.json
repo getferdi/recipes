@@ -1,0 +1,10 @@
+{
+  "id": "bitwarden",
+  "name": "bitwarden",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://vault.bitwarden.com",
+    "hasCustomUrl": true
+  }
+}
