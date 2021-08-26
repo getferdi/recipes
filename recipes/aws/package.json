@@ -1,0 +1,14 @@
+{
+  "id": "Aws",
+  "name": "Aws",
+  "version": "1.0.0",
+  "description": "Amazon Web Services",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.signin.aws.amazon.com/console",
+    "hasTeamId": true,
+    "urlInputSuffix": ".signin.aws.amazon.com"
+  }
+}
