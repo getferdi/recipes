@@ -235,6 +235,15 @@
   },
   {
     "featured": false,
+    "id": "docker",
+    "name": "docker",
+    "version": "1.0.1",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/docker/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "easy-redmine",
     "name": "easy-redmine",
     "version": "1.0.2",
