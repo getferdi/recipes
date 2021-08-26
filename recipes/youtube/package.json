@@ -1,0 +1,12 @@
+{
+  "id": "YouTube",
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "YouTube",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.youtube.com"
+  }
+}
