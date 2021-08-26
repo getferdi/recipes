@@ -979,6 +979,15 @@
   },
   {
     "featured": false,
+    "id": "odoo",
+    "name": "odoo",
+    "version": "1.0.1",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/odoo/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "office365-owa",
     "name": "Office 365 Outlook Web App",
     "version": "1.2.2",

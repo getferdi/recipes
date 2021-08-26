@@ -1,0 +1,10 @@
+{
+  "id": "odoo",
+  "name": "odoo",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.odoo.com/web/login",
+    "hasCustomUrl": true
+  }
+}
