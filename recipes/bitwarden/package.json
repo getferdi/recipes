@@ -1,0 +1,13 @@
+{
+  "id": "Biwarden",
+  "name": "bitwarden",
+  "version": "1.0.0",
+  "description": "Bitwarden ODA Alexandre",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://vault.bitwarden.com",
+    "hasCustomUrl": true
+  }
+}
