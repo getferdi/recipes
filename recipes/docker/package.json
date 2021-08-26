@@ -1,0 +1,12 @@
+{
+  "id": "Docker",
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Docker",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://id.docker.com/login"
+  }
+}
