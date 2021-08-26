@@ -29,12 +29,12 @@
     "@types/targz": "^1.0.1",
     "babel-eslint": "10.0.3",
     "eslint": "5.10.0",
-    "fs-extra": "10.0.0",
+    "fs-extra": "^10.0.0",
     "husky": "7.0.1",
     "image-size": "1.0.0",
     "open": "8.2.0",
     "prettier": "2.3.2",
     "simple-git": "2.39.0",
-    "targz": "1.0.1"
+    "targz": "^1.0.1"
   }
 }
