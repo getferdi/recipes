@@ -1,0 +1,11 @@
+{
+  "id": "amazon-web-services",
+  "name": "amazon web services",
+  "version": "1.0.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.signin.aws.amazon.com/console",
+    "hasTeamId": true,
+    "urlInputSuffix": ".signin.aws.amazon.com"
+  }
+}
