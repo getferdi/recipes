@@ -219,7 +219,7 @@
     "featured": true,
     "id": "discord",
     "name": "Discord",
-    "version": "1.1.5",
+    "version": "1.2.5",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/discord/icon.svg"
     }

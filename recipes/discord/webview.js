@@ -1,28 +1,114 @@
-const _path = _interopRequireDefault(require('path'));
+"use strict";
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+// TODO: Some/most of this is already present in https://github.com/getferdi/ferdi/blob/develop/src/webview/screenshare.js#L5
 
-module.exports = Franz => {
+const { desktopCapturer, remote: { BrowserWindow } } = require("electron");
+const path = require('path');
+
+window.navigator.mediaDevices.getDisplayMedia = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const sources = await desktopCapturer.getSources({ types: ['screen', 'window'] });
+
+      const selectionElem = document.createElement('div');
+      selectionElem.classList = 'desktop-capturer-selection';
+      selectionElem.innerHTML = `
+        <div class="desktop-capturer-selection__scroller">
+          <ul class="desktop-capturer-selection__list">
+            ${sources.map(({ id, name, thumbnail, display_id, appIcon }) => `
+              <li class="desktop-capturer-selection__item">
+                <button class="desktop-capturer-selection__btn" data-id="${id}" title="${name}">
+                  <img class="desktop-capturer-selection__thumbnail" src="${thumbnail.toDataURL()}" />
+                  <span class="desktop-capturer-selection__name">${name}</span>
+                </button>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      `;
+      document.body.appendChild(selectionElem);
+
+      document.querySelectorAll('.desktop-capturer-selection__btn')
+        .forEach(button => {
+          button.addEventListener('click', async () => {
+            try {
+              const id = button.getAttribute('data-id');
+              const source = sources.find(source => source.id === id);
+              if (!source) {
+                throw new Error(`Source with id ${id} does not exist`);
+              }
+
+              const stream = await window.navigator.mediaDevices.getUserMedia({
+                audio: false,
+                video: {
+                  mandatory: {
+                    chromeMediaSource: 'desktop',
+                    chromeMediaSourceId: source.id
+                  }
+                }
+              });
+              resolve(stream);
+
+              selectionElem.remove();
+            } catch (err) {
+              reject(err);
+            }
+          });
+        });
+    } catch (err) {
+      reject(err);
+    }
+  })
+}
+
+module.exports = (Franz, settings) => {
   const getMessages = function getMessages() {
-    const direct = document.querySelector('[class*="guilds-"]').querySelectorAll('[class^="numberBadge-"]').length;
+    let count = 0;
+    const container = document.querySelector('[role="tablist"] > [title="Chats"] > div');
 
-    let indirect = 0;
-    const guilds = document.querySelector('[data-ref-id=guildsnav]');
-    if (guilds != null) {
-      const channelPills = [].slice.call(guilds.querySelectorAll('[class*=item-2hkk8m]'));
-      indirect += channelPills.filter(y => y.clientHeight == 8).length;
+    if (container) {
+      const children = container.children;
 
-      const activeWindow = channelPills.find(y => y.clientHeight == 40);
-      if (activeWindow != null) {
-        const unreadChannels = document.querySelector('[class*=modeUnread]');
+      if (children.length === 3) {
+        const elementContainer = children[children.length - 1];
 
-        if (unreadChannels != null) indirect++;
+        if (elementContainer) {
+          const element = elementContainer.querySelector('[data-text-as-pseudo-element]');
+          count = parseInt(element.dataset.textAsPseudoElement, 10);
+        }
       }
     }
 
-    Franz.setBadge(direct, indirect);
+    Franz.setBadge(count);
   };
 
+  Franz.injectCSS(path.join(__dirname, 'service.css'));
   Franz.loop(getMessages);
-  Franz.injectCSS(_path.default.join(__dirname, 'service.css'));
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="http"]');
+    const button = event.target.closest('button[title^="http"]');
+
+    if (link || button) {
+      const url = link ? link.getAttribute('href') : button.getAttribute('title');
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (url.includes('views/imgpsh_fullsize_anim')) {
+        let win = new BrowserWindow({
+          width: 800,
+          height: window.innerHeight,
+          minWidth: 600,
+          webPreferences: {
+            partition: `persist:service-${settings.id}`
+          }
+        });
+        win.loadURL(url);
+        win.on('closed', () => {
+          win = null;
+        });
+      } else {
+        window.open(url);
+      }
+    }
+  }, true);
 };
