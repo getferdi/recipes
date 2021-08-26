@@ -1,0 +1,12 @@
+{
+  "id": "Binance",
+  "name": "binance",
+  "version": "1.0.0",
+  "description": "Binance",
+  "main": "index.js",
+  "author": "ODA Alexandre <www.oda-alexandre.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://accounts.binance.com/fr/login"
+  }
+}
