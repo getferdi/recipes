@@ -91,6 +91,15 @@
   },
   {
     "featured": false,
+    "id": "binance",
+    "name": "Binance",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/binance/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "bip",
     "name": "BiP",
     "version": "1.0.2",

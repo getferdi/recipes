@@ -1,0 +1,9 @@
+{
+  "id": "binance",
+  "name": "Binance",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://accounts.binance.com"
+  }
+}
