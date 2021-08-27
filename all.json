@@ -751,6 +751,15 @@
   },
   {
     "featured": false,
+    "id": "kosmi",
+    "name": "Kosmi",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/kosmi/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "lark",
     "name": "Lark",
     "version": "0.0.4",

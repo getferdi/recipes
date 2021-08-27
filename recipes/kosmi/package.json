@@ -1,0 +1,10 @@
+{
+  "id": "kosmi",
+  "name": "Kosmi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/kosmigramma/franz-recipe-kosmi",
+  "config": {
+    "serviceURL": "https://app.kosmi.io"
+  }
+}
