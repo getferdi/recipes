@@ -235,6 +235,15 @@
   },
   {
     "featured": false,
+    "id": "dockerhub",
+    "name": "Docker-Hub",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/dockerhub/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "easy-redmine",
     "name": "easy-redmine",
     "version": "1.0.2",

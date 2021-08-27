@@ -1,0 +1,9 @@
+{
+  "id": "dockerhub",
+  "name": "Docker-Hub",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://hub.docker.com"
+  }
+}
