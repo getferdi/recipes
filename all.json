@@ -1367,7 +1367,7 @@
   {
     "featured": false,
     "id": "tinder",
-    "name": "tinder",
+    "name": "Tinder",
     "version": "1.0.0",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/tinder/icon.svg"

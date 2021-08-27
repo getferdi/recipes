@@ -1,2 +1,2 @@
-module.exports = Ferdi => class tinder extends Ferdi {
+module.exports = Ferdi => class Tinder extends Ferdi {
 };
