@@ -1,0 +1,12 @@
+{
+  "id": "amazon-web-services",
+  "name": "Amazon-Web-Services",
+  "version": "1.0.0",
+  "license": "MIT",
+  "aliases": [
+    "aws"
+  ],
+  "config": {
+    "serviceURL": "https://amazon-web-services.com"
+  }
+}
