@@ -1,0 +1,12 @@
+{
+  "id": "caprover",
+  "name": "Caprover",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://caprover.{teamId}",
+    "urlInputPrefix": "https://caprover..",
+    "hasTeamId": true,
+    "message": "Insert your page url in team, e.g. meetfranz.com"
+  }
+}
