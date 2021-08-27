@@ -5,7 +5,7 @@
   "license": "MIT",
   "config": {
     "serviceURL": "https://caprover.{teamId}",
-    "urlInputPrefix": "https://caprover..",
+    "urlInputPrefix": "https://caprover.",
     "hasTeamId": true,
     "message": "Insert your page url in team, e.g. meetfranz.com"
   }
