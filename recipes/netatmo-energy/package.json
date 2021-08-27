@@ -1,7 +1,7 @@
 {
   "id": "netatmo-energy",
   "name": "Netatmo Energy",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/rctneil/franz-recipe-netatmo-energy",
   "config": {

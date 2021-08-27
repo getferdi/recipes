@@ -1,7 +1,7 @@
 {
   "id": "kimaicloud",
   "name": "Kimai Cloud",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/kimai-cloud/recipe-kimaicloud",
   "config": {

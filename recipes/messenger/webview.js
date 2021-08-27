@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     let count = 0;
 
@@ -31,17 +31,18 @@ module.exports = Franz => {
       count += parseInt(messageRequestsElement.innerHTML, 10);
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
   localStorage.setItem('_cs_desktopNotifsEnabled', JSON.stringify({
     __t: new Date().getTime(),
     __v: true,
   }));
 
-  if (typeof Franz.onNotify === 'function') {
-    Franz.onNotify(notification => {
+  if (typeof Ferdi.onNotify === 'function') {
+    Ferdi.onNotify(notification => {
       if (typeof notification.title !== 'string') {
         notification.title = ((notification.title.props || {}).content || [])[0] || 'Messenger';
       }

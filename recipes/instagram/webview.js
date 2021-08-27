@@ -1,15 +1,14 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     const element = document.querySelector('a[href^="/direct/inbox"]');
-
-    if (element) {
-      Franz.setBadge(parseInt(element.innerText, 10));
-    }
+    Ferdi.setBadge(element ? parseInt(element.innerText, 10) : 0);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

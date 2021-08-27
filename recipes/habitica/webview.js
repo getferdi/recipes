@@ -1,12 +1,12 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = () => {
     let count = 0;
     const element = document.querySelector('.message-count');
     if (element) {
       count = Number(element.innerText);
     }
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   getMessages = () => {
     const newsDOM = document.querySelectorAll("div[title='All'] > .LeftnavListRow__count")[0].innerHTML;
     let counter = parseInt(newsDOM);
@@ -7,8 +7,8 @@ module.exports = Franz => {
       counter = `${newsDOM.substring(0, newsDOM.indexOf('K'))}000`;
     }
 
-    Franz.setBadge(counter);
+    Ferdi.setBadge(counter);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

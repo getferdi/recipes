@@ -1,4 +1,4 @@
-module.exports = Franz => class PushBullet extends Franz {
+module.exports = Ferdi => class PushBullet extends Ferdi {
   constructor(...args) {
     let _temp;
 

@@ -1,4 +1,4 @@
-module.exports = Franz => class Zulip extends Franz {
+module.exports = Ferdi => class Zulip extends Ferdi {
   async validateUrl(url) {
     const baseUrl = new window.URL(url);
     const apiVersion = 'api/v1';

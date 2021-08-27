@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     let directMessages = 0;
     let indirectMessages = 0;
@@ -13,8 +13,8 @@ module.exports = Franz => {
       indirectMessages = parseInt(newMessagesElement.innerHTML.match(/\d+/)[0], 10);
     }
 
-    Franz.setBadge(directMessages, indirectMessages);
+    Ferdi.setBadge(directMessages, indirectMessages);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

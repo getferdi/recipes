@@ -1,13 +1,13 @@
-const {
-  remote,
-} = require('electron');
+const _path = _interopRequireDefault(require('path'));
 
-const path = require('path');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const { remote } = require('electron');
 
 const webContents = remote.getCurrentWebContents();
-const {
-  session,
-} = webContents;
+
+const { session } = webContents;
+
 setTimeout(() => {
   if (document.querySelector('body').innerHTML.includes('Google Chrome 36+')) {
     window.location.reload();
@@ -29,7 +29,7 @@ window.addEventListener('beforeunload', async () => {
   }
 });
 
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     const elements = document.querySelectorAll('.CxUIE, .unread');
     let count = 0;
@@ -40,9 +40,10 @@ module.exports = Franz => {
       }
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

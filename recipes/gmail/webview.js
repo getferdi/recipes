@@ -1,6 +1,8 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
   // if the user is on gmail's landing page, go to the login page.
   if (location.hostname == 'www.google.com' && location.href.includes('gmail/about/')) {
     location.href = 'https://accounts.google.com/AccountChooser?service=mail&continue=https://mail.google.com/mail/';
@@ -18,11 +20,11 @@ module.exports = (Franz) => {
       }
     }
 
-    // set Franz badge
-    Franz.setBadge(count);
+    // set Ferdi badge
+    Ferdi.setBadge(count);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

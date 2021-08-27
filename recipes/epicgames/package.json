@@ -1,7 +1,7 @@
 {
   "id": "epicgames",
   "name": "Epic Games Store",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.epicgames.com/id/login?lang=en_US&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fstore%2Fen-US%2F&noHostRedirect=true"

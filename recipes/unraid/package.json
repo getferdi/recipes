@@ -1,7 +1,7 @@
 {
   "id": "unraid",
   "name": "Unraid",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/rctneil/franz-recipe-unraid",
   "config": {

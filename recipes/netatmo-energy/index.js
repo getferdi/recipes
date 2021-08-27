@@ -1,4 +1,1 @@
-// just pass through Franz
-module.exports = function (Franz) {
-  return Franz;
-};
+module.exports = Ferdi => Ferdi;

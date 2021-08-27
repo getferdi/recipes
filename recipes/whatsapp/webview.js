@@ -1,13 +1,12 @@
-const {
-  remote,
-} = require('electron');
+const { remote } = require('electron');
 
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const webContents = remote.getCurrentWebContents();
-const {
-  session,
-} = webContents;
+const { session } = webContents;
+
 window.addEventListener('beforeunload', async () => {
   try {
     session.flushStorageData();
@@ -24,7 +23,7 @@ window.addEventListener('beforeunload', async () => {
   }
 });
 
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     let count = 0;
     let indirectCount = 0;
@@ -46,9 +45,10 @@ module.exports = Franz => {
       }
     }
 
-    Franz.setBadge(count, indirectCount);
+    Ferdi.setBadge(count, indirectCount);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

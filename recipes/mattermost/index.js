@@ -1,4 +1,4 @@
-module.exports = Franz => class Mattermost extends Franz {
+module.exports = Ferdi => class Mattermost extends Ferdi {
   async validateUrl(url) {
     try {
       const resp = await window.fetch(url, {

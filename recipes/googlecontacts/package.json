@@ -1,7 +1,7 @@
 {
   "id": "google-contacts",
   "name": "Google Contacts",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://contacts.google.com/"

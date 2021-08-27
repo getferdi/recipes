@@ -1,7 +1,10 @@
-const { remote: { BrowserWindow } } = require('electron');
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz, settings) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const { remote: { BrowserWindow } } = require('electron');
+
+module.exports = (Ferdi, settings) => {
   const getMessages = function getMessages() {
     let count = 0;
     const container = document.querySelector('[role="tablist"] > [title="Chats"] > div');
@@ -19,12 +22,14 @@ module.exports = (Franz, settings) => {
       }
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  Franz.injectJSUnsafe(path.join(__dirname, 'webview-unsafe.js'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
+  Ferdi.injectJSUnsafe(_path.default.join(__dirname, 'webview-unsafe.js'));
+
   document.addEventListener('click', event => {
     const link = event.target.closest('a[href^="http"]');
     const button = event.target.closest('button[title^="http"]');

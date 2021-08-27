@@ -2,7 +2,7 @@ const _path = _interopRequireDefault(require('path'));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     const elements = document.querySelectorAll('#HeaderUserActions--Messages > a > span');
     let count = 0;
@@ -12,7 +12,7 @@ module.exports = (Franz) => {
     }
 
     console.log(count);
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
   if (document.querySelectorAll('.promotedlink').length > 0) {
@@ -21,12 +21,12 @@ module.exports = (Franz) => {
     });
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 
   // Use CSS to hide Google Ads
-  Franz.injectCSS(_path.default.join(__dirname, 'service.css'));
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 
-  Franz.handleDarkMode((isEnabled, config) => {
+  Ferdi.handleDarkMode((isEnabled, config) => {
     // Open dropdown menu if not already open
     const menu = document.querySelector('#USER_DROPDOWN_ID');
     if (menu.getAttribute('aria-expanded') === 'false') {

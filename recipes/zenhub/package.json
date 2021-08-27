@@ -1,7 +1,7 @@
 {
   "id": "zenhub",
   "name": "ZenHub",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "license": "MIT",
   "repository": "https://github.com/mordaroso/recipe-franz-zenhub",
   "config": {

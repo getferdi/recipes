@@ -1,12 +1,10 @@
-const path = require('path');
-
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   const getMessages = () => {
     const unreadMailInCurrentFolder = $('.zmList.zmLUrd').length;
     const unreadMailAnyware = $('#zmlTree .zmTreeNDWra .zmBold').length;
 
-    Franz.setBadge(unreadMailInCurrentFolder, unreadMailAnyware);
+    Ferdi.setBadge(unreadMailInCurrentFolder, unreadMailAnyware);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

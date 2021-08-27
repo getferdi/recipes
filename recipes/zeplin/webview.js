@@ -1,15 +1,9 @@
-const path = require('path');
-
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = () => {
     const totalNotifications = document.querySelectorAll('#notificationList > .notification').length;
     const hasUnread = document.querySelectorAll('#notificationsButton.hasUnread').length > 0;
-
-    // set Franz badge
-    if (hasUnread) {
-      Franz.setBadge(totalNotifications);
-    }
+    Ferdi.setBadge(hasUnread ? totalNotifications : 0);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

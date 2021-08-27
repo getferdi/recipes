@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   function getMessages() {
     const element = document.querySelector('.navigationItem-counter');
     if (!element) {
@@ -6,8 +6,8 @@ module.exports = Franz => {
     }
     const text = element.innerText;
     const count = Number(text.substring(1, text.length - 1));
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

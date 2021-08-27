@@ -1,4 +1,4 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     let count = 0;
 
@@ -8,8 +8,8 @@ module.exports = (Franz) => {
       count = label.textContent;
     }
 
-    // set Franz badge
-    Franz.setBadge(count);
+    // set Ferdi badge
+    Ferdi.setBadge(count);
   };
 
   document.addEventListener('click', (e) => {
@@ -22,6 +22,5 @@ module.exports = (Franz) => {
     }
   });
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

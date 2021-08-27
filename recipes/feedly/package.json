@@ -1,7 +1,7 @@
 {
   "id": "feedly",
   "name": "Feedly",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
       "serviceURL": "https://feedly.com"

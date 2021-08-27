@@ -1,6 +1,7 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz, options) => {
-  // inject franz.css stylesheet
-  Franz.injectCSS(path.join(__dirname, 'css', 'franz.css'));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
+  Ferdi.injectCSS(_path.default.join(__dirname, 'css', 'franz.css'));
 };

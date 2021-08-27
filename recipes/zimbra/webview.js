@@ -1,16 +1,9 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     const { title } = document;
     const regex = /\d+/;
-
-    if (regex.test(title)) {
-      Franz.setBadge(
-        Number(regex.exec(title)[0]),
-      );
-    } else {
-      Franz.setBadge(0);
-    }
+    Ferdi.setBadge(regex.test(title) ? Number(regex.exec(title)[0]) : 0);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

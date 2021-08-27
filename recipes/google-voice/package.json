@@ -1,7 +1,7 @@
 {
   "id": "google-voice",
   "name": "google-voice",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "license": "MIT",
   "repository": "https://github.com/BehindTheMath/franz-recipe-google-voice",
   "config": {

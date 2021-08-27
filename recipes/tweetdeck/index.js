@@ -1,4 +1,4 @@
-module.exports = Franz => class Tweetdeck extends Franz {
+module.exports = Ferdi => class Tweetdeck extends Ferdi {
   constructor(...args) {
     let _temp;
 

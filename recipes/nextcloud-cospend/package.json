@@ -1,7 +1,7 @@
 {
   "id": "nextcloud-cospend",
   "name": "Nextcloud Cospend",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/eandersons/ferdi-recipe-nextcloud-cospend",
   "config": {

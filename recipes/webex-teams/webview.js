@@ -1,4 +1,4 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     let count = 0;
 
@@ -16,7 +16,8 @@ module.exports = (Franz) => {
       count = 0;
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
-  Franz.loop(getMessages);
+
+  Ferdi.loop(getMessages);
 };

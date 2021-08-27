@@ -1,8 +1,8 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getMessages() {
     const count = feedbin.count_data.unread_entries.length || 0;
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

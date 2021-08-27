@@ -1,11 +1,6 @@
-// just pass through Franz - Superhuman tab appears, says needs Chrome
-// module.exports = Franz => Franz;
-
-// tried the whole string from the issue example - Superhuman tab appears, says needs Chrome
-// module.exports = Franz => class useragent extends Franz { overrideUserAgent() { return "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10136"; } };
-
-// updated class name to superhuman - Superhuman tab appears, says needs Chrome
-module.exports = Franz => class superhuman extends Franz { overrideUserAgent() { return 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10136'; } };
-
-// Tried shortening to just Chrome lol - Superhuman tab appears, says needs Chrome
-// module.exports = Franz => class superhuman extends Franz { overrideUserAgent() {return "Chrome"; } };
+module.exports = Ferdi => class SuperHuman extends Ferdi {
+  overrideUserAgent() {
+    // TODO: Rather than hardcoding like this, the user should set it for their individual installation of Ferdi
+    return 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10136';
+  }
+};

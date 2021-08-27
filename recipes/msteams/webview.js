@@ -1,6 +1,8 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = Franz => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = Ferdi => {
   const getMessages = () => {
     let messages = 0;
     const badge = document.querySelector('.activity-badge.dot-activity-badge .activity-badge');
@@ -13,10 +15,11 @@ module.exports = Franz => {
 
     const indirectMessages = document.querySelectorAll('[class*=channel-anchor][class*=ts-unread-channel]').length;
 
-    Franz.setBadge(messages, indirectMessages);
+    Ferdi.setBadge(messages, indirectMessages);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  Franz.injectJSUnsafe(path.join(__dirname, 'webview-unsafe.js'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
+  Ferdi.injectJSUnsafe(_path.default.join(__dirname, 'webview-unsafe.js'));
 };

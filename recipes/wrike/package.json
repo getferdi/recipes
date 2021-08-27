@@ -1,7 +1,7 @@
 {
   "id": "wrike",
   "name": "Wrike",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/koma-private/recipe-wrike",
   "config": {

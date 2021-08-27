@@ -1,8 +1,11 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = Ferdi => {
-  Ferdi.injectCSS(path.join(__dirname, 'service.css'));
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
+
   if (document.location.href.match('after')) {
-    	document.location.href = 'https://app.gotomeeting.com/home.html';
+    document.location.href = 'https://app.gotomeeting.com/home.html';
   }
 };

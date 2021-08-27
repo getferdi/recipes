@@ -1,8 +1,7 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   function getMessages() {
-    Franz.setBadge(document.querySelector('#unread_count').innerHTML.replace(/\s/g, ''));
+    Ferdi.setBadge(document.querySelector('#unread_count').innerHTML.replace(/\s/g, ''));
   }
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

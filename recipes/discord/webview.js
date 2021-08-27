@@ -1,9 +1,10 @@
-"use strict";
-
 // TODO: Some/most of this is already present in https://github.com/getferdi/ferdi/blob/develop/src/webview/screenshare.js#L5
 
-const { desktopCapturer, remote: { BrowserWindow } } = require("electron");
-const path = require('path');
+const { desktopCapturer, remote: { BrowserWindow } } = require('electron');
+
+const _path = _interopRequireDefault(require('path'));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.navigator.mediaDevices.getDisplayMedia = () => {
   return new Promise(async (resolve, reject) => {
@@ -61,7 +62,7 @@ window.navigator.mediaDevices.getDisplayMedia = () => {
   })
 }
 
-module.exports = (Franz, settings) => {
+module.exports = (Ferdi, settings) => {
   const getMessages = function getMessages() {
     let count = 0;
     const container = document.querySelector('[role="tablist"] > [title="Chats"] > div');
@@ -79,11 +80,13 @@ module.exports = (Franz, settings) => {
       }
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
+
   document.addEventListener('click', event => {
     const link = event.target.closest('a[href^="http"]');
     const button = event.target.closest('button[title^="http"]');

@@ -1,21 +1,7 @@
-const path = require('path');
-
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   const getMessages = () => {
-    // get unread messages
-    // const updates = document.getElementById('franz').getAttribute('data-unread');
-    const count = $('.unread').length;
-    Franz.setBadge(count);
-
-    // get conversations in 'My Inbox'
-    // const inbox = document.getElementById('franz').getAttribute('data-inbox');
-
-    // set Franz badge
-    // updates => active unread count
-    // inbox => passive unread count
-    // Franz.setBadge(updates, inbox);
+    Ferdi.setBadge($('.unread').length);
   };
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

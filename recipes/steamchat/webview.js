@@ -1,6 +1,6 @@
 const { ipcRenderer } = require('electron');
 
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     // get new msg count
     let count = 0;
@@ -12,7 +12,7 @@ module.exports = Franz => {
     });
 
     const indirectMessages = document.querySelectorAll('[class*=ChatUnreadMessageIndicator]').length;
-    Franz.setBadge(count, indirectMessages);
+    Ferdi.setBadge(count, indirectMessages);
 
     // force scroll to bottom of chat window
     const chatBoxes = document.querySelectorAll('.chat_dialog');
@@ -25,7 +25,7 @@ module.exports = Franz => {
     }
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 
   document.addEventListener('click', event => {
     const link = event.target.closest('a[href^="http"]');

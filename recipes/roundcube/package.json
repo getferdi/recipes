@@ -1,7 +1,7 @@
 {
   "id": "roundcube",
   "name": "Roundcube",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "repository": "https://github.com/jonathanjuursema/franz-roundcube",
   "license": "MIT",
   "config": {

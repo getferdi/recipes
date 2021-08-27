@@ -1,1 +1,1 @@
-module.exports = (Franz) => {};
+module.exports = (Ferdi) => {};

@@ -1,13 +1,13 @@
-module.exports = (Franz) => class Messenger extends Franz {
+module.exports = (Ferdi) => class Messenger extends Ferdi {
   overrideUserAgent() {
-    return window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+( \([^)]+\))?/g, '').trim();
+    return window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+ \([^)]+\)/g, '').trim();
   }
 
   modifyRequestHeaders() {
     return [
       {
         headers: {
-          'user-agent': window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+( \([^)]+\))?/g, '').trim(),
+          'user-agent': window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+ \([^)]+\)/g, '').trim(),
         },
         requestFilters: {
           urls: ['*://*/*'],

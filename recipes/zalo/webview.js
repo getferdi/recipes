@@ -1,9 +1,9 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     const unread = 0;
     const notificationBadge = document.getElementsByClassName('tab-red-dot').length;
-    Franz.setBadge(notificationBadge);
+    Ferdi.setBadge(notificationBadge);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

@@ -1,14 +1,14 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getMessages() {
     const count = {};
-    const FranzData = document.querySelector('#FranzMessages').dataset;
-    if (FranzData) {
-      count.count = FranzData.direct;
-      count.count_indirect = FranzData.indirect;
+    const data = document.querySelector('#FranzMessages').dataset;
+    if (data) {
+      count.count = data.direct;
+      count.count_indirect = data.indirect;
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

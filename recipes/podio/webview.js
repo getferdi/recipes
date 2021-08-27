@@ -1,22 +1,14 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz, options) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
   const getMessages = () => {
-    // get unread messages
     const updates = document.getElementsByClassName('counter')[0].innerHTML;
-
-    // get conversations in 'My Inbox'
-    // const inbox = document.getElementById('franz').getAttribute('data-inbox');
-
-    // set Franz badge
-    // updates => active unread count
-    // inbox => passive unread count
-    Franz.setBadge(updates, 0);
+    Ferdi.setBadge(updates, 0);
   };
 
-  // inject franz.css stylesheet
-  Franz.injectCSS(path.join(__dirname, 'css', 'franz.css'));
+  Ferdi.loop(getMessages);
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.injectCSS(_path.default.join(__dirname, 'css', 'franz.css'));
 };

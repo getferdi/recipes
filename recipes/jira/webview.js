@@ -1,14 +1,12 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     // get unread messages
     const element = document.querySelector('#atlassian-navigation-notification-count span');
     let count = element ? element.innerText : 0;
     count = parseInt(count, 10);
 
-    // set Franz badge
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

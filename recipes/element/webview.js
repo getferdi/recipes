@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   function getMessages() {
     const badges = document.querySelectorAll('.mx_RoomSublist:not(.mx_RoomSublist_hidden) .mx_RoomSublist_badgeContainer');
 
@@ -14,10 +14,9 @@ module.exports = Franz => {
       indirect_count = parseInt(badges[1].textContent);
     }
 
-    // set Franz badge
-    Franz.setBadge(direct_count, indirect_count);
+    // set Ferdi badge
+    Ferdi.setBadge(direct_count, indirect_count);
   }
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

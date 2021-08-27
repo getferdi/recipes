@@ -1,7 +1,7 @@
 {
   "id": "nextcloud-carnet",
   "name": "Carnet (Nextcloud)",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/eandersons/ferdi-recipe-nextcloud-carnet",
   "config": {

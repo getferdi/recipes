@@ -1,4 +1,4 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   function getMessages() {
     let direct = 0;
     const indirect = 0;
@@ -7,8 +7,8 @@ module.exports = (Franz) => {
       direct = parseInt(badgeDiv.innerText);
     }
 
-    Franz.setBadge(direct, indirect);
+    Ferdi.setBadge(direct, indirect);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

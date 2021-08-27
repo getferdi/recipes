@@ -1,7 +1,7 @@
 {
   "id": "groupme",
   "name": "GroupMe",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.groupme.com",

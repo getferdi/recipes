@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getMessages() {
     let directCount = 0;
     const element = document.querySelector('.ws-navigation-button__indicator.ws-navigation-button-indicator');
@@ -7,8 +7,8 @@ module.exports = (Franz, options) => {
       directCount = parseInt(element.innerText);
     }
 
-    Franz.setBadge(directCount);
+    Ferdi.setBadge(directCount);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

@@ -1,4 +1,4 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getNotifications = function getNotifications() {
     let count = 0;
 
@@ -15,9 +15,8 @@ module.exports = (Franz) => {
       }
     });
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getNotifications);
+  Ferdi.loop(getNotifications);
 };

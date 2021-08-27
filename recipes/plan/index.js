@@ -1,2 +1,1 @@
-// just pass through Franz
-module.exports = Franz => Franz;
+module.exports = Ferdi => Ferdi;

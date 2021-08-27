@@ -1,7 +1,7 @@
 {
   "id": "lark",
   "name": "Lark",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.larksuite.com/messenger/",
