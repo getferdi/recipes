@@ -1186,6 +1186,15 @@
   },
   {
     "featured": false,
+    "id": "scribens",
+    "name": "Scribens",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/scribens/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "sendtask",
     "name": "Sendtask",
     "version": "1.0.4",

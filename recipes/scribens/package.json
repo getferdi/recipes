@@ -1,0 +1,12 @@
+{
+  "id": "scribens",
+  "name": "Scribens",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://scribens.{teamId}",
+    "urlInputPrefix": "https://scribens.",
+    "hasTeamId": true,
+    "message": "Insert your language in team, e.g. com for English or fr for french"
+  }
+}
