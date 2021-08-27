@@ -455,6 +455,15 @@
   },
   {
     "featured": false,
+    "id": "google-translate",
+    "name": "Google-Translate",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/google-translate/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "google-voice",
     "name": "google-voice",
     "version": "0.3.5",
