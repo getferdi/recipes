@@ -1,0 +1,9 @@
+{
+  "id": "tinder",
+  "name": "tinder",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://tinder.com"
+  }
+}
