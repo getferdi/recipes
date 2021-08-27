@@ -19,6 +19,18 @@
   },
   {
     "featured": false,
+    "id": "amazon-web-services",
+    "name": "Amazon-Web-Services",
+    "version": "1.0.0",
+    "aliases": [
+      "aws"
+    ],
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/amazon-web-services/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "amazon-work-mail",
     "name": "Amazon WorkMail",
     "version": "1.0.5",
