@@ -1,2 +1,2 @@
-module.exports = (Franz) => class LineMe extends Franz {
+module.exports = (Ferdi) => class LineMe extends Ferdi {
 };

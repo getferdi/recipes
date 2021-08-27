@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     let homework = 0;
     const upcomingAssignment = document.getElementsByClassName('hrUpcomingAssignmentGroup');
@@ -8,8 +8,8 @@ module.exports = Franz => {
         homework += upcomingAssignment[i].childElementCount;
       }
     }
-    Franz.setBadge(parseInt(homework, 10));
+    Ferdi.setBadge(parseInt(homework, 10));
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

@@ -1,13 +1,11 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     // get unread messages
     const count = document.querySelector('#hangout-landing-chat iframe').contentWindow.document.querySelectorAll('.ee').length;
 
-    // set Franz badge
-    Franz.setBadge(count);
+    // set Ferdi badge
+    Ferdi.setBadge(count);
   };
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };
-// # sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhhbmdvdXRzL3dlYnZpZXcuanMiXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsIkZyYW56IiwiZ2V0TWVzc2FnZXMiLCJjb3VudCIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsImNvbnRlbnRXaW5kb3ciLCJxdWVyeVNlbGVjdG9yQWxsIiwibGVuZ3RoIiwic2V0QmFkZ2UiLCJsb29wIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7Ozs7QUFFQUEsT0FBT0MsT0FBUCxHQUFrQkMsS0FBRCxJQUFXO0FBQzFCLFFBQU1DLGNBQWMsU0FBU0EsV0FBVCxHQUF1QjtBQUN6QztBQUNBLFVBQU1DLFFBQVFDLFNBQVNDLGFBQVQsQ0FBdUIsOEJBQXZCLEVBQ1hDLGFBRFcsQ0FDR0YsUUFESCxDQUNZRyxnQkFEWixDQUM2QixLQUQ3QixFQUVYQyxNQUZIOztBQUlBO0FBQ0FQLFVBQU1RLFFBQU4sQ0FBZU4sS0FBZjtBQUNELEdBUkQ7O0FBVUE7QUFDQUYsUUFBTVMsSUFBTixDQUFXUixXQUFYO0FBQ0QsQ0FiRCIsImZpbGUiOiJoYW5nb3V0cy93ZWJ2aWV3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5cbm1vZHVsZS5leHBvcnRzID0gKEZyYW56KSA9PiB7XG4gIGNvbnN0IGdldE1lc3NhZ2VzID0gZnVuY3Rpb24gZ2V0TWVzc2FnZXMoKSB7XG4gICAgLy8gZ2V0IHVucmVhZCBtZXNzYWdlc1xuICAgIGNvbnN0IGNvdW50ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2hhbmdvdXQtbGFuZGluZy1jaGF0IGlmcmFtZScpXG4gICAgICAuY29udGVudFdpbmRvdy5kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcuZWUnKVxuICAgICAgLmxlbmd0aDtcblxuICAgIC8vIHNldCBGcmFueiBiYWRnZVxuICAgIEZyYW56LnNldEJhZGdlKGNvdW50KTtcbiAgfTtcblxuICAvLyBjaGVjayBmb3IgbmV3IG1lc3NhZ2VzIGV2ZXJ5IHNlY29uZCBhbmQgdXBkYXRlIEZyYW56IGJhZGdlXG4gIEZyYW56Lmxvb3AoZ2V0TWVzc2FnZXMpO1xufTtcbiJdfQ==

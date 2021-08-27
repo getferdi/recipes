@@ -1,17 +1,18 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     // get unread messages
     const count = document.querySelectorAll('.guilds-wrapper .badge').length;
 
-    // set Franz badge
-    Franz.setBadge(count);
+    // set Ferdi badge
+    Ferdi.setBadge(count);
   };
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 
   // Hide download message
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

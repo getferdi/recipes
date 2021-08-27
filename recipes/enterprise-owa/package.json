@@ -1,7 +1,7 @@
 {
   "id": "enterprise-owa",
   "name": "Enterprise Outlook Web App",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://owa.yourcompany.com/owa",

@@ -1,4 +1,4 @@
-module.exports = Franz => class Nextcloud extends Franz {
+module.exports = Ferdi => class Nextcloud extends Ferdi {
   buildUrl(url) {
     return `${url}/`;
   }

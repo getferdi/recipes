@@ -1,4 +1,2 @@
-const os = require('os');
-
-module.exports = Franz => class Gmail extends Franz {
+module.exports = Ferdi => class Gmail extends Ferdi {
 };

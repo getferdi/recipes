@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   const reload = (EventType) => new Promise((resolve, reject) => {
     const btn = document.getElementsByClassName('giraffe-hierarchy-node-refresh')[0];
     const EventObject = document.createEvent('Events');
@@ -20,11 +20,11 @@ module.exports = (Franz, options) => {
       counter += (node > 0) ? node : 0;
     }
 
-    Franz.setBadge(counter);
+    Ferdi.setBadge(counter);
   };
 
   if (!window.location.pathname.includes('auth')) {
-    Franz.loop(getUnread);
+    Ferdi.loop(getUnread);
 
     window.setInterval(() => {
       reload('click');

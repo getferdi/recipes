@@ -1,6 +1,4 @@
-const path = require('path');
-
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   const getMessages = () => {
     // get new conversations in My Queue
     const myQueue = $('.super-nav a.super-nav__item.js-from-super-to-nav[href^="/chat/box:my"] .count').not('.count--gray').text();
@@ -8,12 +6,11 @@ module.exports = (Franz, options) => {
     // get all missed conversations
     const missed = $('.super-nav a.super-nav__item.js-from-super-to-nav[href^="/chat/box:missed"] .count').text();
 
-    // set Franz badge
+    // set Ferdi badge
     // myQueue => New conversations in My Queue
     // missed => All missed conversations
-    Franz.setBadge(myQueue, missed);
+    Ferdi.setBadge(myQueue, missed);
   };
 
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

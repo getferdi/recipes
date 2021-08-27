@@ -1,9 +1,10 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = function getMessages() {
     // all overdue items are being counted
     const count = document.querySelectorAll('.duedate-overdue').length;
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
-  Franz.loop(getMessages);
+
+  Ferdi.loop(getMessages);
 };

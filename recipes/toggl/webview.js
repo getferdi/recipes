@@ -1,2 +1,2 @@
-module.exports = (Franz, options) => {};
-// # sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRvZ2dsL3dlYnZpZXcuanMiXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsIkZyYW56Iiwib3B0aW9ucyJdLCJtYXBwaW5ncyI6Ijs7QUFBQUEsT0FBT0MsT0FBUCxHQUFpQixDQUFDQyxLQUFELEVBQVFDLE9BQVIsS0FBb0IsQ0FBRSxDQUF2QyIsImZpbGUiOiJ0b2dnbC93ZWJ2aWV3LmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSAoRnJhbnosIG9wdGlvbnMpID0+IHt9XG4iXX0=
+module.exports = Ferdi => {
+};

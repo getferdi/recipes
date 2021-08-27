@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   function parseQuery(query) {
     const el = document.querySelector(query);
     return el && parseInt(el.innerHTML) || 0;
@@ -17,8 +17,8 @@ module.exports = Franz => {
       count = count_messages + count_calls + count_voicemails;
     }
 
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

@@ -1,8 +1,6 @@
 const _path = _interopRequireDefault(require('path'));
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = Ferdi => {
   const getMessages = function getMessages() {
@@ -32,6 +30,7 @@ module.exports = Ferdi => {
   };
 
   Ferdi.loop(getMessages);
+
   Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
   Ferdi.injectCSS(_path.default.join(__dirname, 'crpk-resources/fonts.css'));
 };

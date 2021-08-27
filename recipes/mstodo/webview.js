@@ -18,5 +18,6 @@ module.exports = Ferdi => {
   };
 
   Ferdi.loop(getMessages);
+
   Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

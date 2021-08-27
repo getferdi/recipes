@@ -1,2 +1,2 @@
 // default integration (e.g messenger.com, ...)
-module.exports = Franz => Franz;
+module.exports = Ferdi => Ferdi;

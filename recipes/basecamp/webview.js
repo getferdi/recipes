@@ -1,6 +1,8 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz, options) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
   let updates = 0;
   const modal = document.createElement('div');
 
@@ -23,7 +25,7 @@ module.exports = (Franz, options) => {
     updates -= 1;
   }
 
-  // Replace window.alert to hide alerts in Franz
+  // Replace window.alert to hide alerts in Ferdi
   const oldAlert = window.alert;
   window.alert = function () {
     // when Google Calendar displays an alert notify the user
@@ -38,19 +40,6 @@ module.exports = (Franz, options) => {
     element.style.display = 'none';
   }
 
-  const getMessages = () => {
-    // get unread messages
-    // const updates = document.getElementById('franz').getAttribute('data-unread');
-
-    // get conversations in 'My Inbox'
-    // const inbox = document.getElementById('franz').getAttribute('data-inbox');
-
-    // set Franz badge
-    // updates => passive unread count
-    // inbox => active unread count
-    Franz.setBadge(0, updates);
-  };
-
   modal.id = 'franz-modal';
   modal.innerHTML = '<div class="modal-content"><span class="close">&times;</span><p></p></div>';
   modal.querySelector('.close').addEventListener('click', hideModal);
@@ -58,9 +47,5 @@ module.exports = (Franz, options) => {
 
   document.addEventListener('keydown', (e) => { if (e.keyCode === 27) { hideModal(); } });
 
-  // inject franz.css stylesheet
-  Franz.injectCSS(path.join(__dirname, 'css', 'modal.css'));
-
-  // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  Ferdi.injectCSS(_path.default.join(__dirname, 'css', 'modal.css'));
 };

@@ -1,4 +1,4 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   function getTasks() {
     let incompleteCount = 0;
 
@@ -10,8 +10,8 @@ module.exports = (Franz) => {
       });
     }
 
-    Franz.setBadge(incompleteCount);
+    Ferdi.setBadge(incompleteCount);
   }
 
-  Franz.loop(getTasks);
+  Ferdi.loop(getTasks);
 };

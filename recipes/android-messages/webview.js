@@ -29,17 +29,17 @@ window.addEventListener('beforeunload', async () => {
   }
 });
 
-module.exports = (Franz, settings) => {
+module.exports = (Ferdi, settings) => {
   function getMessages() {
     const messages = document.querySelectorAll('.text-content.unread').length;
-    Franz.setBadge(messages);
+    Ferdi.setBadge(messages);
   }
+
+  Ferdi.loop(getMessages);
 
   if (settings.isDarkModeEnabled) {
     localStorage.setItem('dark_mode_enabled', 'true');
   } else {
     localStorage.setItem('dark_mode_enabled', 'false');
   }
-
-  Franz.loop(getMessages);
 };

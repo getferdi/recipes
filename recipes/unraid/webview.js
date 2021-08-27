@@ -1,9 +1,9 @@
-module.exports = (Franz) => {
+module.exports = (Ferdi) => {
   const getMessages = () => {
     const messages = $('#jGrowl .jGrowl-notify').length;
 
-    Franz.setBadge(messages - 1);
+    Ferdi.setBadge(messages - 1);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

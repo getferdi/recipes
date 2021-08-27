@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     let count = 0;
     const elements = document.querySelectorAll('.chatlist > li:not(.is-muted)');
@@ -9,7 +9,8 @@ module.exports = Franz => {
         }
       }
     }
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
-  Franz.loop(getMessages);
+
+  Ferdi.loop(getMessages);
 };

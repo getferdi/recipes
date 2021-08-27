@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi, options) => {
   const getMessages = function getMessages() {
     let messages = 0;
     const element = document.querySelector('[data-testid="message_count"] span');
@@ -7,10 +7,11 @@ module.exports = (Franz, options) => {
       messages = parseInt(element.textContent, 10);
     }
 
-    Franz.setBadge(messages);
+    Ferdi.setBadge(messages);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
   setTimeout(() => {
     if (document.body && !document.body.classList.contains('UIPage_LoggedOut')) {
       if (localStorage.getItem('franz-needsRedirect')) {

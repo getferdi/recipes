@@ -28,5 +28,6 @@ module.exports = Ferdi => {
 
     Ferdi.setBadge(unreadMail);
   }
+
   Ferdi.loop(getMessages);
 };

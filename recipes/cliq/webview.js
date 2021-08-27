@@ -1,7 +1,7 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = () => {
-    Franz.setBadge(ConversationsList.getUnreadBadgeCount());
+    Ferdi.setBadge(ConversationsList.getUnreadBadgeCount());
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

@@ -1,7 +1,7 @@
 {
   "id": "gotomeeting",
   "name": "Go To Meeting",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "repository": "https://github.com/tristanplouz/ferdi-recipe-gotomeeting.git",
   "license": "MIT",
   "config": {

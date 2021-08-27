@@ -1,4 +1,4 @@
-module.exports = Franz => class GitHubEnterprise extends Franz {
+module.exports = Ferdi => class GitHubEnterprise extends Ferdi {
   async validateUrl(url) {
     try {
       const resp = await window.fetch(`${url}/api/v3`, {

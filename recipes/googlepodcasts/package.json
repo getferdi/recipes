@@ -1,7 +1,7 @@
 {
   "id": "googlepodcasts",
   "name": "Google Podcasts",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://podcasts.google.com/"

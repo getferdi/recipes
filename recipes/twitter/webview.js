@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = () => {
     let direct = 0;
 
@@ -13,8 +13,8 @@ module.exports = Franz => {
       direct += DMElement.innerHTML;
     }
 
-    Franz.setBadge(direct);
+    Ferdi.setBadge(direct);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

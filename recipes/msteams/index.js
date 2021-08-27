@@ -1,5 +1,5 @@
-module.exports = Franz => class MicrosoftTeams extends Franz {
+module.exports = Ferdi => class MicrosoftTeams extends Ferdi {
   overrideUserAgent() {
-    return window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+ \([^)]+\)/g, '');
+    return window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+ \([^)]+\)/g, '').trim();
   }
 };

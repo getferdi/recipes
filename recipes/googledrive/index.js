@@ -1,4 +1,2 @@
-const os = require('os');
-
-module.exports = Franz => class googledrive extends Franz {
+module.exports = Ferdi => class googledrive extends Ferdi {
 };

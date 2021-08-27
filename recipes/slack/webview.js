@@ -37,16 +37,18 @@ const getTeamIcon = function getTeamIcon(count = 0) {
 
 const SELECTOR_CHANNELS_UNREAD = '.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted)';
 
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = () => {
     const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge, .p-channel_sidebar__link--unread:not([data-sidebar-link-id="Punreads"]):not([data-sidebar-link-id="Pdrafts"]):not([data-sidebar-link-id="Pdms"])`).length;
     const allMessages = document.querySelectorAll(SELECTOR_CHANNELS_UNREAD).length - directMessages;
-    Franz.setBadge(directMessages, allMessages);
+    Ferdi.setBadge(directMessages, allMessages);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
   setTimeout(() => {
     getTeamIcon();
   }, 4000);
-  Franz.injectCSS(_path.default.join(__dirname, 'service.css'));
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

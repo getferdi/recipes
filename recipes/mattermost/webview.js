@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const DIRECT_MESSAGES_INDIVIDUAL = '#sidebar-left .unread-title .DirectChannel__profile-picture';
   const DIRECT_MESSAGES_GROUP = '#sidebar-left .unread-title .status--group';
   const DIRECT_MESSAGES_LEGACY = '.sidebar--left .has-badge .badge';
@@ -15,8 +15,8 @@ module.exports = Franz => {
     const teamDirectMessages = document.querySelectorAll('.team-wrapper .team-container .badge').length;
     const teamMessages = document.querySelectorAll('.team-wrapper .unread').length - teamDirectMessages;
 
-    Franz.setBadge(directMessages + teamDirectMessages, allMessages + teamMessages);
+    Ferdi.setBadge(directMessages + teamDirectMessages, allMessages + teamMessages);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

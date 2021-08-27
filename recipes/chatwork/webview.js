@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getMessages() {
     let groupCount = 0;
     let individualCount = 0;
@@ -29,8 +29,8 @@ module.exports = (Franz, options) => {
         }
       }
     });
-    Franz.setBadge(directCount, indirectCount);
+    Ferdi.setBadge(directCount, indirectCount);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

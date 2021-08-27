@@ -12,24 +12,24 @@ const waitFor = (condition, callback) => {
 const showModal = text => {
   modal.querySelector('p').innerHTML = text;
   updates += 1;
-  window.franz.setBadge(updates);
+  window.ferdi.setBadge(updates);
   modal.classList.add('open');
 };
 
 const hideModal = () => {
   modal.querySelector('p').innerHTML = '';
   updates -= 1;
-  window.franz.setBadge(updates);
+  window.ferdi.setBadge(updates);
   modal.classList.remove('open');
 };
 
 const createModal = () => {
-  const franzModal = document.createElement('div');
-  franzModal.setAttribute('id', 'franz-modal');
-  franzModal.innerHTML = '<div class="modal-content"><span class="close">&times;</span><p></p></div>';
-  franzModal.querySelector('.close').addEventListener('click', hideModal);
+  const modalDialog = document.createElement('div');
+  modalDialog.setAttribute('id', 'franz-modal');
+  modalDialog.innerHTML = '<div class="modal-content"><span class="close">&times;</span><p></p></div>';
+  modalDialog.querySelector('.close').addEventListener('click', hideModal);
 
-  return franzModal;
+  return modalDialog;
 };
 
 window.alert = showModal;

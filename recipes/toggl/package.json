@@ -1,7 +1,7 @@
 {
   "id": "toggl",
   "name": "toggl",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.toggl.com/app/timer",

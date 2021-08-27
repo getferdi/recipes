@@ -1,6 +1,5 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getMessages() {
-    const count = 0;
     let indirectCount = 0;
     const badge = document.getElementById('numNotifs2');
 
@@ -8,9 +7,8 @@ module.exports = (Franz, options) => {
       indirectCount = parseInt(badge.innerText);
     }
 
-    Franz.setBadge(count, indirectCount);
+    Ferdi.setBadge(0, indirectCount);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };
-// # sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlYW13b3JrLXByb2plY3RzL3dlYnZpZXcuanMiXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsIkZyYW56Iiwib3B0aW9ucyIsImdldE1lc3NhZ2VzIiwiY291bnQiLCJpbmRpcmVjdENvdW50IiwiYmFkZ2UiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwiaW5uZXJUZXh0IiwicGFyc2VJbnQiLCJzZXRCYWRnZSIsImxvb3AiXSwibWFwcGluZ3MiOiI7O0FBQUFBLE9BQU9DLE9BQVAsR0FBaUIsQ0FBQ0MsS0FBRCxFQUFRQyxPQUFSLEtBQW9CO0FBQ25DLFdBQVNDLFdBQVQsR0FBdUI7QUFDckIsUUFBSUMsUUFBUSxDQUFaO0FBQ0EsUUFBSUMsZ0JBQWdCLENBQXBCO0FBQ0EsUUFBSUMsUUFBUUMsU0FBU0MsY0FBVCxDQUF3QixZQUF4QixDQUFaOztBQUVBLFFBQUlGLFNBQVNBLE1BQU1HLFNBQW5CLEVBQThCO0FBQzFCSixzQkFBZ0JLLFNBQVNKLE1BQU1HLFNBQWYsQ0FBaEI7QUFDSDs7QUFFRFIsVUFBTVUsUUFBTixDQUFlUCxLQUFmLEVBQXNCQyxhQUF0QjtBQUNEOztBQUVESixRQUFNVyxJQUFOLENBQVdULFdBQVg7QUFDRCxDQWREIiwiZmlsZSI6InRlYW13b3JrLXByb2plY3RzL3dlYnZpZXcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IChGcmFueiwgb3B0aW9ucykgPT4ge1xuICBmdW5jdGlvbiBnZXRNZXNzYWdlcygpIHtcbiAgICBsZXQgY291bnQgPSAwO1xuICAgIGxldCBpbmRpcmVjdENvdW50ID0gMDtcbiAgICBsZXQgYmFkZ2UgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbnVtTm90aWZzMicpO1xuXG4gICAgaWYgKGJhZGdlICYmIGJhZGdlLmlubmVyVGV4dCkge1xuICAgICAgICBpbmRpcmVjdENvdW50ID0gcGFyc2VJbnQoYmFkZ2UuaW5uZXJUZXh0KTtcbiAgICB9XG5cbiAgICBGcmFuei5zZXRCYWRnZShjb3VudCwgaW5kaXJlY3RDb3VudCk7XG4gIH1cblxuICBGcmFuei5sb29wKGdldE1lc3NhZ2VzKTtcbn1cbiJdfQ==

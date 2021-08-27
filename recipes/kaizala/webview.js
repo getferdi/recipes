@@ -1,8 +1,8 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     const count = document.querySelectorAll('.unseen-msg-count').length;
-    Franz.setBadge(count);
+    Ferdi.setBadge(count);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

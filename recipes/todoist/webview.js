@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getTasks() {
     let todayCount = 0;
     let inboxCount = 0;
@@ -13,8 +13,8 @@ module.exports = (Franz, options) => {
       inboxCount = parseInt(inboxElement.innerHTML, 10);
     }
 
-    Franz.setBadge(inboxCount, todayCount);
+    Ferdi.setBadge(inboxCount, todayCount);
   }
 
-  Franz.loop(getTasks);
+  Ferdi.loop(getTasks);
 };

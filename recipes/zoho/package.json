@@ -1,7 +1,7 @@
 {
   "id": "zoho",
   "name": "Zoho Mail",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.zoho.com/mail/login.html",

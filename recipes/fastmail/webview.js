@@ -1,15 +1,18 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz) => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
   const getMessages = () => {
     const inbox = document.querySelector('.v-MailboxSource--inbox .v-MailboxSource-badge');
     if (!inbox) {
       return;
     }
     const messages = Number(inbox.innerText);
-    Franz.setBadge(messages);
+    Ferdi.setBadge(messages);
   };
 
-  Franz.injectJSUnsafe(path.join(__dirname, 'webview-unsafe.js'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectJSUnsafe(_path.default.join(__dirname, 'webview-unsafe.js'));
 };

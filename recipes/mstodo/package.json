@@ -1,7 +1,7 @@
 {
   "id": "mstodo",
   "name": "Microsoft To Do",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://to-do.live.com/tasks/",

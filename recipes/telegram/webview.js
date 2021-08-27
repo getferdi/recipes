@@ -1,8 +1,10 @@
 // Code copied from: https://gitlab.com/gortega4/ferdi_recipes
 
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = Franz => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     let count = 0;
     let count_sec = 0;
@@ -21,9 +23,10 @@ module.exports = Franz => {
       }
     }
 
-    Franz.setBadge(count, count_sec);
+    Ferdi.setBadge(count, count_sec);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'service.css'));
 };

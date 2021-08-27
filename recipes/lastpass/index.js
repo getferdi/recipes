@@ -1,5 +1,5 @@
-module.exports = Franz => class Messenger extends Franz {
+module.exports = Ferdi => class Messenger extends Ferdi {
   overrideUserAgent() {
-    return window.navigator.userAgent.replace(/(Franz|Electron)([^\s]+\s)/g, '');
+    return window.navigator.userAgent.replace(/(Ferdi|Electron)\/\S+ \([^)]+\)/g, '').trim();
   }
 };

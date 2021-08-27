@@ -1,7 +1,7 @@
 {
   "id": "ciscospark",
   "name": "Cisco Spark",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.ciscospark.com",

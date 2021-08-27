@@ -1,6 +1,8 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = Franz => {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = Ferdi => {
   const getMessages = () => {
     let direct = 0;
     let indirect = 0;
@@ -23,18 +25,20 @@ module.exports = Franz => {
       }
     }
 
-    Franz.setBadge(direct, indirect);
+    Ferdi.setBadge(direct, indirect);
   };
 
-  Franz.injectCSS(path.join(__dirname, 'workplace.css'));
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
+
+  Ferdi.injectCSS(_path.default.join(__dirname, 'workplace.css'));
+
   localStorage._cs_desktopNotifsEnabled = JSON.stringify({
     __t: new Date().getTime(),
     __v: true,
   });
 
-  if (typeof Franz.onNotify === 'function') {
-    Franz.onNotify(notification => {
+  if (typeof Ferdi.onNotify === 'function') {
+    Ferdi.onNotify(notification => {
       if (typeof notification.title !== 'string') {
         notification.title = ((notification.title.props || {}).content || [])[0] || 'Work Chat';
       }

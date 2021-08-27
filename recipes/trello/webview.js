@@ -1,10 +1,8 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   const getMessages = function getMessages() {
     const notifications = document.querySelectorAll('[class*=_3W-zkl4-bnVKzJ]');
-
-    Franz.setBadge(0, notifications.length >= 1 ? 1 : 0);
+    Ferdi.setBadge(0, notifications.length >= 1 ? 1 : 0);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };
-// # sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRyZWxsby93ZWJ2aWV3LmpzIl0sIm5hbWVzIjpbIm1vZHVsZSIsImV4cG9ydHMiLCJGcmFueiIsImdldE1lc3NhZ2VzIiwibm90aWZpY2F0aW9ucyIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvckFsbCIsInNldEJhZGdlIiwibGVuZ3RoIiwibG9vcCJdLCJtYXBwaW5ncyI6Ijs7QUFBQUEsT0FBT0MsT0FBUCxHQUFrQkMsS0FBRCxJQUFXO0FBQzFCLFFBQU1DLGNBQWMsU0FBU0EsV0FBVCxHQUF1QjtBQUN6QyxVQUFNQyxnQkFBZ0JDLFNBQVNDLGdCQUFULENBQTBCLG9CQUExQixDQUF0Qjs7QUFFQUosVUFBTUssUUFBTixDQUFlLENBQWYsRUFBbUJILGNBQWNJLE1BQWQsSUFBd0IsQ0FBekIsR0FBOEIsQ0FBOUIsR0FBa0MsQ0FBcEQ7QUFDRCxHQUpEOztBQU1BTixRQUFNTyxJQUFOLENBQVdOLFdBQVg7QUFDRCxDQVJEIiwiZmlsZSI6InRyZWxsby93ZWJ2aWV3LmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSAoRnJhbnopID0+IHtcbiAgY29uc3QgZ2V0TWVzc2FnZXMgPSBmdW5jdGlvbiBnZXRNZXNzYWdlcygpIHtcbiAgICBjb25zdCBub3RpZmljYXRpb25zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLm5ldy1ub3RpZmljYXRpb25zJyk7XG5cbiAgICBGcmFuei5zZXRCYWRnZSgwLCAobm90aWZpY2F0aW9ucy5sZW5ndGggPj0gMSkgPyAxIDogMCk7XG4gIH07XG5cbiAgRnJhbnoubG9vcChnZXRNZXNzYWdlcyk7XG59O1xuIl19

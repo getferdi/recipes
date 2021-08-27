@@ -1,7 +1,7 @@
 {
   "id": "vk",
   "name": "VK",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/meetfranz/recipe-vk",
   "config": {

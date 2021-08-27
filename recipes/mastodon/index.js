@@ -1,5 +1,5 @@
-module.exports = (Franz) => {
-  class Mastodon extends Franz {
+module.exports = (Ferdi) => {
+  class Mastodon extends Ferdi {
     validateServer(URL) {
       const api = `${URL}`;
       return new Promise((resolve, reject) => {

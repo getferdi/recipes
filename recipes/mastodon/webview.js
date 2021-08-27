@@ -1,4 +1,4 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   let latestStatement = $('.status time').attr('datetime');
   let latestNotify = $($('.notification__message span').get(0)).text();
 
@@ -21,8 +21,8 @@ module.exports = (Franz, options) => {
       unread = 1;
     }
 
-    Franz.setBadge(reply, unread);
+    Ferdi.setBadge(reply, unread);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

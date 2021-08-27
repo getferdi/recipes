@@ -1,4 +1,4 @@
-module.exports = Franz => {
+module.exports = Ferdi => {
   // Regular expression for (*) or (1), will extract the asterisk or the number
   const titleRegEx = /^\(([\*\d])\)/;
   const getMessages = function unreadCount() {
@@ -14,8 +14,8 @@ module.exports = Franz => {
       }
     }
 
-    Franz.setBadge(directCount, indirectCount);
+    Ferdi.setBadge(directCount, indirectCount);
   };
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

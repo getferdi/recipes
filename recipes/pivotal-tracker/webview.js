@@ -1,11 +1,9 @@
-module.exports = (Franz, options) => {
+module.exports = (Ferdi) => {
   function getMessages() {
     const bell = document.querySelectorAll('#view65 > span')[0];
-
     counter = parseInt(bell.innerText);
-
-    Franz.setBadge(counter);
+    Ferdi.setBadge(counter);
   }
 
-  Franz.loop(getMessages);
+  Ferdi.loop(getMessages);
 };

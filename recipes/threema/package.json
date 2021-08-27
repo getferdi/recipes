@@ -1,7 +1,7 @@
 {
   "id": "threema",
   "name": "Threema",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/Arany/franz-recipe-threema",
   "config": {

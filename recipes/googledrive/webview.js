@@ -1,5 +1,7 @@
-const path = require('path');
+const _path = _interopRequireDefault(require('path'));
 
-module.exports = (Franz) => {
-  Franz.injectJSUnsafe(path.join(__dirname, 'webview-unsafe.js'));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (Ferdi) => {
+  Ferdi.injectJSUnsafe(_path.default.join(__dirname, 'webview-unsafe.js'));
 };

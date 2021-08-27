@@ -1,2 +1,1 @@
-module.exports = Franz => Franz;
-// # sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRocmVlbWEvaW5kZXguanMiXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsIkZyYW56Il0sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQUEsT0FBT0MsT0FBUCxHQUFpQkMsU0FBU0EsS0FBMUIiLCJmaWxlIjoidGhyZWVtYS9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuXG5tb2R1bGUuZXhwb3J0cyA9IEZyYW56ID0+IEZyYW56O1xuIl19
+module.exports = Ferdi => Ferdi;
