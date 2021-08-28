@@ -1,0 +1,19 @@
+{
+  "id": "office365-gcc",
+  "name": "Office 365 Outlook GCC",
+  "version": "1.0.0",
+  "description": "Office 365 Outlook Web App for Government Community Cloud",
+  "main": "index.js",
+  "author": "JoKneeMo <https://github.com/JoKneeMo>",
+  "contributors": [
+    "Adam Birds <adam.birds@adbtechltd.co.uk>",
+    "nonAlgebraic <https://github.com/nonAlgebraic>"
+  ],
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://outlook.office365.us/mail/",
+    "hasNotificationSound": true,
+    "hasTeamId": false,
+    "message": "This service is only for United States users of the Microsoft Office 365 Government Community Cloud."
+  }
+}
