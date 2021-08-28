@@ -1,0 +1,9 @@
+{
+  "id": "youtube",
+  "name": "Youtube",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://youtube.com"
+  }
+}

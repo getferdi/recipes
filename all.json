@@ -1651,6 +1651,15 @@
   },
   {
     "featured": false,
+    "id": "youtube",
+    "name": "Youtube",
+    "version": "1.0.0",
+    "icons": {
+      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/youtube/icon.svg"
+    }
+  },
+  {
+    "featured": false,
     "id": "youtubemusic",
     "name": "YouTube Music",
     "version": "1.1.0",
