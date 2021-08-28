@@ -236,7 +236,7 @@
   {
     "featured": false,
     "id": "dockerhub",
-    "name": "Docker-Hub",
+    "name": "Docker Hub",
     "version": "1.0.0",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/dockerhub/icon.svg"
