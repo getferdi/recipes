@@ -1007,7 +1007,7 @@
   {
     "featured": false,
     "id": "OVHCloud",
-    "name": "OVH-Cloud",
+    "name": "OVH Cloud",
     "version": "1.0.0",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/OVHCloud/icon.svg"
