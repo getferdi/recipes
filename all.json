@@ -299,15 +299,6 @@
   },
   {
     "featured": false,
-    "id": "enterprise-owa",
-    "name": "Enterprise Outlook Web App",
-    "version": "1.2.0",
-    "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/enterprise-owa/icon.svg"
-    }
-  },
-  {
-    "featured": false,
     "id": "epicgames",
     "name": "Epic Games Store",
     "version": "1.1.0",
@@ -1031,8 +1022,11 @@
   {
     "featured": false,
     "id": "office365-owa",
-    "name": "Office 365 Outlook Web App",
-    "version": "1.3.0",
+    "name": "Office 365 Outlook",
+    "version": "1.4.0",
+    "aliases": [
+      "live.com"
+    ],
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/office365-owa/icon.svg"
     }
@@ -1044,15 +1038,6 @@
     "version": "1.1.0",
     "icons": {
       "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/onenote/icon.svg"
-    }
-  },
-  {
-    "featured": false,
-    "id": "outlook",
-    "name": "Outlook Web App",
-    "version": "1.2.0",
-    "icons": {
-      "svg": "https://cdn.jsdelivr.net/gh/getferdi/recipes/recipes/outlook/icon.svg"
     }
   },
   {
